@@ -49,8 +49,15 @@
     '<span class="lb-label">Layers</span>' +
     '<button type="button" class="layer-toggle" data-layer="zh">汉字 Hanzi</button>' +
     '<button type="button" class="layer-toggle" data-layer="py">拼音 Pinyin</button>' +
-    '<button type="button" class="layer-toggle" data-layer="en">English</button>';
+    '<button type="button" class="layer-toggle" data-layer="en">English</button>' +
+    '<button type="button" class="layer-toggle lb-print" title="Prints only the layers you have switched on">🖨 PDF</button>';
   firstTurn.parentNode.insertBefore(bar, firstTurn);
+  bar.querySelector(".lb-print").addEventListener("click", function () { window.print(); });
+
+  var brand = document.createElement("div");
+  brand.className = "print-brand";
+  brand.textContent = "Slow Mandarin Lab · Study Notes — bowang168.github.io/slow-mandarin-lab";
+  document.body.insertBefore(brand, document.body.firstChild);
 
   function apply(layer, show) {
     document.body.classList.toggle("hide-" + layer, !show);
@@ -72,6 +79,7 @@
     var btn = ev.target.closest(".layer-toggle");
     if (!btn) return;
     var layer = btn.getAttribute("data-layer");
+    if (!layer) return; /* print button — handled by its own listener */
     var turningOff = btn.classList.contains("on");
     if (turningOff && shownCount() === 1) return; /* keep at least one layer visible */
     apply(layer, !turningOff);

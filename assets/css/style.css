@@ -207,6 +207,29 @@ code { background: var(--mist); border-radius: 4px; padding: 0.06rem 0.35rem; fo
 /* ---------- CJK inline defaults ---------- */
 :lang(zh), .zh-inline { font-family: var(--font-zh); }
 
+/* ---------- Print (Save as PDF) ----------
+   Layer toggles carry over: hidden 汉字/拼音/English layers are not printed.
+   Brand fonts (SML WenKai / Manrope) embed automatically via @font-face. */
+.print-brand { display: none; }
+@media print {
+  body { background: #fff; color: #111; font-size: 12pt; }
+  .site-header, .site-nav, .layer-bar, .crumbs, .site-footer, .btn { display: none !important; }
+  .print-brand {
+    display: block; font-family: var(--font-en); font-weight: 800; font-size: 10pt;
+    color: var(--jade-deep); border-bottom: 1.5pt solid var(--jade);
+    padding-bottom: 4pt; margin-bottom: 12pt;
+  }
+  main.wrap { max-width: none; padding: 0; }
+  .turn, blockquote, table, .qcard { break-inside: avoid; }
+  h2, h3 { break-after: avoid; }
+  .turn { border-bottom: 0.5pt solid #ccc; border-radius: 0; }
+  .turn:hover, tr:nth-child(even) td { background: none; }
+  blockquote, .card { background: none; box-shadow: none; }
+  .turn .zh, .qcard .zh { color: #111; }
+  .turn .spk { color: #fff; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  a { color: inherit; text-decoration: none; }
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 560px) {
   body { font-size: 16px; }
