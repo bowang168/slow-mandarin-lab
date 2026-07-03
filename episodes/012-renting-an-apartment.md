@@ -204,33 +204,33 @@ Dōu hěn hǎo. Xiànzài…… zuì zhòngyào de wèntí lái le.
 Nǐ xiǎng wèn shénme?
 *What do you want to ask?*
 
-**波哥：**我想吻你一下。
-Wǒ xiǎng wěn nǐ yíxià.
-*我想吻你一下 — "I'd like to kiss you."*
+**波哥：**我想闻你一下。
+Wǒ xiǎng wén nǐ yíxià.
+*我想闻你一下 — "I'd like to smell you for a second."*
 
-**莎莎：**什么？！
-Shénme?!
-*WHAT?!*
+**莎莎：**什么？！闻我？
+Shénme?! Wén wǒ?
+*What?! Smell me?*
 
 **波哥：**啊，不对不对！我是说：我想问你一下！
 Ā, bú duì bú duì! Wǒ shì shuō: wǒ xiǎng wèn nǐ yíxià!
 *No no! I mean: I'd like to ASK you something!*
 
-**莎莎：**哈哈哈！"问"是第四声。你刚才说的，是另一个词。
-Hāhāhā! "Wèn" shì dì sì shēng. Nǐ gāngcái shuō de, shì lìng yí ge cí.
-*Hahaha! 问 is fourth tone. What you said is a different word.*
+**莎莎：**哈哈哈！"问"是第四声。你刚才说的"闻"，是第二声。
+Hāhāhā! "Wèn" shì dì sì shēng. Nǐ gāngcái shuō de "wén", shì dì èr shēng.
+*Hahaha! 问 "wèn" is fourth tone. What you said — 闻 "wén" — is second tone.*
 
-**波哥：**另一个词？什么意思？
-Lìng yí ge cí? Shénme yìsi?
-*A different word? Meaning what?*
+**波哥：**第二声的"闻"，是什么意思？
+Dì èr shēng de "wén", shì shénme yìsi?
+*And what does second-tone "wén" mean?*
 
-**莎莎：**就是……嘴对嘴的那个意思。
-Jiùshì…… zuǐ duì zuǐ de nàge yìsi.
-*The… mouth-to-mouth kind of meaning.*
+**莎莎：**就是用鼻子闻，闻花的那个"闻"。我又不是花！
+Jiùshì yòng bízi wén, wén huā de nàge "wén". Wǒ yòu búshì huā!
+*It means to smell — as in smelling a flower. And I'm not a flower!*
 
-**波哥：**天哪！怪不得你吓了一跳。对不起，我说错了！
-Tiān na! Guàibude nǐ xià le yí tiào. Duìbuqǐ, wǒ shuō cuò le!
-*Oh no! No wonder you jumped. Sorry — I said it wrong!*
+**波哥：**哈哈，对不起，对不起！一个声调，差别这么大。我说错了！
+Hāhā, duìbuqǐ, duìbuqǐ! Yí ge shēngdiào, chābié zhème dà. Wǒ shuō cuò le!
+*Haha — sorry, sorry! One tone, such a big difference. I said it wrong!*
 
 **莎莎：**说错了没关系，再说一次就好。第五集的老朋友。
 Shuō cuò le méi guānxi, zài shuō yí cì jiù hǎo. Dì wǔ jí de lǎo péngyou.
