@@ -5,6 +5,7 @@ description: "Full transcript with Hanzi, pinyin and English, key vocabulary, an
 permalink: /episodes/001-why-you-forget-chinese-words/
 ---
 
+
 **Slow Mandarin Lab · Episode 1** — free study notes
 Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
@@ -212,9 +213,41 @@ Duì. Jiàn yí cì, huì wàng; chángcháng jiàn, jiù jìzhù le.
 Ó — jiàn yí cì, huì wàng; chángcháng jiàn, jiù jìzhù le.
 *Oh — meet once, forget; meet often, remember.*
 
-**莎莎：**小美学了十个词，可是每个词，她只见了一次。
-Xiǎoměi xué le shí ge cí, kěshì měi ge cí, tā zhǐ jiàn le yí cì.
-*Xiaomei learned ten words, but she only met each word once.*
+### 小任务 · Your turn
+
+**莎莎：**现在，请你做一件小事。
+Xiànzài, qǐng nǐ zuò yí jiàn xiǎo shì.
+*Now, please do one small thing.*
+
+**波哥：**什么小事？
+Shénme xiǎo shì?
+*What small thing?*
+
+**莎莎：**用"忘了"说一句话，写在评论区。
+Yòng "wàng le" shuō yí jù huà, xiě zài pínglùnqū.
+*Make one sentence with "wàng le" and write it in the comments.*
+
+**波哥：**我先来：我忘了他的名字。
+Wǒ xiān lái: wǒ wàng le tā de míngzi.
+*I'll go first: I forgot his name.*
+
+**莎莎：**很好。再来一句？
+Hěn hǎo. Zài lái yí jù?
+*Nice. One more?*
+
+**波哥：**哎呀，我忘了买牛奶！
+Āiyā, wǒ wàng le mǎi niúnǎi!
+*Oh no, I forgot to buy milk!*
+
+**莎莎：**哈哈，太好了。你也写一句，我们会看，也会回你。
+Hāhā, tài hǎo le. Nǐ yě xiě yí jù, wǒmen huì kàn, yě huì huí nǐ.
+*Haha, perfect. You write one too — we read them and we reply.*
+
+### 第一部分（续）· Words are like friends, continued
+
+**莎莎：**好，回到小美。她学了十个词，可是每个词，她只见了一次。
+Hǎo, huí dào Xiǎoměi. Tā xué le shí ge cí, kěshì měi ge cí, tā zhǐ jiàn le yí cì.
+*Okay, back to Xiaomei. She learned ten words — but met each one only once.*
 
 **波哥：**所以今天早上，那些词都走了。
 Suǒyǐ jīntiān zǎoshang, nàxiē cí dōu zǒu le.
@@ -276,36 +309,6 @@ Duì! Jiàn yí cì, huì wàng; chángcháng jiàn, jiù jìzhù le.
 Zhè jù huà, wǒ jīntiān bú huì wàng le.
 *That sentence I won't forget today.*
 
-### 小任务 · Your turn
-
-**莎莎：**现在，请你做一件小事。
-Xiànzài, qǐng nǐ zuò yí jiàn xiǎo shì.
-*Now, please do one small thing.*
-
-**波哥：**什么小事？
-Shénme xiǎo shì?
-*What small thing?*
-
-**莎莎：**用"忘了"说一句话，写在评论区。
-Yòng "wàng le" shuō yí jù huà, xiě zài pínglùnqū.
-*Make one sentence with "wàng le" and write it in the comments.*
-
-**波哥：**我先来：我忘了他的名字。
-Wǒ xiān lái: wǒ wàng le tā de míngzi.
-*I'll go first: I forgot his name.*
-
-**莎莎：**很好。再来一句？
-Hěn hǎo. Zài lái yí jù?
-*Nice. One more?*
-
-**波哥：**哎呀，我忘了买牛奶！
-Āiyā, wǒ wàng le mǎi niúnǎi!
-*Oh no, I forgot to buy milk!*
-
-**莎莎：**哈哈，太好了。你也写一句，我们会看，也会回你。
-Hāhā, tài hǎo le. Nǐ yě xiě yí jù, wǒmen huì kàn, yě huì huí nǐ.
-*Haha, perfect. You write one too — we read them and we reply.*
-
 ### 第二部分 · 用它说一句话 — Use it once
 
 **波哥：**莎莎，我还有一个问题。
@@ -348,13 +351,13 @@ Kěshì, shuō gěi shéi tīng ne? Wǒ méiyǒu Zhōngguó péngyou.
 Shuō gěi zìjǐ tīng, yě kěyǐ. Zài jiālǐ shuō, zǒulù de shíhou shuō.
 *Saying it to yourself works too. At home, or while you walk.*
 
-**波哥：**一个人说话，不奇怪吗？
-Yí ge rén shuōhuà, bù qíguài ma?
-*Talking to myself — isn't that weird?*
+**波哥：**一个人说话，没问题吗？
+Yí ge rén shuōhuà, méi wèntí ma?
+*Talking to myself — is that okay?*
 
-**莎莎：**不奇怪，这是学习。你试试，今天学了"忘了"，你说一句。
-Bù qíguài, zhè shì xuéxí. Nǐ shìshi, jīntiān xué le "wàng le", nǐ shuō yí jù.
-*Not weird — it's learning. Try it: today you learned "wàng le", make a sentence.*
+**莎莎：**没问题，这是学习。你试试，今天学了"忘了"，你说一句。
+Méi wèntí, zhè shì xuéxí. Nǐ shìshi, jīntiān xué le "wàng le", nǐ shuō yí jù.
+*Totally fine — it's learning. Try it: today you learned "wàng le", make a sentence.*
 
 **波哥：**嗯……哎呀，我忘了今天是星期一！
 Ǹg… āiyā, wǒ wàng le jīntiān shì xīngqīyī!
@@ -368,9 +371,9 @@ Hāhā! Nǐ kàn, nǐ xiào le. Nǐ xiào de shíhou, zhège cí jiù jìzhù le
 Zhēnde ma? Wèishénme?
 *Really? Why?*
 
-**莎莎：**因为这句话是你的。书上的句子是别人的。
-Yīnwèi zhè jù huà shì nǐ de. Shū shàng de jùzi shì biéren de.
-*Because that sentence is yours. Sentences in books belong to someone else.*
+**莎莎：**因为这句话是你的。书上的句子，不是你的。
+Yīnwèi zhè jù huà shì nǐ de. Shū shàng de jùzi, búshì nǐ de.
+*Because that sentence is yours. The sentences in books are not.*
 
 **波哥：**我说的句子，是我的。
 Wǒ shuō de jùzi, shì wǒ de.
@@ -430,9 +433,9 @@ Děngdeng, sān ge xiǎoshí búshì gèng duō ma?
 Wǒ wèn nǐ: yì tiān chī sānshí ge píngguǒ, hǎo ma?
 *Let me ask you: is eating thirty apples in one day good?*
 
-**波哥：**哈哈，不好，吃不下，人会不舒服。
-Hāhā, bù hǎo, chī bu xià, rén huì bù shūfu.
-*Haha, no — you can't finish them, you'd feel sick.*
+**波哥：**哈哈，不好，吃不下，人会生病。
+Hāhā, bù hǎo, chī bu xià, rén huì shēngbìng.
+*Haha, no — you can't finish them, you'd get sick.*
 
 **莎莎：**对。可是每天吃一个苹果，很好。
 Duì. Kěshì měitiān chī yí ge píngguǒ, hěn hǎo.
@@ -446,13 +449,33 @@ Duì. Kěshì měitiān chī yí ge píngguǒ, hěn hǎo.
 Yì tiān tīng tài duō, dì èr tiān nǐ jiù bù xiǎng tīng le.
 *Listen too much in one day, and the next day you won't want to listen at all.*
 
-**波哥：**每天听一点，就不累，可以一直听。
-Měitiān tīng yìdiǎn, jiù bú lèi, kěyǐ yìzhí tīng.
-*A little every day isn't tiring — you can keep going forever.*
+**波哥：**每天听一点，就不累，明天还想听。
+Měitiān tīng yìdiǎn, jiù bú lèi, míngtiān hái xiǎng tīng.
+*A little every day isn't tiring — tomorrow you'll want more.*
 
-**莎莎：**所以，请记住今天最重要的一句话。
-Suǒyǐ, qǐng jìzhù jīntiān zuì zhòngyào de yí jù huà.
-*So please remember today's most important sentence.*
+**莎莎：**说到这里，我想说一件小事。
+Shuō dào zhèlǐ, wǒ xiǎng shuō yí jiàn xiǎo shì.
+*Speaking of which — one small thing.*
+
+**波哥：**什么事？
+Shénme shì?
+*What is it?*
+
+**莎莎：**如果你觉得今天有用，就订阅慢慢中文。
+Rúguǒ nǐ juéde jīntiān yǒuyòng, jiù dìngyuè Mànmàn Zhōngwén.
+*If today was useful, then subscribe to Manman Zhongwen.*
+
+**波哥：**这样，新的一集就会来找你。
+Zhèyàng, xīn de yì jí jiù huì lái zhǎo nǐ.
+*That way, the new episode will come find you.*
+
+**莎莎：**我们每个星期都在这里，慢慢说中文。
+Wǒmen měi ge xīngqī dōu zài zhèlǐ, mànmàn shuō Zhōngwén.
+*We're here every week, speaking slow Chinese.*
+
+**莎莎：**好。现在，请记住今天最重要的一句话。
+Hǎo. Xiànzài, qǐng jìzhù jīntiān zuì zhòngyào de yí jù huà.
+*Okay. Now, please remember today's most important sentence.*
 
 **波哥：**你说，我听着。
 Nǐ shuō, wǒ tīng zhe.
@@ -494,29 +517,13 @@ Rúguǒ nǐ jīntiān hěn lèi, jiù zǎodiǎn shuìjiào.
 Duì! Nǐ kàn, "rúguǒ… jiù…", shénme dōu néng shuō.
 *Right! See — with "rúguǒ… jiù…" you can say anything.*
 
-**波哥：**莎莎，今天这三个办法，我觉得真的有用。
-Shāsha, jīntiān zhè sān ge bànfǎ, wǒ juéde zhēnde yǒuyòng.
-*Sasha, these three methods today are really useful.*
+**波哥：**等等——你刚才那句"如果你觉得今天有用"，就是"如果……就……"！
+Děngdeng — nǐ gāngcái nà jù "rúguǒ nǐ juéde jīntiān yǒuyòng", jiùshì "rúguǒ… jiù…"!
+*Wait — your line just now, "if today was useful" — that was "rúguǒ… jiù…"!*
 
-**莎莎：**如果你也觉得有用，就订阅我们。
-Rúguǒ nǐ yě juéde yǒuyòng, jiù dìngyuè wǒmen.
-*If you find them useful too, then subscribe.*
-
-**波哥：**哈哈，你也用了"如果……就……"！
-Hāhā, nǐ yě yòng le "rúguǒ… jiù…"!
-*Haha, you just used "rúguǒ… jiù…" yourself!*
-
-**莎莎：**对呀。如果你订阅，新的一集就会来找你。
-Duì ya. Rúguǒ nǐ dìngyuè, xīn de yì jí jiù huì lái zhǎo nǐ.
-*Exactly. If you subscribe, the new episode will come find you.*
-
-**波哥：**我们每个星期都在这里，慢慢说中文。
-Wǒmen měi ge xīngqī dōu zài zhèlǐ, mànmàn shuō Zhōngwén.
-*We're here every week, speaking slow Chinese.*
-
-**莎莎：**每天听一点，就从这里开始。
-Měitiān tīng yìdiǎn, jiù cóng zhèlǐ kāishǐ.
-*A little every day — start right here.*
+**莎莎：**哈哈，被你发现了。它真的到处都在。
+Hāhā, bèi nǐ fāxiàn le. Tā zhēnde dàochù dōu zài.
+*Haha — you caught me. It really is everywhere.*
 
 ### 快问快答 · Speed round
 
@@ -574,9 +581,9 @@ Rúguǒ nǐ měitiān tīng yìdiǎn, jiù huì jìzhù gèng duō!
 Tài hǎo le, quán duì!
 *Perfect — all correct!*
 
-**波哥：**小美听了今天这一集，一定会开心的。
-Xiǎoměi tīng le jīntiān zhè yì jí, yídìng huì kāixīn de.
-*When Xiaomei hears this episode, she'll be so happy.*
+**波哥：**小美听了今天这一集，会很开心的。
+Xiǎoměi tīng le jīntiān zhè yì jí, huì hěn kāixīn de.
+*When Xiaomei hears this episode, she'll be very happy.*
 
 ### 总结 · Recap
 
@@ -596,9 +603,9 @@ Xué yí ge cí, jiù yòng tā shuō yí jù huà.
 Hái yǒu zuì zhòngyào de: rúguǒ nǐ měitiān tīng yìdiǎn, jiù huì jìzhù gèng duō.
 *And the most important one: if you listen a little every day, you'll remember more.*
 
-**莎莎：**别忘了那件小事：用"忘了"写一句话，放在评论区。
-Bié wàng le nà jiàn xiǎo shì: yòng "wàng le" xiě yí jù huà, fàng zài pínglùnqū.
-*Don't forget your little task: write one sentence with "wàng le" in the comments.*
+**莎莎：**还有那件小事别忘了——你的"忘了"句子，我们等着看。
+Hái yǒu nà jiàn xiǎo shì bié wàng le — nǐ de "wàng le" jùzi, wǒmen děng zhe kàn.
+*And don't forget that little task — your "wàng le" sentence. We'll be watching for it.*
 
 **波哥：**下一集，我们讲一个小故事，叫《我今天不想上班》。
 Xià yì jí, wǒmen jiǎng yí ge xiǎo gùshi, jiào "Wǒ jīntiān bù xiǎng shàngbān".
