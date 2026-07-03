@@ -4,7 +4,6 @@ description: >-
   pinyin and English, key vocabulary, and speaking practice for adult Mandarin learners.
 url: "https://bowang168.github.io"
 baseurl: "/slow-mandarin-lab"
-theme: minima
 markdown: kramdown
 kramdown:
   input: GFM

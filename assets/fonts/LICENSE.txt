@@ -1,0 +1,18 @@
+Bundled fonts
+=============
+
+wenkai.woff2
+  LXGW WenKai (霞鹜文楷) — Screen variant, subset to this channel's characters
+  by scripts/build_fonts.py.
+  Copyright (c) Lin Chenxuan (https://github.com/lxgw/LxgwWenKai).
+  Licensed under the SIL Open Font License, Version 1.1.
+
+SIL OPEN FONT LICENSE Version 1.1 — summary of permissions:
+  The bundled/subset font may be used, studied, modified and redistributed
+  freely, including embedded in this rendered video pipeline, as long as it is
+  not sold by itself and any derivative reserved-name fonts follow the OFL.
+  Full license text: https://openfontlicense.org/open-font-license-official-text/
+
+The subset here is a derivative for embedding only; it carries no OFL Reserved
+Font Name. Replace fonts/wenkai.woff2 (and re-run scripts/build_fonts.py) to
+change the typeface — no template changes are required.

@@ -1,0 +1,215 @@
+/* Slow Mandarin Lab — Study Notes
+   Brand SSOT: ytfactory docs/brand-design-spec.md
+   Jade #1A8F76 · Ink #16211F · Paper #F5EFE3 · Coral #F0613E (+ support shades) */
+
+/* ---------- Fonts (self-hosted, OFL — see assets/fonts/LICENSE.txt) ---------- */
+@font-face {
+  font-family: "SML WenKai";                 /* LXGW WenKai GB Lite Medium — hanzi */
+  src: url("../fonts/wenkai.woff2") format("woff2");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "SML WenKai";                 /* LXGW WenKai GB Lite Regular — pinyin */
+  src: url("../fonts/wenkai-regular.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Manrope";                    /* variable 200–800 — English/UI */
+  src: url("../fonts/manrope.woff2") format("woff2");
+  font-weight: 200 800; font-style: normal; font-display: swap;
+}
+
+/* ---------- Brand tokens ---------- */
+:root {
+  --paper: #F5EFE3;
+  --ink: #16211F;
+  --ink-soft: #22322F;
+  --jade: #1A8F76;
+  --jade-deep: #0C5C4B;
+  --jade-light: #37B89B;
+  --coral: #F0613E;
+  --coral-deep: #BF4026;
+  --mist: #DCE8E2;
+  --muted: #4C5955;                          /* softened ink for glosses (AA on paper) */
+  --card: rgba(255, 255, 255, 0.55);
+  --font-en: "Manrope", "SML WenKai", -apple-system, "Segoe UI", sans-serif;
+  --font-zh: "SML WenKai", "Kaiti SC", "STKaiti", "KaiTi", serif;
+}
+
+/* ---------- Base ---------- */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-en);
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 46rem; margin: 0 auto; padding: 0 1.25rem; }
+a { color: var(--jade-deep); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 3px; }
+img { max-width: 100%; }
+hr { border: 0; border-top: 1px solid var(--mist); margin: 2.5rem 0; }
+
+h1, h2, h3 { font-family: var(--font-en); color: var(--ink); line-height: 1.3; }
+h1 { font-weight: 800; font-size: 1.9rem; letter-spacing: -0.01em; }
+h2 {
+  font-weight: 800; font-size: 1.3rem; margin-top: 2.6rem;
+  padding-bottom: 0.4rem; border-bottom: 2px solid var(--mist); position: relative;
+}
+h2::after {
+  content: ""; position: absolute; left: 0; bottom: -2px;
+  width: 3.5rem; height: 2px; background: var(--jade);
+}
+h3 { font-weight: 700; font-size: 1.08rem; margin-top: 2.2rem; color: var(--jade-deep); }
+strong { font-weight: 700; }
+
+/* ---------- Header ---------- */
+.site-header {
+  background: var(--paper);
+  border-bottom: 1px solid var(--mist);
+  position: sticky; top: 0; z-index: 20;
+  backdrop-filter: blur(4px);
+}
+.header-inner { display: flex; align-items: center; gap: 0.7rem; padding: 0.6rem 1.25rem; }
+.brand { display: flex; align-items: center; gap: 0.6rem; color: var(--ink); }
+.brand:hover { text-decoration: none; }
+.brand-logo { width: 38px; height: 38px; border-radius: 50%; display: block; }
+.brand-name { font-weight: 800; font-size: 1.02rem; letter-spacing: -0.01em; }
+.brand-chip {
+  font-size: 0.62rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--jade-deep); border: 1px solid var(--jade-deep);
+  border-radius: 999px; padding: 0.12rem 0.5rem;
+}
+.site-nav { margin-left: auto; display: flex; gap: 1rem; align-items: center; }
+.site-nav a { font-weight: 700; font-size: 0.9rem; color: var(--ink-soft); }
+.site-nav a:hover { color: var(--jade-deep); text-decoration: none; }
+.nav-yt { color: var(--coral-deep) !important; }
+
+/* ---------- Page frame ---------- */
+main.wrap { padding-top: 1.6rem; padding-bottom: 3rem; }
+.crumbs { font-size: 0.88rem; margin: 0.4rem 0 0.8rem; }
+.crumbs.bottom { margin-top: 2.5rem; }
+.page-title { margin: 0.2rem 0 1.4rem; }
+
+/* ---------- Hero (home) ---------- */
+.hero { text-align: center; padding: 2.2rem 0 1rem; }
+.hero .hero-logo { width: 96px; height: 96px; border-radius: 50%; box-shadow: 0 4px 20px rgba(22,33,31,0.12); }
+.hero h1 { margin: 1rem 0 0.3rem; font-size: 2.1rem; }
+.hero .tagline-zh { font-family: var(--font-zh); font-weight: 500; font-size: 1.35rem; color: var(--jade-deep); margin: 0.2rem 0; }
+.hero .tagline-en { color: var(--muted); max-width: 34rem; margin: 0.5rem auto 1.2rem; }
+.btn {
+  display: inline-block; font-weight: 800; font-size: 0.95rem;
+  padding: 0.6rem 1.3rem; border-radius: 999px; text-decoration: none;
+}
+.btn:hover { text-decoration: none; filter: brightness(1.06); }
+.btn-coral { background: var(--coral-deep); color: var(--paper); }
+.btn-jade { background: var(--jade-deep); color: var(--paper); }
+
+/* ---------- Episode cards (home) ---------- */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0.9rem; padding: 0; margin: 1.4rem 0; }
+.card {
+  display: block; background: var(--card); border: 1px solid var(--mist);
+  border-radius: 14px; padding: 1rem 1.1rem; color: var(--ink);
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+}
+.card:hover {
+  text-decoration: none; border-color: var(--jade);
+  box-shadow: 0 6px 18px rgba(12, 92, 75, 0.10); transform: translateY(-1px);
+}
+.card .ep-no {
+  display: inline-block; font-size: 0.7rem; font-weight: 800; letter-spacing: 0.06em;
+  color: var(--paper); background: var(--jade); border-radius: 999px; padding: 0.1rem 0.55rem;
+  margin-bottom: 0.45rem;
+}
+.card .ep-no.moon { background: var(--ink-soft); }
+.card .ep-en { display: block; font-weight: 800; font-size: 1.02rem; line-height: 1.35; }
+.card .ep-zh { display: block; font-family: var(--font-zh); font-weight: 500; font-size: 1.08rem; color: var(--jade-deep); margin-top: 0.25rem; }
+.card .ep-note { display: block; font-size: 0.8rem; color: var(--muted); margin-top: 0.4rem; }
+
+/* ---------- Three-layer transcript ---------- */
+.turn {
+  border-bottom: 1px solid rgba(220, 232, 226, 0.8);
+  padding: 0.7rem 0.2rem;
+  border-radius: 8px;
+}
+.turn:hover { background: rgba(255, 255, 255, 0.45); }
+.turn .spk {
+  font-family: var(--font-zh); font-weight: 500; font-size: 0.85em;
+  border-radius: 6px; padding: 0.05rem 0.4rem; margin-right: 0.45rem;
+  color: var(--paper); vertical-align: 0.15em;
+}
+.turn.spk-shasha .spk { background: var(--jade-deep); }
+.turn.spk-boge .spk { background: var(--ink-soft); }
+.turn .zh { font-family: var(--font-zh); font-weight: 500; font-size: 1.34rem; line-height: 1.75; color: var(--ink); }
+.turn .py { display: block; font-family: var(--font-zh); font-weight: 400; font-size: 0.95rem; color: var(--jade-deep); margin-top: 0.15rem; }
+.turn .en, .turn em { display: block; font-style: italic; font-size: 0.95rem; color: var(--muted); margin-top: 0.1rem; }
+
+body.hide-py .turn .py, body.hide-py .qcard .py { display: none; }
+body.hide-en .turn .en, body.hide-en .turn em, body.hide-en .qcard em { display: none; }
+
+/* ---------- Layer toggle bar ---------- */
+.layer-bar {
+  position: sticky; top: 56px; z-index: 15;
+  display: flex; gap: 0.5rem; align-items: center;
+  background: var(--paper); border: 1px solid var(--mist); border-radius: 999px;
+  padding: 0.35rem 0.7rem; margin: 1rem 0; width: fit-content;
+  box-shadow: 0 3px 10px rgba(22, 33, 31, 0.07);
+}
+.layer-bar .lb-label { font-size: 0.78rem; font-weight: 800; letter-spacing: 0.05em; color: var(--muted); text-transform: uppercase; }
+.layer-toggle {
+  font: inherit; font-size: 0.85rem; font-weight: 700; cursor: pointer;
+  border: 1.5px solid var(--jade-deep); color: var(--jade-deep); background: transparent;
+  border-radius: 999px; padding: 0.18rem 0.75rem;
+}
+.layer-toggle.on { background: var(--jade-deep); color: var(--paper); }
+.layer-toggle:focus-visible { outline: 2px solid var(--coral-deep); outline-offset: 2px; }
+
+/* ---------- Teaching cards (blockquotes) ---------- */
+blockquote {
+  margin: 1.4rem 0; padding: 1rem 1.2rem;
+  background: var(--card); border-left: 4px solid var(--jade);
+  border-radius: 0 12px 12px 0;
+}
+blockquote p { margin: 0.3rem 0; }
+.qcard .zh { font-family: var(--font-zh); font-weight: 500; font-size: 1.5rem; line-height: 1.7; color: var(--ink); }
+.qcard .py { display: block; font-family: var(--font-zh); font-weight: 400; font-size: 1rem; color: var(--jade-deep); margin-top: 0.2rem; }
+.qcard em { display: block; font-style: italic; color: var(--muted); margin-top: 0.15rem; }
+
+/* ---------- Tables (vocab etc.) ---------- */
+table { width: 100%; border-collapse: collapse; margin: 1.2rem 0; font-size: 0.97rem; }
+th {
+  text-align: left; font-weight: 800; font-size: 0.8rem; letter-spacing: 0.05em;
+  text-transform: uppercase; color: var(--jade-deep);
+  border-bottom: 2px solid var(--jade); padding: 0.45rem 0.6rem;
+}
+td { border-bottom: 1px solid var(--mist); padding: 0.5rem 0.6rem; vertical-align: top; }
+tr:nth-child(even) td { background: rgba(255, 255, 255, 0.4); }
+td:first-child { font-family: var(--font-zh); font-weight: 500; font-size: 1.15rem; }
+
+/* ---------- Lists, misc ---------- */
+li { margin: 0.3rem 0; }
+code { background: var(--mist); border-radius: 4px; padding: 0.06rem 0.35rem; font-size: 0.9em; }
+
+/* ---------- Footer ---------- */
+.site-footer {
+  border-top: 1px solid var(--mist); margin-top: 2rem;
+  padding: 1.6rem 0 2.2rem; text-align: center; color: var(--muted); font-size: 0.88rem;
+}
+.site-footer .foot-zh { font-family: var(--font-zh); font-weight: 500; font-size: 1.15rem; color: var(--jade-deep); margin: 0 0 0.3rem; }
+.site-footer .foot-small { font-size: 0.78rem; max-width: 36rem; margin: 0.6rem auto 0; }
+
+/* ---------- CJK inline defaults ---------- */
+:lang(zh), .zh-inline { font-family: var(--font-zh); }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 560px) {
+  body { font-size: 16px; }
+  .brand-name { display: none; }
+  .hero h1 { font-size: 1.7rem; }
+  .turn .zh { font-size: 1.26rem; }
+  .layer-bar { top: 52px; }
+}
