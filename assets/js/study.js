@@ -42,10 +42,12 @@
   var firstTurn = document.querySelector(".turn");
   if (!firstTurn) return;
 
+  var LAYERS = ["zh", "py", "en"];
   var bar = document.createElement("div");
   bar.className = "layer-bar";
   bar.innerHTML =
     '<span class="lb-label">Layers</span>' +
+    '<button type="button" class="layer-toggle" data-layer="zh">汉字 Hanzi</button>' +
     '<button type="button" class="layer-toggle" data-layer="py">拼音 Pinyin</button>' +
     '<button type="button" class="layer-toggle" data-layer="en">English</button>';
   firstTurn.parentNode.insertBefore(bar, firstTurn);
@@ -55,15 +57,23 @@
     bar.querySelector('[data-layer="' + layer + '"]').classList.toggle("on", show);
     try { localStorage.setItem("sml_show_" + layer, show ? "1" : "0"); } catch (e) {}
   }
-  ["py", "en"].forEach(function (layer) {
+  function shownCount() {
+    return LAYERS.filter(function (l) {
+      return bar.querySelector('[data-layer="' + l + '"]').classList.contains("on");
+    }).length;
+  }
+  LAYERS.forEach(function (layer) {
     var stored = null;
     try { stored = localStorage.getItem("sml_show_" + layer); } catch (e) {}
     apply(layer, stored !== "0");
   });
+  if (shownCount() === 0) apply("zh", true); /* never start fully blank */
   bar.addEventListener("click", function (ev) {
     var btn = ev.target.closest(".layer-toggle");
     if (!btn) return;
     var layer = btn.getAttribute("data-layer");
-    apply(layer, !btn.classList.contains("on"));
+    var turningOff = btn.classList.contains("on");
+    if (turningOff && shownCount() === 1) return; /* keep at least one layer visible */
+    apply(layer, !turningOff);
   });
 })();

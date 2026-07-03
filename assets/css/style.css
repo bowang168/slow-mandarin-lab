@@ -148,8 +148,10 @@ main.wrap { padding-top: 1.6rem; padding-bottom: 3rem; }
 .turn .py { display: block; font-family: var(--font-zh); font-weight: 400; font-size: 0.95rem; color: var(--jade-deep); margin-top: 0.15rem; }
 .turn .en, .turn em { display: block; font-style: italic; font-size: 0.95rem; color: var(--muted); margin-top: 0.1rem; }
 
+body.hide-zh .turn .zh, body.hide-zh .qcard .zh { display: none; }
 body.hide-py .turn .py, body.hide-py .qcard .py { display: none; }
 body.hide-en .turn .en, body.hide-en .turn em, body.hide-en .qcard em { display: none; }
+body.hide-zh .turn .py { font-size: 1.15rem; }   /* pinyin steps up when hanzi is hidden */
 
 /* ---------- Layer toggle bar ---------- */
 .layer-bar {
