@@ -703,6 +703,5 @@ Zàijiàn.
 - **Your sentence:** post a 我今天不太想…… or 先……再…… sentence in the comments — we read and reply.
 - **Come back tomorrow:** meet 请假 / 状态 / 任务 a second time. Words are like friends.
 
-*Xiaolin is a fictional character. Scripts are written and native-reviewed by a Mandarin
-speaker in New Zealand; host voices are AI-assisted and disclosed on YouTube.
+*Xiaolin is a fictional character.
 © Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*

@@ -602,6 +602,4 @@ Xiàcì jiàn. Mànmàn lái.
 - **Your sentence:** post one 没关系 sentence in the comments — we read and reply.
 - **This week:** say one Chinese sentence to a real person. Wrong is fine. 再说一次就好。
 
-*Hosted by two AI-assisted voices; scripts are written and native-reviewed by a Mandarin
-speaker in New Zealand, and synthetic media is disclosed on YouTube.
-© Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
+*© Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*

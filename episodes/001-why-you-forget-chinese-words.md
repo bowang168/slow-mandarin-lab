@@ -632,6 +632,5 @@ Xiàcì jiàn. Mànmàn lái.
 - **Your sentence:** post one sentence with 忘了 (or a 如果……就…… sentence) in the video comments — we read and reply.
 - **Come back tomorrow:** meet today's words a second time. That's method one working.
 
-*Xiaomei is a fictional learner. Scripts are written and native-reviewed by a Mandarin
-speaker in New Zealand; host voices are AI-assisted and disclosed on YouTube.
+*Xiaomei is a fictional learner.
 © Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*

@@ -551,6 +551,5 @@ Wǎn'ān. Mànmàn lái.
 - **Tomorrow:** whisper the three closing sentences once, then post your 可是 sentence.
 - **This week:** listen to this story once more — meet 安静, 一直 and 可是 again.
 
-*Xiaoyun and Doudou are fictional. Hosted by two AI-assisted voices; scripts are written and
-native-reviewed by a Mandarin speaker in New Zealand, and synthetic media is disclosed on YouTube.
+*Xiaoyun and Doudou are fictional.
 © Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*

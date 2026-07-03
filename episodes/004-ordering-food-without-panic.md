@@ -600,6 +600,4 @@ Xiàcì jiàn. Mànmàn lái.
 - **Your sentence:** post one 我要…… sentence in the comments — we read and reply.
 - **Next meal:** point at something and ask 这个用中文怎么说？ — one new word per meal.
 
-*Hosted by two AI-assisted voices; scripts are written and native-reviewed by a Mandarin
-speaker in New Zealand, and synthetic media is disclosed on YouTube.
-© Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
+*© Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*

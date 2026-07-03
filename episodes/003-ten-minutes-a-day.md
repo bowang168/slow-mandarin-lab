@@ -646,6 +646,4 @@ Xiàcì jiàn. Mànmàn lái.
 - **Your sentence:** post one 我每天…… or 越……越…… sentence in the comments — we read and reply.
 - **Come back tomorrow:** that's the whole method. 少，但是每天都在。
 
-*Hosted by two AI-assisted voices; scripts are written and native-reviewed by a Mandarin
-speaker in New Zealand, and synthetic media is disclosed on YouTube.
-© Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
+*© Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
