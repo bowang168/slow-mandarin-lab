@@ -6,7 +6,7 @@ permalink: /episodes/002-i-didnt-want-to-work-today/
 ---
 
 **Slow Mandarin Lab · Episode 2** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=9V0ioEtdryg) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 A slow Chinese story for adult learners. Every line is shown three ways: **汉字 Hanzi**,
 pinyin, and *a short English gloss* — the same three layers you see on screen in the video.

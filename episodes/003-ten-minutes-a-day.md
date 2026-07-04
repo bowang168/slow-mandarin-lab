@@ -6,7 +6,7 @@ permalink: /episodes/003-ten-minutes-a-day/
 ---
 
 **Slow Mandarin Lab · Episode 3** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=3epKMl-mxBo) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 Beginner-friendly slow Mandarin. Every line is shown three ways: **汉字 Hanzi**, pinyin,
 and *a short English gloss* — the same three layers you see on screen in the video.
