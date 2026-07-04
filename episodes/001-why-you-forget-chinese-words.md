@@ -7,7 +7,7 @@ permalink: /episodes/001-why-you-forget-chinese-words/
 
 
 **Slow Mandarin Lab · Episode 1** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=7iGNthd1LYc) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 Beginner-friendly slow Mandarin. Every line below is shown three ways: **汉字 Hanzi**,
 pinyin, and *a short English gloss* — the same three layers you see on screen in the video.
