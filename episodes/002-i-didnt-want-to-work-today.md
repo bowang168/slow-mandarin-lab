@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "I Didn't Want to Work Today · 我今天不想上班"
+title: "Too Tired to Work? · 我今天不想上班"
 description: "A slow Chinese story with full Hanzi-pinyin-English transcript, the 先…再… pattern, vocabulary and practice — Slow Mandarin Lab Episode 2."
 permalink: /episodes/002-i-didnt-want-to-work-today/
 ---

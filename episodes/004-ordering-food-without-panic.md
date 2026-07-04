@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Ordering Food Without Panic · 点菜不紧张"
+title: "Menu Panic? Ordering Food in Chinese Made Simple · 点菜不紧张"
 description: "Five sentences to order food in Chinese, full transcript with pinyin and English — Slow Mandarin Lab Episode 4."
 permalink: /episodes/004-ordering-food-without-panic/
 ---

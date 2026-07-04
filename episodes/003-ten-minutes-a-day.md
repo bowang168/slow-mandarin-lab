@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Ten Minutes a Day · 每天十分钟，够吗？"
+title: "Make Chinese a Daily Habit in 10 Minutes · 每天十分钟，够吗？"
 description: "Full transcript with Hanzi, pinyin and English, the 越…越… pattern, and the habit trick — Slow Mandarin Lab Episode 3."
 permalink: /episodes/003-ten-minutes-a-day/
 ---
