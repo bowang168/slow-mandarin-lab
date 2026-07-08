@@ -6,7 +6,7 @@ permalink: /episodes/008-making-small-talk/
 ---
 
 **Slow Mandarin Lab · Episode 8** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=8oITyAB1EEc) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 Beginner-friendly slow Mandarin. Every line is shown three ways: **汉字 Hanzi**, pinyin,
 and *a short English gloss* — the same three layers you see on screen in the video.
