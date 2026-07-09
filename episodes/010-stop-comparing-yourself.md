@@ -6,7 +6,7 @@ permalink: /episodes/010-stop-comparing-yourself/
 ---
 
 **Slow Mandarin Lab · Episode 10** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=ej0Y7mv9n-E) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 A slow Chinese story for adult learners. Every line is shown three ways: **汉字 Hanzi**,
 pinyin, and *a short English gloss* — the same three layers you see on screen in the video.
