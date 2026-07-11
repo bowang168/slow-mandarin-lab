@@ -6,6 +6,8 @@ permalink: /episodes/008-making-small-talk/
 youtube_id: 8oITyAB1EEc
 upload_date: 2026-07-08
 hsk: HSK 3
+note: 最近怎么样 · dialogue
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 8** — free study notes

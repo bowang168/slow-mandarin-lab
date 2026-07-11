@@ -3,6 +3,8 @@ layout: page
 title: "Asking for Clarification · 你是什么意思？"
 description: "Free study notes for Slow Mandarin Lab Episode 20: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/020-asking-for-clarification/
+note: 你的意思是……吗 · dialogue
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 20** — free study notes

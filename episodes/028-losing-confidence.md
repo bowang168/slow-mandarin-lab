@@ -3,6 +3,8 @@ layout: page
 title: "Losing Confidence · 失去信心的时候"
 description: "Free study notes for Slow Mandarin Lab Episode 28: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/028-losing-confidence/
+note: 今天不行≠明天不行 · slow story
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 28** — free study notes

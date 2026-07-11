@@ -3,6 +3,8 @@ layout: page
 title: "Mandarin for Work: I'll Follow Up · 我来跟进"
 description: "Free study notes for Slow Mandarin Lab Episode 27: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/027-ill-follow-up/
+note: work Mandarin · work
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 27** — free study notes

@@ -6,6 +6,8 @@ permalink: /episodes/002-i-didnt-want-to-work-today/
 youtube_id: 9V0ioEtdryg
 upload_date: 2026-07-04
 hsk: HSK 4
+note: 先……再…… · slow story
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 2** — free study notes

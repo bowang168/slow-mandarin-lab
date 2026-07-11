@@ -3,6 +3,8 @@ layout: page
 title: "What Does 差不多 Really Mean? · 差不多"
 description: "Free study notes for Slow Mandarin Lab Episode 21: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/021-chabuduo/
+note: 还差一点 · thinking
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 21** — free study notes

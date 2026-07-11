@@ -3,6 +3,8 @@ layout: page
 title: "Don't Fear Tones · 声调，别怕"
 description: "Free study notes for Slow Mandarin Lab Episode 16: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/016-dont-fear-tones/
+note: 说慢一点 · learning method
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 16** — free study notes

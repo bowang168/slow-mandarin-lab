@@ -6,6 +6,8 @@ permalink: /episodes/006-the-quiet-friend/
 youtube_id: g5ewJyMtFkw
 upload_date: 2026-07-07
 hsk: HSK 3
+note: 可是 · bedtime story
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 6** — free study notes · *a bedtime story* 🌙

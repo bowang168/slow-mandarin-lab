@@ -3,6 +3,8 @@ layout: page
 title: "The Friend Who Disappeared · 不见了的朋友"
 description: "Free study notes for Slow Mandarin Lab Episode 26: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/026-the-friend-who-disappeared/
+note: 很久没有消息 · slow story
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 26** — free study notes

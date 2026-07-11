@@ -6,6 +6,8 @@ permalink: /episodes/013-slow-is-fast/
 youtube_id: RAtp2XO_GvQ
 upload_date: 2026-07-11
 hsk: HSK 2-3
+note: 因为……所以…… · learning method
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 13** — free study notes

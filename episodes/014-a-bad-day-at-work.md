@@ -3,6 +3,8 @@ layout: page
 title: "A Bad Day at Work · 工作中不顺的一天"
 description: "Free study notes for Slow Mandarin Lab Episode 14: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/014-a-bad-day-at-work/
+note: 虽然……但是…… · slow story
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 14** — free study notes

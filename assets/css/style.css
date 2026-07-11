@@ -358,3 +358,50 @@ html[data-theme="dark"] .turn.now { background: rgba(69, 192, 163, 0.10); }
 }
 .foot-links { font-weight: 700; }
 @media print { .support-line, .filter-bar { display: none !important; } }
+
+/* ---------- P1 layout: thumbnail cards ---------- */
+.cards { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.card { padding: 0; overflow: hidden; }
+.card .card-body { display: block; padding: 0.85rem 1rem 1rem; position: relative; }
+.ep-thumb {
+  display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover;
+  background: var(--mist); border-bottom: 1px solid var(--mist);
+}
+.ep-thumb-ph { display: flex; align-items: center; justify-content: center; }
+.ep-thumb-ph span {
+  font-family: var(--font-zh); font-size: 3rem; color: var(--jade-deep); opacity: 0.35;
+}
+.card .ep-hsk { top: auto; bottom: calc(100% + 0.55rem); right: 0.6rem;
+  background: var(--paper); }
+.card .card-body .ep-hsk { position: absolute; top: -2.2rem; bottom: auto; }
+
+/* ---------- P1 layout: compact hero ---------- */
+.hero { padding: 1.2rem 0 0.6rem; }
+.hero .hero-logo { width: 64px; height: 64px; }
+.hero h1 { margin: 0.6rem 0 0.2rem; font-size: 1.7rem; }
+.hero .tagline-zh { font-size: 1.15rem; }
+.hero .tagline-en { margin: 0.4rem auto 0.9rem; font-size: 0.92rem; }
+.hero .btn { font-size: 0.88rem; padding: 0.5rem 1.1rem; }
+.start-here { margin-top: 0.7rem; }
+
+/* ---------- P1 layout: two-column episode page (wide screens) ---------- */
+.wrap-wide { max-width: 46rem; }
+@media (min-width: 1140px) {
+  .wrap-wide { max-width: 78rem; }
+  .wrap-wide .page {
+    display: grid; grid-template-columns: minmax(0, 46rem) 460px;
+    gap: 2.2rem; justify-content: center; align-items: start;
+  }
+  .wrap-wide .page-title { grid-column: 1 / -1; }
+  .wrap-wide .video-col { grid-column: 2; grid-row: 2; position: sticky; top: 72px; }
+  .wrap-wide .notes-col { grid-column: 1; grid-row: 2; min-width: 0; }
+  .wrap-wide .layer-bar { top: 62px; }
+}
+
+/* ---------- P1 layout: up-next card with thumbnail ---------- */
+.ep-nav-card.has-thumb { padding: 0; overflow: hidden; }
+.ep-nav-card.has-thumb .ep-nav-dir { margin-top: 0.55rem; }
+.ep-nav-card.has-thumb .ep-nav-dir, .ep-nav-card.has-thumb .ep-nav-title {
+  padding: 0 0.95rem; }
+.ep-nav-card.has-thumb .ep-nav-title { padding-bottom: 0.7rem; white-space: normal; }
+.ep-nav-thumb { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }

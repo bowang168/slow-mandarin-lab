@@ -6,6 +6,8 @@ permalink: /episodes/005-afraid-of-saying-it-wrong/
 youtube_id: xLn7akdro94
 upload_date: 2026-07-06
 hsk: HSK 3-4
+note: 没关系 · speaking confidence
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 5** — free study notes

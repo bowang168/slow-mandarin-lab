@@ -3,6 +3,8 @@ layout: page
 title: "Apologizing in Chinese · 不好意思、对不起、抱歉"
 description: "Free study notes for Slow Mandarin Lab Episode 25: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/025-apologizing/
+note: three apologies · dialogue
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 25** — free study notes

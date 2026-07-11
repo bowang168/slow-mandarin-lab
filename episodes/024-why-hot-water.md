@@ -3,6 +3,8 @@ layout: page
 title: "Why Chinese People Love Hot Water · 为什么爱喝热水"
 description: "Free study notes for Slow Mandarin Lab Episode 24: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/024-why-hot-water/
+note: 是关心，不是命令 · culture
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 24** — free study notes

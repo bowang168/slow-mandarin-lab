@@ -3,6 +3,9 @@ layout: page
 title: "You Understand More Than You Think · 你比你想的听得懂"
 description: "Free study notes for Slow Mandarin Lab Episode 30: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/030-you-understand-more/
+note: season finale · learning method
+series: Season 1
+star: true
 ---
 
 **Slow Mandarin Lab · Episode 30 · Season finale** — free study notes

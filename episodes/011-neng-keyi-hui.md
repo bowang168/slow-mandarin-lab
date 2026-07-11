@@ -6,6 +6,8 @@ permalink: /episodes/011-neng-keyi-hui/
 youtube_id: tyvvohYUBmI
 upload_date: 2026-07-09
 hsk: HSK 3
+note: three cans · pattern
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 11** — free study notes

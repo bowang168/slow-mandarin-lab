@@ -6,6 +6,8 @@ permalink: /episodes/007-bu-vs-mei/
 youtube_id: rUyrriCKMMM
 upload_date: 2026-07-06
 hsk: HSK 3
+note: habit vs happened · pattern
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 7** — free study notes

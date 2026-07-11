@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
-<main class="wrap">
+<main class="wrap{% if page.youtube_id %} wrap-wide{% endif %}">
   <p class="crumbs"><a href="{{ '/' | relative_url }}">← All episodes</a></p>
   <article class="page">
     <h1 class="page-title">{{ page.title }}</h1>
     {% if page.youtube_id %}
+    <div class="video-col">
     <div class="video-embed">
       <iframe src="https://www.youtube-nocookie.com/embed/{{ page.youtube_id }}?rel=0&enablejsapi=1&origin={{ site.url }}"
               title="{{ page.title }} — Slow Mandarin Lab on YouTube"
@@ -48,12 +49,15 @@ layout: default
       "uploadDate": {{ page.upload_date | jsonify }}{% endif %}
     }
     </script>
+    </div>
     {% endif %}
+    <div class="notes-col">
     {{ content }}
     {% if page.youtube_id %}
     <p class="support-line">Did these notes help? <a href="https://buymeacoffee.com/bowang168"
       target="_blank" rel="noopener">☕ Buy me a coffee</a> — it keeps the pod slow and the notes free.</p>
     {% endif %}
+    </div>
   </article>
   {% if page.url contains '/episodes/' %}
   {% assign eps = site.pages | where_exp: "p", "p.url contains '/episodes/'" | sort: "url" %}
@@ -68,8 +72,10 @@ layout: default
     </a>{% else %}<span class="ep-nav-spacer"></span>{% endif %}
     {% assign next_i = cur | plus: 1 %}{% assign next = eps[next_i] %}
     {% if next %}
-    <a class="ep-nav-card next" href="{{ next.url | relative_url }}">
-      <span class="ep-nav-dir">Next →</span>
+    <a class="ep-nav-card next{% if next.youtube_id %} has-thumb{% endif %}" href="{{ next.url | relative_url }}">
+      {% if next.youtube_id %}<img class="ep-nav-thumb" loading="lazy" width="480" height="270"
+        src="https://i.ytimg.com/vi/{{ next.youtube_id }}/hqdefault.jpg" alt="">{% endif %}
+      <span class="ep-nav-dir">Up next →</span>
       <span class="ep-nav-title">{{ next.title }}</span>
     </a>{% endif %}
   </nav>

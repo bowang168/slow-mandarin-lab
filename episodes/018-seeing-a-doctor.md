@@ -3,6 +3,8 @@ layout: page
 title: "Seeing a Doctor in Chinese · 看医生"
 description: "Free study notes for Slow Mandarin Lab Episode 18: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/018-seeing-a-doctor/
+note: 从……开始 · dialogue
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 18** — free study notes

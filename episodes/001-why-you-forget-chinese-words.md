@@ -6,6 +6,8 @@ permalink: /episodes/001-why-you-forget-chinese-words/
 youtube_id: 7iGNthd1LYc
 upload_date: 2026-07-04
 hsk: HSK 3
+note: 如果……就…… · learning method
+series: Season 1
 ---
 
 

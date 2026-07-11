@@ -6,6 +6,8 @@ permalink: /episodes/003-ten-minutes-a-day/
 youtube_id: 3epKMl-mxBo
 upload_date: 2026-07-04
 hsk: HSK 3
+note: 越……越…… · learning method
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 3** — free study notes

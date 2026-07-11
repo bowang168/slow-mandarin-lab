@@ -3,6 +3,8 @@ layout: page
 title: "Talking About Stress · 压力很大"
 description: "Free study notes for Slow Mandarin Lab Episode 19: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/019-talking-about-stress/
+note: 想休息一下 · slow story
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 19** — free study notes

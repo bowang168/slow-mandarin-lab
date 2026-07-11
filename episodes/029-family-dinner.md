@@ -3,6 +3,8 @@ layout: page
 title: "Chinese Family Dinner · 家庭聚餐"
 description: "Free study notes for Slow Mandarin Lab Episode 29: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/029-family-dinner/
+note: 多吃一点，别客气 · culture
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 29** — free study notes

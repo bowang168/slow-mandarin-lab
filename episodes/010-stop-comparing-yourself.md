@@ -6,6 +6,8 @@ permalink: /episodes/010-stop-comparing-yourself/
 youtube_id: ej0Y7mv9n-E
 upload_date: 2026-07-09
 hsk: HSK 3
+note: 别人是别人 · slow story
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 10** — free study notes

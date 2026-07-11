@@ -6,6 +6,8 @@ permalink: /episodes/004-ordering-food-without-panic/
 youtube_id: VNjzu3fYttU
 upload_date: 2026-07-06
 hsk: HSK 3
+note: 我要这个 · real-life dialogue
+series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 4** — free study notes
