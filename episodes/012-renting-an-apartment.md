@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Renting an Apartment · 租房对话"
+title: "Rent an Apartment in Chinese · 租房对话"
 description: "Free study notes for Slow Mandarin Lab Episode 12: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/012-renting-an-apartment/
 ---
 
 **Slow Mandarin Lab · Episode 12** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=7CY1BZldAjs) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 A slow Mandarin role-play for adult learners. Every line is shown three ways: **汉字 Hanzi**,
 pinyin, and *a short English gloss* — the same three layers you see on screen in the video.
