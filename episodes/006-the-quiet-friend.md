@@ -4,6 +4,7 @@ title: "The Quiet Friend · 安静的朋友（睡前故事）"
 description: "A gentle slow-Chinese bedtime story with full Hanzi-pinyin-English transcript and the 可是 pattern — Slow Mandarin Lab Episode 6."
 permalink: /episodes/006-the-quiet-friend/
 youtube_id: g5ewJyMtFkw
+upload_date: 2026-07-07
 ---
 
 **Slow Mandarin Lab · Episode 6** — free study notes · *a bedtime story* 🌙

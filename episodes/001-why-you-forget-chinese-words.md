@@ -4,6 +4,7 @@ title: "Why You Forget Chinese Words · 为什么你记不住中文词"
 description: "Full transcript with Hanzi, pinyin and English, key vocabulary, and the 如果…就… pattern — free study notes for Slow Mandarin Lab Episode 1."
 permalink: /episodes/001-why-you-forget-chinese-words/
 youtube_id: 7iGNthd1LYc
+upload_date: 2026-07-04
 ---
 
 

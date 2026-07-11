@@ -4,6 +4,7 @@ title: "不 vs 没 — Which One Do You Use? · 不和没"
 description: "Free study notes for Slow Mandarin Lab Episode 7: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/007-bu-vs-mei/
 youtube_id: rUyrriCKMMM
+upload_date: 2026-07-06
 ---
 
 **Slow Mandarin Lab · Episode 7** — free study notes

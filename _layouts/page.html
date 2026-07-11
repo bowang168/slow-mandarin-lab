@@ -13,10 +13,44 @@ layout: default
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"></iframe>
     </div>
-    <p class="video-hint">▶ Play the episode, then scroll — the audio keeps going while you read along.</p>
+    <p class="video-hint">▶ Play the episode, then scroll — the audio keeps going while you read along.
+      <a class="btn-subscribe" href="https://www.youtube.com/@SlowMandarinLab?sub_confirmation=1"
+         target="_blank" rel="noopener">Subscribe on YouTube</a></p>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "name": {{ page.title | jsonify }},
+      "description": {{ page.description | default: site.description | jsonify }},
+      "thumbnailUrl": "https://i.ytimg.com/vi/{{ page.youtube_id }}/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/{{ page.youtube_id }}",
+      "contentUrl": "https://www.youtube.com/watch?v={{ page.youtube_id }}"{% if page.upload_date %},
+      "uploadDate": {{ page.upload_date | jsonify }}{% endif %}
+    }
+    </script>
     {% endif %}
     {{ content }}
   </article>
+  {% if page.url contains '/episodes/' %}
+  {% assign eps = site.pages | where_exp: "p", "p.url contains '/episodes/'" | sort: "url" %}
+  {% assign cur = -1 %}
+  {% for ep in eps %}{% if ep.url == page.url %}{% assign cur = forloop.index0 %}{% endif %}{% endfor %}
+  {% if cur > -1 %}
+  <nav class="ep-nav">
+    {% if cur > 0 %}{% assign prev_i = cur | minus: 1 %}{% assign prev = eps[prev_i] %}
+    <a class="ep-nav-card prev" href="{{ prev.url | relative_url }}">
+      <span class="ep-nav-dir">← Previous</span>
+      <span class="ep-nav-title">{{ prev.title }}</span>
+    </a>{% else %}<span class="ep-nav-spacer"></span>{% endif %}
+    {% assign next_i = cur | plus: 1 %}{% assign next = eps[next_i] %}
+    {% if next %}
+    <a class="ep-nav-card next" href="{{ next.url | relative_url }}">
+      <span class="ep-nav-dir">Next →</span>
+      <span class="ep-nav-title">{{ next.title }}</span>
+    </a>{% endif %}
+  </nav>
+  {% endif %}
+  {% endif %}
   <p class="crumbs bottom"><a href="{{ '/' | relative_url }}">← All episodes</a> ·
     <a href="https://www.youtube.com/@SlowMandarinLab" target="_blank" rel="noopener">Watch on YouTube ↗</a></p>
 </main>

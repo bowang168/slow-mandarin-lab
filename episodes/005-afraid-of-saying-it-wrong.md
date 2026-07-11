@@ -4,6 +4,7 @@ title: "Afraid to Speak Chinese? · 怕说错，怎么办？"
 description: "Three repair sentences, what really happens when you make a mistake, full three-layer transcript — Slow Mandarin Lab Episode 5."
 permalink: /episodes/005-afraid-of-saying-it-wrong/
 youtube_id: xLn7akdro94
+upload_date: 2026-07-06
 ---
 
 **Slow Mandarin Lab · Episode 5** — free study notes

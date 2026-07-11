@@ -4,6 +4,7 @@ title: "Make Chinese a Daily Habit in 10 Minutes · 每天十分钟，够吗？"
 description: "Full transcript with Hanzi, pinyin and English, the 越…越… pattern, and the habit trick — Slow Mandarin Lab Episode 3."
 permalink: /episodes/003-ten-minutes-a-day/
 youtube_id: 3epKMl-mxBo
+upload_date: 2026-07-04
 ---
 
 **Slow Mandarin Lab · Episode 3** — free study notes

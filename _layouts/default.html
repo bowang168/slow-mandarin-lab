@@ -3,13 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    /* theme init before first paint (no flash): stored choice, else system */
+    (function () {
+      try {
+        var t = localStorage.getItem("sml_theme");
+        if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
   <title>{% if page.title %}{{ page.title }} · Slow Mandarin Lab{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description | strip_newlines | truncate: 300 }}">
   <link rel="icon" type="image/png" href="{{ '/assets/img/logo.png' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <meta property="og:title" content="{{ page.title | default: site.title }}">
   <meta property="og:description" content="{{ page.description | default: site.description | strip_newlines | truncate: 300 }}">
+  {% if page.youtube_id %}
+  <meta property="og:type" content="video.other">
+  <meta property="og:image" content="https://i.ytimg.com/vi/{{ page.youtube_id }}/hqdefault.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/{{ page.youtube_id }}/hqdefault.jpg">
+  {% else %}
   <meta property="og:image" content="{{ '/assets/img/logo.png' | absolute_url }}">
+  {% endif %}
 </head>
 <body>
   <header class="site-header">
@@ -22,6 +39,7 @@
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}">Episodes</a>
         <a class="nav-yt" href="https://www.youtube.com/@SlowMandarinLab" target="_blank" rel="noopener">YouTube&nbsp;↗</a>
+        <button type="button" class="theme-toggle" title="Light / dark theme" aria-label="Toggle light or dark theme">🌙</button>
       </nav>
     </div>
   </header>

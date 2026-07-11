@@ -4,6 +4,7 @@ title: "The Friend Who Learned Faster · 别再比较了"
 description: "Free study notes for Slow Mandarin Lab Episode 10: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/010-stop-comparing-yourself/
 youtube_id: ej0Y7mv9n-E
+upload_date: 2026-07-09
 ---
 
 **Slow Mandarin Lab · Episode 10** — free study notes

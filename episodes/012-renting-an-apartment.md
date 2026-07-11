@@ -4,6 +4,7 @@ title: "Rent an Apartment in Chinese · 租房对话"
 description: "Free study notes for Slow Mandarin Lab Episode 12: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/012-renting-an-apartment/
 youtube_id: 7CY1BZldAjs
+upload_date: 2026-07-11
 ---
 
 **Slow Mandarin Lab · Episode 12** — free study notes

@@ -4,6 +4,25 @@
 (function () {
   "use strict";
 
+  /* Theme toggle — init happens pre-paint in default.html; this wires the button */
+  var toggle = document.querySelector(".theme-toggle");
+  function paintToggle() {
+    if (!toggle) return;
+    var dark = document.documentElement.getAttribute("data-theme") === "dark";
+    toggle.textContent = dark ? "\u2600\uFE0F" : "\uD83C\uDF19"; /* sun / moon */
+    toggle.setAttribute("aria-pressed", dark ? "true" : "false");
+  }
+  if (toggle) {
+    toggle.addEventListener("click", function () {
+      var dark = document.documentElement.getAttribute("data-theme") === "dark";
+      var next = dark ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", next);
+      try { localStorage.setItem("sml_theme", next); } catch (e) {}
+      paintToggle();
+    });
+    paintToggle();
+  }
+
   function cjkHeavy(html) {
     var text = html.replace(/<[^>]*>/g, "");
     var cjk = (text.match(/[一-鿿]/g) || []).length;

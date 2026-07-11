@@ -4,6 +4,7 @@ title: "Menu Panic? Ordering Food in Chinese Made Simple · 点菜不紧张"
 description: "Five sentences to order food in Chinese, full transcript with pinyin and English — Slow Mandarin Lab Episode 4."
 permalink: /episodes/004-ordering-food-without-panic/
 youtube_id: VNjzu3fYttU
+upload_date: 2026-07-06
 ---
 
 **Slow Mandarin Lab · Episode 4** — free study notes
