@@ -105,9 +105,12 @@
   });
 })();
 
-/* Click-to-seek + follow-along highlight (turn-times JSON exported by the
-   ytfactory pipeline from the episode's zh-Hans caption track). No autoplay:
-   playback only ever starts from a user click. */
+/* Click-to-seek + follow-along highlight + player controls (turn-times JSON
+   exported by the ytfactory pipeline from the episode's zh-Hans captions).
+   No autoplay: playback only ever starts from a user click.
+   - ▶ chip / row click  = play from that line (chip on the active line = replay it)
+   - click the PLAYING line's text = pause; click again = resume in place
+   - sticky-bar ⏯ = pause/resume anywhere; 🔁 = loop the current line */
 (function () {
   "use strict";
 
@@ -124,6 +127,10 @@
     var m = Math.floor(t / 60), s = t % 60;
     return m + ":" + (s < 10 ? "0" : "") + s;
   }
+  function turnTime(i) {
+    if (i < 0 || i >= turns.length) return NaN;
+    return parseFloat(turns[i].getAttribute("data-t"));
+  }
   turns.forEach(function (p, i) {
     if (i >= times.length || times[i] == null) return;
     p.classList.add("seekable");
@@ -131,10 +138,34 @@
     var chip = document.createElement("button");
     chip.type = "button";
     chip.className = "seek-chip";
-    chip.textContent = "▶ " + fmt(times[i]);
-    chip.title = "Play the video from this line";
+    chip.textContent = "\u25B6 " + fmt(times[i]);
+    chip.title = "Play from this line (click again to replay it)";
     p.insertBefore(chip, p.firstChild);
   });
+
+  /* player controls in the sticky layer bar */
+  var bar = document.querySelector(".layer-bar");
+  var btnPlay = null, btnLoop = null, timeLabel = null;
+  if (bar) {
+    var sep = document.createElement("span");
+    sep.className = "pctl-sep";
+    btnPlay = document.createElement("button");
+    btnPlay.type = "button";
+    btnPlay.className = "pctl pctl-play";
+    btnPlay.textContent = "\u25B6";
+    btnPlay.title = "Play / pause";
+    btnLoop = document.createElement("button");
+    btnLoop.type = "button";
+    btnLoop.className = "pctl pctl-loop";
+    btnLoop.textContent = "\uD83D\uDD01";
+    btnLoop.title = "Loop the current line";
+    timeLabel = document.createElement("span");
+    timeLabel.className = "pctl-time";
+    bar.appendChild(sep);
+    bar.appendChild(btnPlay);
+    bar.appendChild(btnLoop);
+    bar.appendChild(timeLabel);
+  }
 
   var player = null, ready = false, pendingSeek = null;
   function create() {
@@ -156,7 +187,20 @@
 
   function doSeek(t) { player.seekTo(t, true); player.playVideo(); }
   function seek(t) { if (ready) doSeek(t); else pendingSeek = t; }
+  function playing() { return ready && player.getPlayerState() === 1; }
   window.SMLPlayer = function () { return player; }; /* debug hook */
+
+  var loopOn = false, loopIdx = -1, current = -1;
+
+  if (btnPlay) btnPlay.addEventListener("click", function () {
+    if (!ready) { seek(0); return; }
+    if (playing()) player.pauseVideo(); else player.playVideo();
+  });
+  if (btnLoop) btnLoop.addEventListener("click", function () {
+    loopOn = !loopOn;
+    btnLoop.classList.toggle("on", loopOn);
+    if (loopOn) loopIdx = current;
+  });
 
   document.addEventListener("click", function (ev) {
     var chip = ev.target.closest(".seek-chip");
@@ -168,24 +212,54 @@
       if (ev.target.closest("a")) return;
     }
     var el = chip ? chip.parentNode : row;
+    var idx = turns.indexOf(el);
     var t = parseFloat(el.getAttribute("data-t"));
-    if (!isNaN(t)) seek(Math.max(0, t - 0.2));
+    if (isNaN(t)) return;
+    /* row click on the active line toggles pause/resume in place;
+       the chip always (re)starts the line — that's the repeat gesture */
+    if (!chip && ready && idx === current) {
+      if (playing()) { player.pauseVideo(); return; }
+      if (player.getPlayerState() === 2) { player.playVideo(); return; }
+    }
+    if (loopOn) loopIdx = idx;
+    seek(Math.max(0, t - 0.2));
   });
 
-  /* follow-along: highlight the line under the playhead while playing */
-  var current = -1;
+  function nextTime(i) {
+    for (var j = i + 1; j < turns.length; j++) {
+      var tj = turnTime(j);
+      if (!isNaN(tj)) return tj;
+    }
+    return ready && player.getDuration ? player.getDuration() : NaN;
+  }
+
   setInterval(function () {
-    if (!ready || !player || player.getPlayerState() !== 1) return;
+    if (!ready) return;
+    var st = player.getPlayerState();
+    if (btnPlay) btnPlay.textContent = st === 1 ? "\u275A\u275A" : "\u25B6";
+    if (timeLabel && typeof player.getCurrentTime === "function")
+      timeLabel.textContent = fmt(player.getCurrentTime() || 0);
+    if (st !== 1) return;
     var t = player.getCurrentTime(), idx = -1;
     for (var i = 0; i < turns.length; i++) {
-      var ti = parseFloat(turns[i].getAttribute("data-t"));
+      var ti = turnTime(i);
       if (isNaN(ti)) continue;
       if (ti <= t + 0.3) idx = i;
       else break;
     }
-    if (idx === current) return;
-    if (current > -1) turns[current].classList.remove("now");
-    if (idx > -1) turns[idx].classList.add("now");
-    current = idx;
-  }, 600);
+    if (idx !== current) {
+      if (current > -1) turns[current].classList.remove("now");
+      if (idx > -1) turns[idx].classList.add("now");
+      current = idx;
+    }
+    /* sentence loop: jump back at the line's end; re-anchor if the user
+       scrubbed far away instead of fighting them */
+    if (loopOn) {
+      if (loopIdx < 0) loopIdx = idx;
+      var start = turnTime(loopIdx), end = nextTime(loopIdx);
+      if (isNaN(start) || isNaN(end)) return;
+      if (t > end + 2 || t < start - 2) loopIdx = idx;
+      else if (t >= end - 0.2) player.seekTo(Math.max(0, start - 0.2), true);
+    }
+  }, 300);
 })();

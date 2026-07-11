@@ -313,3 +313,16 @@ html[data-theme="dark"] .btn-subscribe { color: #16211F !important; }
 .turn.now { border-left-color: var(--jade-deep); background: rgba(26, 143, 118, 0.08); }
 html[data-theme="dark"] .turn.now { background: rgba(69, 192, 163, 0.10); }
 @media print { .seek-chip { display: none !important; } .turn { border-left: 0; } }
+
+/* ---------- Player controls in the sticky layer bar ---------- */
+.pctl-sep { width: 1px; align-self: stretch; background: var(--mist); margin: 0 0.15rem; }
+.pctl {
+  font: inherit; font-size: 0.85rem; font-weight: 700; cursor: pointer; line-height: 1.2;
+  border: 1.5px solid var(--jade-deep); color: var(--jade-deep); background: transparent;
+  border-radius: 999px; padding: 0.18rem 0.6rem;
+}
+.pctl.on, .pctl:active { background: var(--jade-deep); color: var(--paper); }
+.pctl-time { font-size: 0.78rem; font-weight: 800; color: var(--muted);
+  font-variant-numeric: tabular-nums; min-width: 2.6em; }
+@media (max-width: 560px) { .pctl-time { display: none; } }
+@media print { .pctl, .pctl-sep, .pctl-time { display: none !important; } }
