@@ -412,3 +412,31 @@ html[data-theme="dark"] .turn.now { background: rgba(69, 192, 163, 0.10); }
 
 /* prev card hugs its content instead of stretching to the thumb card */
 .ep-nav { align-items: flex-start; }
+
+/* ---------- Focus mode (wide screens only) ---------- */
+.focus-toggle, .focus-exit { display: none; }
+@media (min-width: 1140px) {
+  .focus-toggle {
+    display: inline-block; margin-left: 0.6rem; font: inherit; font-size: 0.8rem;
+    font-weight: 800; cursor: pointer; color: var(--jade-deep);
+    background: transparent; border: 1.5px solid var(--jade-deep);
+    border-radius: 999px; padding: 0.18rem 0.7rem;
+  }
+  .focus-toggle:hover { background: var(--jade-deep); color: var(--paper); }
+  body.focus-mode .wrap-wide .page { grid-template-columns: minmax(0, 46rem); }
+  body.focus-mode .wrap-wide .video-col {
+    position: fixed; top: auto; right: 18px; bottom: 18px; width: 372px;
+    z-index: 40; grid-column: auto; grid-row: auto;
+    background: var(--paper); border: 1px solid var(--mist); border-radius: 14px;
+    padding: 0.4rem; box-shadow: 0 10px 34px rgba(0, 0, 0, 0.28);
+  }
+  body.focus-mode .video-col .video-hint,
+  body.focus-mode .video-col .study-guide { display: none; }
+  body.focus-mode .video-col .video-embed { margin: 0; border-radius: 10px; }
+  body.focus-mode .focus-exit {
+    display: block; width: 100%; margin: 0 0 0.35rem; font: inherit;
+    font-size: 0.76rem; font-weight: 800; cursor: pointer; color: var(--jade-deep);
+    background: transparent; border: 0; text-align: left; padding: 0.1rem 0.2rem;
+  }
+  body.focus-mode .focus-exit:hover { color: var(--coral-deep); }
+}

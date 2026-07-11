@@ -299,3 +299,33 @@
     });
   });
 })();
+
+/* Focus mode (wide screens): dock the player small in the corner so the notes
+   take the full width — audio keeps playing, the player stays VISIBLE (YouTube
+   embeds must never be hidden or undersized, or watch time is discounted). */
+(function () {
+  "use strict";
+  var col = document.querySelector(".video-col");
+  var hint = document.querySelector(".video-hint");
+  if (!col || !hint) return;
+  var btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "focus-toggle";
+  btn.textContent = "\u2913 Focus mode";
+  btn.title = "Dock the player to the corner and read full-width";
+  hint.appendChild(btn);
+  var exit = document.createElement("button");
+  exit.type = "button";
+  exit.className = "focus-exit";
+  exit.textContent = "\u2922 Expand player";
+  col.insertBefore(exit, col.firstChild);
+  function apply(on) {
+    document.body.classList.toggle("focus-mode", on);
+    try { localStorage.setItem("sml_focus", on ? "1" : "0"); } catch (e) {}
+  }
+  btn.addEventListener("click", function () { apply(true); });
+  exit.addEventListener("click", function () { apply(false); });
+  var stored = null;
+  try { stored = localStorage.getItem("sml_focus"); } catch (e) {}
+  if (stored === "1") apply(true);
+})();
