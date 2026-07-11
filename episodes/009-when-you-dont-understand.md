@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 9: full transcript 
 permalink: /episodes/009-when-you-dont-understand/
 youtube_id: -tUPkS4FD_4
 upload_date: 2026-07-08
+hsk: HSK 3-4
 ---
 
 **Slow Mandarin Lab · Episode 9** — free study notes

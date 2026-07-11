@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 7: full transcript 
 permalink: /episodes/007-bu-vs-mei/
 youtube_id: rUyrriCKMMM
 upload_date: 2026-07-06
+hsk: HSK 3
 ---
 
 **Slow Mandarin Lab · Episode 7** — free study notes

@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 13: full transcript
 permalink: /episodes/013-slow-is-fast/
 youtube_id: RAtp2XO_GvQ
 upload_date: 2026-07-11
+hsk: HSK 2-3
 ---
 
 **Slow Mandarin Lab · Episode 13** — free study notes

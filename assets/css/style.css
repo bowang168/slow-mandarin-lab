@@ -336,3 +336,25 @@ html[data-theme="dark"] .turn.now { background: rgba(69, 192, 163, 0.10); }
 .study-guide ol { margin: 0.6rem 0 0.3rem; padding-left: 1.3rem; }
 .study-guide li { font-size: 0.92rem; margin: 0.35rem 0; }
 @media print { .study-guide { display: none !important; } }
+
+/* ---------- HSK level chips + home filter ---------- */
+.card { position: relative; }
+.ep-hsk {
+  position: absolute; top: 0.7rem; right: 0.8rem;
+  font-size: 0.66rem; font-weight: 800; letter-spacing: 0.05em;
+  color: var(--jade-deep); border: 1px solid var(--jade-deep);
+  border-radius: 999px; padding: 0.1rem 0.5rem;
+}
+.filter-bar {
+  display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;
+  margin: 1rem 0 1.2rem;
+}
+.btn-ghost { border: 2px solid var(--jade-deep); color: var(--jade-deep); background: transparent; }
+.start-here { margin-top: 0.9rem; font-size: 0.95rem; color: var(--muted); }
+.support-line {
+  margin-top: 2.4rem; padding: 0.7rem 0.95rem; font-size: 0.9rem;
+  background: var(--card); border: 1px solid var(--mist); border-radius: 12px;
+  color: var(--muted);
+}
+.foot-links { font-weight: 700; }
+@media print { .support-line, .filter-bar { display: none !important; } }

@@ -5,6 +5,7 @@ description: "Three repair sentences, what really happens when you make a mistak
 permalink: /episodes/005-afraid-of-saying-it-wrong/
 youtube_id: xLn7akdro94
 upload_date: 2026-07-06
+hsk: HSK 3-4
 ---
 
 **Slow Mandarin Lab · Episode 5** — free study notes

@@ -263,3 +263,39 @@
     }
   }, 300);
 })();
+
+/* Home page: HSK level filter over the episode cards */
+(function () {
+  "use strict";
+  var grid = document.querySelector(".cards");
+  if (!grid) return;
+  var cards = Array.prototype.slice.call(grid.querySelectorAll(".card[data-hsk]"));
+  if (cards.length < 4) return;
+  var seen = [];
+  cards.forEach(function (c) {
+    var v = c.getAttribute("data-hsk");
+    if (seen.indexOf(v) === -1) seen.push(v);
+  });
+  seen.sort();
+  var bar = document.createElement("div");
+  bar.className = "filter-bar";
+  bar.innerHTML = '<span class="lb-label">Level</span>';
+  ["All"].concat(seen).forEach(function (v) {
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "layer-toggle" + (v === "All" ? " on" : "");
+    b.setAttribute("data-hsk", v);
+    b.textContent = v;
+    bar.appendChild(b);
+  });
+  grid.parentNode.insertBefore(bar, grid);
+  bar.addEventListener("click", function (ev) {
+    var btn = ev.target.closest("button[data-hsk]");
+    if (!btn) return;
+    var want = btn.getAttribute("data-hsk");
+    bar.querySelectorAll("button").forEach(function (b) { b.classList.toggle("on", b === btn); });
+    cards.forEach(function (c) {
+      c.style.display = want === "All" || c.getAttribute("data-hsk") === want ? "" : "none";
+    });
+  });
+})();

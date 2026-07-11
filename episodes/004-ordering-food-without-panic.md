@@ -5,6 +5,7 @@ description: "Five sentences to order food in Chinese, full transcript with piny
 permalink: /episodes/004-ordering-food-without-panic/
 youtube_id: VNjzu3fYttU
 upload_date: 2026-07-06
+hsk: HSK 3
 ---
 
 **Slow Mandarin Lab · Episode 4** — free study notes

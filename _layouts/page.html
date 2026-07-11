@@ -47,6 +47,10 @@ layout: default
     </script>
     {% endif %}
     {{ content }}
+    {% if page.youtube_id %}
+    <p class="support-line">Did these notes help? <a href="https://buymeacoffee.com/bowang168"
+      target="_blank" rel="noopener">☕ Buy me a coffee</a> — it keeps the pod slow and the notes free.</p>
+    {% endif %}
   </article>
   {% if page.url contains '/episodes/' %}
   {% assign eps = site.pages | where_exp: "p", "p.url contains '/episodes/'" | sort: "url" %}

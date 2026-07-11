@@ -5,6 +5,7 @@ description: "Full transcript with Hanzi, pinyin and English, the 越…越… p
 permalink: /episodes/003-ten-minutes-a-day/
 youtube_id: 3epKMl-mxBo
 upload_date: 2026-07-04
+hsk: HSK 3
 ---
 
 **Slow Mandarin Lab · Episode 3** — free study notes

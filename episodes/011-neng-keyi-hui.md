@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 11: full transcript
 permalink: /episodes/011-neng-keyi-hui/
 youtube_id: tyvvohYUBmI
 upload_date: 2026-07-09
+hsk: HSK 3
 ---
 
 **Slow Mandarin Lab · Episode 11** — free study notes
