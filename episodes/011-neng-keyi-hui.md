@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "能 / 可以 / 会 Through Examples · 能、可以、会"
+title: "Three Ways to Say "Can" in Chinese · 能、可以、会"
 description: "Free study notes for Slow Mandarin Lab Episode 11: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/011-neng-keyi-hui/
 ---
 
 **Slow Mandarin Lab · Episode 11** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=tyvvohYUBmI) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 Slow Mandarin for adult learners. Every line is shown three ways: **汉字 Hanzi**, pinyin,
 and *a short English gloss* — the same three layers you see on screen in the video.
