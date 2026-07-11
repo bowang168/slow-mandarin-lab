@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 26: full transcript
 permalink: /episodes/026-the-friend-who-disappeared/
 note: 很久没有消息 · slow story
 series: Season 1
+hsk: HSK 3
 ---
 
 **Slow Mandarin Lab · Episode 26** — free study notes

@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 22: full transcript
 permalink: /episodes/022-moving-to-a-new-country/
 note: 先住下来 · slow story
 series: Season 1
+hsk: HSK 3
 ---
 
 **Slow Mandarin Lab · Episode 22** — free study notes

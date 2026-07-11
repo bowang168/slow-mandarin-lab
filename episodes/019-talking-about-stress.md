@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 19: full transcript
 permalink: /episodes/019-talking-about-stress/
 note: 想休息一下 · slow story
 series: Season 1
+hsk: HSK 2-3
 ---
 
 **Slow Mandarin Lab · Episode 19** — free study notes

@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 23: full transcript
 permalink: /episodes/023-saying-no-politely/
 note: 我再想一想 · thinking
 series: Season 1
+hsk: HSK 3
 ---
 
 **Slow Mandarin Lab · Episode 23** — free study notes

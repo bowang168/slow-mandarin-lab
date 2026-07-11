@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 15: full transcript
 permalink: /episodes/015-asking-for-help/
 note: 麻烦你 · dialogue
 series: Season 1
+hsk: HSK 2-3
 ---
 
 **Slow Mandarin Lab · Episode 15** — free study notes

@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 25: full transcript
 permalink: /episodes/025-apologizing/
 note: three apologies · dialogue
 series: Season 1
+hsk: HSK 2-3
 ---
 
 **Slow Mandarin Lab · Episode 25** — free study notes

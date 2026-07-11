@@ -21,12 +21,15 @@ title: Slow Mandarin Lab · Study Notes
 Newest first — every episode gets a free study page: the full transcript (汉字 · pinyin · English, with
 switchable layers), key vocabulary, the pattern of the day, and a speaking task.
 
-{% assign eps = site.pages | where_exp: "p", "p.url contains '/episodes/'" | sort: "url" | reverse %}
+{% assign eps = site.pages | where_exp: "p", "p.url contains '/episodes/'" | sort: "url" %}
+{% assign published = "" | split: "" %}{% assign upcoming = "" | split: "" %}
+{% for ep in eps %}{% if ep.youtube_id %}{% assign published = published | push: ep %}{% else %}{% assign upcoming = upcoming | push: ep %}{% endif %}{% endfor %}
+{% assign published = published | reverse %}
 <div class="cards">
-{% for ep in eps %}{% assign parts = ep.title | split: " · " %}{% assign num = ep.url | split: "/episodes/" | last | slice: 0, 3 | plus: 0 %}
+{% for ep in published %}{% assign parts = ep.title | split: " · " %}{% assign num = ep.url | split: "/episodes/" | last | slice: 0, 3 | plus: 0 %}
   <a class="card" {% if ep.hsk %}data-hsk="{{ ep.hsk }}"{% endif %} href="{{ ep.url | relative_url }}">
-    {% if ep.youtube_id %}<img class="ep-thumb" loading="lazy" width="480" height="270"
-      src="https://i.ytimg.com/vi/{{ ep.youtube_id }}/hqdefault.jpg" alt="">{% else %}<span class="ep-thumb ep-thumb-ph"><span>慢</span></span>{% endif %}
+    <img class="ep-thumb" loading="lazy" width="480" height="270"
+      src="https://i.ytimg.com/vi/{{ ep.youtube_id }}/hqdefault.jpg" alt="">
     <span class="card-body">
       <span class="ep-no">EP {{ num }}{% if ep.star %} · ⭐{% endif %}</span>
       {% if ep.hsk %}<span class="ep-hsk">{{ ep.hsk }}</span>{% endif %}
@@ -38,7 +41,23 @@ switchable layers), key vocabulary, the pattern of the day, and a speaking task.
 {% endfor %}
 </div>
 
-*Season 1 · 30 episodes. Videos are added as they are published.*
+## Coming soon 预告
+
+Study pages are already live for the rest of Season 1 — videos are added as they publish.
+
+<div class="cards cards-upcoming">
+{% for ep in upcoming %}{% assign parts = ep.title | split: " · " %}{% assign num = ep.url | split: "/episodes/" | last | slice: 0, 3 | plus: 0 %}
+  <a class="card" {% if ep.hsk %}data-hsk="{{ ep.hsk }}"{% endif %} href="{{ ep.url | relative_url }}">
+    <span class="card-body">
+      <span class="ep-no moon">EP {{ num }}{% if ep.star %} · ⭐{% endif %}</span>
+      {% if ep.hsk %}<span class="ep-hsk">{{ ep.hsk }}</span>{% endif %}
+      <span class="ep-en">{{ parts[0] }}</span>
+      <span class="ep-zh">{{ parts[1] }}</span>
+      {% if ep.note %}<span class="ep-note">{{ ep.note }}</span>{% endif %}
+    </span>
+  </a>
+{% endfor %}
+</div>
 
 ## How to use a study page
 

@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 14: full transcript
 permalink: /episodes/014-a-bad-day-at-work/
 note: 虽然……但是…… · slow story
 series: Season 1
+hsk: HSK 3
 ---
 
 **Slow Mandarin Lab · Episode 14** — free study notes

@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 17: full transcript
 permalink: /episodes/017-have-you-eaten/
 note: 打招呼 · culture
 series: Season 1
+hsk: HSK 2
 ---
 
 **Slow Mandarin Lab · Episode 17** — free study notes

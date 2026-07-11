@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 20: full transcript
 permalink: /episodes/020-asking-for-clarification/
 note: 你的意思是……吗 · dialogue
 series: Season 1
+hsk: HSK 2-3
 ---
 
 **Slow Mandarin Lab · Episode 20** — free study notes

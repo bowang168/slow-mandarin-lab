@@ -405,3 +405,7 @@ html[data-theme="dark"] .turn.now { background: rgba(69, 192, 163, 0.10); }
   padding: 0 0.95rem; }
 .ep-nav-card.has-thumb .ep-nav-title { padding-bottom: 0.7rem; white-space: normal; }
 .ep-nav-thumb { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+
+/* upcoming cards: text-only, slightly muted */
+.cards-upcoming .card { opacity: 0.86; }
+.cards-upcoming .card-body .ep-hsk { position: absolute; top: 0.8rem; right: 0.9rem; }

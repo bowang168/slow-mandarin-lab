@@ -269,7 +269,7 @@
   "use strict";
   var grid = document.querySelector(".cards");
   if (!grid) return;
-  var cards = Array.prototype.slice.call(grid.querySelectorAll(".card[data-hsk]"));
+  var cards = Array.prototype.slice.call(document.querySelectorAll(".cards .card[data-hsk]"));
   if (cards.length < 4) return;
   var seen = [];
   cards.forEach(function (c) {

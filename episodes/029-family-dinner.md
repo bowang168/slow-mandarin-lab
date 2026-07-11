@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 29: full transcript
 permalink: /episodes/029-family-dinner/
 note: 多吃一点，别客气 · culture
 series: Season 1
+hsk: HSK 2-3
 ---
 
 **Slow Mandarin Lab · Episode 29** — free study notes

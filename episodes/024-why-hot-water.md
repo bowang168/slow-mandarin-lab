@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 24: full transcript
 permalink: /episodes/024-why-hot-water/
 note: 是关心，不是命令 · culture
 series: Season 1
+hsk: HSK 2-3
 ---
 
 **Slow Mandarin Lab · Episode 24** — free study notes

@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 18: full transcript
 permalink: /episodes/018-seeing-a-doctor/
 note: 从……开始 · dialogue
 series: Season 1
+hsk: HSK 2-3
 ---
 
 **Slow Mandarin Lab · Episode 18** — free study notes

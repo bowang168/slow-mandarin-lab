@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 21: full transcript
 permalink: /episodes/021-chabuduo/
 note: 还差一点 · thinking
 series: Season 1
+hsk: HSK 3
 ---
 
 **Slow Mandarin Lab · Episode 21** — free study notes

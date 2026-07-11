@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 27: full transcript
 permalink: /episodes/027-ill-follow-up/
 note: work Mandarin · work
 series: Season 1
+hsk: HSK 3
 ---
 
 **Slow Mandarin Lab · Episode 27** — free study notes

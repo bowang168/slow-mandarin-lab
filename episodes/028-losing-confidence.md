@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 28: full transcript
 permalink: /episodes/028-losing-confidence/
 note: 今天不行≠明天不行 · slow story
 series: Season 1
+hsk: HSK 3
 ---
 
 **Slow Mandarin Lab · Episode 28** — free study notes

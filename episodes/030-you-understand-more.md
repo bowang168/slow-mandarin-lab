@@ -6,6 +6,7 @@ permalink: /episodes/030-you-understand-more/
 note: season finale · learning method
 series: Season 1
 star: true
+hsk: HSK 1-2
 ---
 
 **Slow Mandarin Lab · Episode 30 · Season finale** — free study notes

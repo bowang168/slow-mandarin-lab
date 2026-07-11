@@ -5,6 +5,7 @@ description: "Free study notes for Slow Mandarin Lab Episode 16: full transcript
 permalink: /episodes/016-dont-fear-tones/
 note: 说慢一点 · learning method
 series: Season 1
+hsk: HSK 1-2
 ---
 
 **Slow Mandarin Lab · Episode 16** — free study notes
