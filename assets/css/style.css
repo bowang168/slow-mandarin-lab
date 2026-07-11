@@ -435,3 +435,14 @@ html[data-theme="dark"] .turn.now { background: rgba(69, 192, 163, 0.10); }
   }
   body.focus-mode .focus-exit:hover { color: var(--coral-deep); }
 }
+
+/* ---------- Follow-audio pill (shown when following is paused mid-play) ---------- */
+.follow-pill {
+  display: none; position: fixed; bottom: 22px; left: 50%; transform: translateX(-50%);
+  z-index: 45; font: inherit; font-size: 0.85rem; font-weight: 800; cursor: pointer;
+  color: var(--paper); background: var(--jade-deep); border: 0; border-radius: 999px;
+  padding: 0.45rem 1.1rem; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+.follow-pill.show { display: block; }
+.follow-pill:hover { filter: brightness(1.1); }
+@media print { .follow-pill { display: none !important; } }

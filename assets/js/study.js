@@ -186,9 +186,34 @@
   document.head.appendChild(api);
 
   function doSeek(t) { player.seekTo(t, true); player.playVideo(); }
-  function seek(t) { if (ready) doSeek(t); else pendingSeek = t; }
+  function seek(t) { setFollow(true); if (ready) doSeek(t); else pendingSeek = t; }
   function playing() { return ready && player.getPlayerState() === 1; }
   window.SMLPlayer = function () { return player; }; /* debug hook */
+
+  /* smart follow-scroll: track the playing line while the user's hands are
+     off; ANY manual scroll intent pauses following, the pill (or clicking a
+     line) resumes it */
+  var follow = true;
+  var followPill = document.createElement("button");
+  followPill.type = "button";
+  followPill.className = "follow-pill";
+  followPill.textContent = "\u2913 Follow audio";
+  followPill.title = "Scroll back to the playing line and keep following";
+  document.body.appendChild(followPill);
+  function setFollow(on) { follow = on; }
+  function scrollToCurrent() {
+    if (current < 0) return;
+    var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    turns[current].scrollIntoView({ block: "center", behavior: reduce ? "auto" : "smooth" });
+  }
+  followPill.addEventListener("click", function () { setFollow(true); scrollToCurrent(); });
+  ["wheel", "touchmove"].forEach(function (ev) {
+    window.addEventListener(ev, function () { setFollow(false); }, { passive: true });
+  });
+  window.addEventListener("keydown", function (e) {
+    if (["ArrowUp", "ArrowDown", "PageUp", "PageDown", "Home", "End", " "].indexOf(e.key) > -1)
+      setFollow(false);
+  });
 
   var loopOn = false, loopIdx = -1, current = -1;
 
@@ -237,6 +262,7 @@
     if (!ready) return;
     var st = player.getPlayerState();
     if (btnPlay) btnPlay.textContent = st === 1 ? "\u275A\u275A" : "\u25B6";
+    followPill.classList.toggle("show", !follow && st === 1);
     if (timeLabel && typeof player.getCurrentTime === "function")
       timeLabel.textContent = fmt(player.getCurrentTime() || 0);
     if (st !== 1) return;
@@ -251,6 +277,7 @@
       if (current > -1) turns[current].classList.remove("now");
       if (idx > -1) turns[idx].classList.add("now");
       current = idx;
+      if (follow && current > -1) scrollToCurrent();
     }
     /* sentence loop: jump back at the line's end; re-anchor if the user
        scrubbed far away instead of fighting them */
