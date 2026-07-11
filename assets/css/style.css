@@ -293,7 +293,7 @@ html[data-theme="dark"] .btn-subscribe { color: #16211F !important; }
 }
 .ep-nav-card:hover { text-decoration: none; border-color: var(--jade-deep); }
 .ep-nav-thumb {
-  flex: none; width: 172px; aspect-ratio: 16 / 9; object-fit: cover;
+  flex: none; width: 172px; height: auto; aspect-ratio: 16 / 9; object-fit: cover;
   border-radius: 8px; background: var(--mist);
 }
 .ep-nav-txt { min-width: 0; }
