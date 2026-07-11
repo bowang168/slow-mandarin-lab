@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "Afraid of Saying It Wrong · 怕说错，怎么办？"
+title: "Afraid to Speak Chinese? · 怕说错，怎么办？"
 description: "Three repair sentences, what really happens when you make a mistake, full three-layer transcript — Slow Mandarin Lab Episode 5."
 permalink: /episodes/005-afraid-of-saying-it-wrong/
+youtube_id: xLn7akdro94
 ---
 
 **Slow Mandarin Lab · Episode 5** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=xLn7akdro94) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 Beginner-friendly slow Mandarin. Every line is shown three ways: **汉字 Hanzi**, pinyin,
 and *a short English gloss* — the same three layers you see on screen in the video.

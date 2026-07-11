@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "When You Don't Understand · 听不懂的时候"
+title: "Didn't Catch a Single Word? Say These 3 Sentences · 听不懂的时候"
 description: "Free study notes for Slow Mandarin Lab Episode 9: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/009-when-you-dont-understand/
+youtube_id: -tUPkS4FD_4
 ---
 
 **Slow Mandarin Lab · Episode 9** — free study notes

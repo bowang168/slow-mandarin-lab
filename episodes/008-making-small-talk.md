@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "Making Small Talk · 聊天开场"
+title: "Awkward Silence? Don't Know What to Say? · 聊天开场"
 description: "Free study notes for Slow Mandarin Lab Episode 8: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/008-making-small-talk/
+youtube_id: 8oITyAB1EEc
 ---
 
 **Slow Mandarin Lab · Episode 8** — free study notes

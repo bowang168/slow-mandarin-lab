@@ -3,10 +3,11 @@ layout: page
 title: "Menu Panic? Ordering Food in Chinese Made Simple · 点菜不紧张"
 description: "Five sentences to order food in Chinese, full transcript with pinyin and English — Slow Mandarin Lab Episode 4."
 permalink: /episodes/004-ordering-food-without-panic/
+youtube_id: VNjzu3fYttU
 ---
 
 **Slow Mandarin Lab · Episode 4** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=VNjzu3fYttU) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 A slow Mandarin role-play for adult learners. Every line is shown three ways: **汉字 Hanzi**,
 pinyin, and *a short English gloss* — the same three layers you see on screen in the video.

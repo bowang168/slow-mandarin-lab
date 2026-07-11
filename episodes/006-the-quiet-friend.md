@@ -3,10 +3,11 @@ layout: page
 title: "The Quiet Friend · 安静的朋友（睡前故事）"
 description: "A gentle slow-Chinese bedtime story with full Hanzi-pinyin-English transcript and the 可是 pattern — Slow Mandarin Lab Episode 6."
 permalink: /episodes/006-the-quiet-friend/
+youtube_id: g5ewJyMtFkw
 ---
 
 **Slow Mandarin Lab · Episode 6** — free study notes · *a bedtime story* 🌙
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=g5ewJyMtFkw) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 A gentle slow-Chinese bedtime story. Every line is shown three ways: **汉字 Hanzi**, pinyin,
 and *a short English gloss* — the same three layers you see on screen in the video.

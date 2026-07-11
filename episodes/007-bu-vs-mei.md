@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "不 vs 没 Through Real Stories · 不和没"
+title: "不 vs 没 — Which One Do You Use? · 不和没"
 description: "Free study notes for Slow Mandarin Lab Episode 7: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/007-bu-vs-mei/
+youtube_id: rUyrriCKMMM
 ---
 
 **Slow Mandarin Lab · Episode 7** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=rUyrriCKMMM) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 Beginner-friendly slow Mandarin. Every line is shown three ways: **汉字 Hanzi**, pinyin,
 and *a short English gloss* — the same three layers you see on screen in the video.
