@@ -1,12 +1,14 @@
 ---
 layout: page
-title: "Slow Is Fast · 慢就是快"
+title: "Learning Chinese Too Fast to Remember? · 慢就是快"
 description: "Free study notes for Slow Mandarin Lab Episode 13: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/013-slow-is-fast/
+youtube_id: RAtp2XO_GvQ
+upload_date: 2026-07-11
 ---
 
 **Slow Mandarin Lab · Episode 13** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=RAtp2XO_GvQ) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 Beginner-friendly slow Mandarin. Every line is shown three ways: **汉字 Hanzi**, pinyin,
 and *a short English gloss* — the same three layers you see on screen in the video.
@@ -619,3 +621,5 @@ Xiàcì jiàn. Mànmàn lái.
 - **This week:** pick one episode and listen twice, slowly — instead of five episodes once.
 
 *© Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
+
+<script type="application/json" class="turn-times">{"v": 1, "t": [0.35, 3.23, 4.65, 9.25, 13.71, 18.79, 23.19, 27.83, 34.53, 41.69, 43.19, null, 52.61, 61.67, 66.23, 71.75, 78.29, 79.85, null, 92.11, 96.75, 101.23, 102.75, 108.38, 112.86, 119.44, 123.5, 127.88, 132.54, null, 141.72, 143.36, 148.52, null, 157.3, 161.14, 166.7, 170.32, 174.43, null, 185.04, 189.93, 247.93, null, 257.51, 262.35, 266.17, 270.69, null, 283.31, 286.87, null, 295.57, 297.43, 303.25, null, 313.95, null, 320.75, 324.99, 332.05, 337.54, 342.14, null, 356.06, 361.3, 364.9, 369.16, 375.48, 378.8, 385.06, 389.04, 391.96, 395.84, 401.4, 404.86, 409.69, 412.61, 416.17, 421.97, 428.03, 429.61, 434.29, null, 442.61, 444.73, 450.65, 487.91, 492.91, 499.17, 503.11, 505.73, 509.93, 514.11, 517.85, 522.23, 526.17, null, 537.77, 541.22, 547.8, 550.25, 553.11, 555.52, 557.26, 559.8, 562.76, 567.75, 571.42, 574.57, 578.99, 582.15, 583.69, 586.87, 590.77, 595.93, 600.31, 604.53, 610.53, 615.61, 620.53, 624.01, 630.35, 634.05, 638.13, 644.57, 647.85, 653.21, 658.15, 662.09, 664.97]}</script>
