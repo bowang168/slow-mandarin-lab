@@ -409,3 +409,6 @@ html[data-theme="dark"] .turn.now { background: rgba(69, 192, 163, 0.10); }
 /* upcoming cards: text-only, slightly muted */
 .cards-upcoming .card { opacity: 0.86; }
 .cards-upcoming .card-body .ep-hsk { position: absolute; top: 0.8rem; right: 0.9rem; }
+
+/* prev card hugs its content instead of stretching to the thumb card */
+.ep-nav { align-items: flex-start; }
