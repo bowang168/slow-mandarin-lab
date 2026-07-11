@@ -326,3 +326,13 @@ html[data-theme="dark"] .turn.now { background: rgba(69, 192, 163, 0.10); }
   font-variant-numeric: tabular-nums; min-width: 2.6em; }
 @media (max-width: 560px) { .pctl-time { display: none; } }
 @media print { .pctl, .pctl-sep, .pctl-time { display: none !important; } }
+
+/* ---------- Study guide (collapsible, under the player) ---------- */
+.study-guide {
+  background: var(--card); border: 1px solid var(--mist); border-radius: 12px;
+  padding: 0.55rem 0.95rem; margin: 0 0 1.6rem;
+}
+.study-guide summary { cursor: pointer; font-weight: 800; font-size: 0.92rem; color: var(--jade-deep); }
+.study-guide ol { margin: 0.6rem 0 0.3rem; padding-left: 1.3rem; }
+.study-guide li { font-size: 0.92rem; margin: 0.35rem 0; }
+@media print { .study-guide { display: none !important; } }
