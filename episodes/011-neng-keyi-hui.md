@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "Three Ways to Say "Can" in Chinese · 能、可以、会"
+title: "Three Ways to Say “Can” in Chinese · 能、可以、会"
 description: "Free study notes for Slow Mandarin Lab Episode 11: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/011-neng-keyi-hui/
+youtube_id: tyvvohYUBmI
 ---
 
 **Slow Mandarin Lab · Episode 11** — free study notes

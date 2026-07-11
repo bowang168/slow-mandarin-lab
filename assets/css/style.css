@@ -238,3 +238,13 @@ code { background: var(--mist); border-radius: 4px; padding: 0.06rem 0.35rem; fo
   .turn .zh { font-size: 1.26rem; }
   .layer-bar { top: 52px; }
 }
+
+/* ---------- Episode video embed ---------- */
+.video-embed {
+  aspect-ratio: 16 / 9; margin: 0.2rem 0 0.5rem;
+  border-radius: 14px; overflow: hidden;
+  box-shadow: 0 4px 20px rgba(22, 33, 31, 0.14);
+  background: #000;
+}
+.video-embed iframe { width: 100%; height: 100%; border: 0; display: block; }
+.video-hint { font-size: 0.85rem; color: var(--muted); margin: 0 0 1.4rem; }
