@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Why Chinese People Ask "Have You Eaten?" · 你吃了吗"
+title: "Why Chinese People Ask “Have You Eaten?” · 你吃了吗"
 description: "Free study notes for Slow Mandarin Lab Episode 17: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/017-have-you-eaten/
 ---
