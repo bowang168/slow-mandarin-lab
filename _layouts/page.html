@@ -67,16 +67,24 @@ layout: default
   <nav class="ep-nav">
     {% if cur > 0 %}{% assign prev_i = cur | minus: 1 %}{% assign prev = eps[prev_i] %}
     <a class="ep-nav-card prev" href="{{ prev.url | relative_url }}">
-      <span class="ep-nav-dir">← Previous</span>
-      <span class="ep-nav-title">{{ prev.title }}</span>
+      {% if prev.youtube_id %}<img class="ep-nav-thumb" loading="lazy" width="1280" height="720"
+        src="https://i.ytimg.com/vi/{{ prev.youtube_id }}/maxresdefault.jpg"
+        onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/{{ prev.youtube_id }}/mqdefault.jpg'" alt="">{% endif %}
+      <span class="ep-nav-txt">
+        <span class="ep-nav-dir">← Previous</span>
+        <span class="ep-nav-title">{{ prev.title }}</span>
+      </span>
     </a>{% else %}<span class="ep-nav-spacer"></span>{% endif %}
     {% assign next_i = cur | plus: 1 %}{% assign next = eps[next_i] %}
     {% if next %}
-    <a class="ep-nav-card next{% if next.youtube_id %} has-thumb{% endif %}" href="{{ next.url | relative_url }}">
-      {% if next.youtube_id %}<img class="ep-nav-thumb" loading="lazy" width="480" height="270"
-        src="https://i.ytimg.com/vi/{{ next.youtube_id }}/hqdefault.jpg" alt="">{% endif %}
-      <span class="ep-nav-dir">Up next →</span>
-      <span class="ep-nav-title">{{ next.title }}</span>
+    <a class="ep-nav-card next" href="{{ next.url | relative_url }}">
+      {% if next.youtube_id %}<img class="ep-nav-thumb" loading="lazy" width="1280" height="720"
+        src="https://i.ytimg.com/vi/{{ next.youtube_id }}/maxresdefault.jpg"
+        onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/{{ next.youtube_id }}/mqdefault.jpg'" alt="">{% endif %}
+      <span class="ep-nav-txt">
+        <span class="ep-nav-dir">Up next →</span>
+        <span class="ep-nav-title">{{ next.title }}</span>
+      </span>
     </a>{% endif %}
   </nav>
   {% endif %}

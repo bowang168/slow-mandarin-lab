@@ -27,8 +27,9 @@ Newest first — every episode gets a free study page: the full transcript (汉�
 <div class="cards">
 {% for ep in published %}{% assign parts = ep.title | split: " · " %}{% assign num = ep.url | split: "/episodes/" | last | slice: 0, 3 | plus: 0 %}
   <a class="card" {% if ep.hsk %}data-hsk="{{ ep.hsk }}"{% endif %} href="{{ ep.url | relative_url }}">
-    <img class="ep-thumb" loading="lazy" width="480" height="270"
-      src="https://i.ytimg.com/vi/{{ ep.youtube_id }}/hqdefault.jpg" alt="">
+    <img class="ep-thumb" loading="lazy" width="1280" height="720"
+      src="https://i.ytimg.com/vi/{{ ep.youtube_id }}/maxresdefault.jpg"
+      onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/{{ ep.youtube_id }}/mqdefault.jpg'" alt="">
     <span class="card-body">
       <span class="ep-no">EP {{ num }}{% if ep.star %} · ⭐{% endif %}</span>
       {% if ep.hsk %}<span class="ep-hsk">{{ ep.hsk }}</span>{% endif %}
