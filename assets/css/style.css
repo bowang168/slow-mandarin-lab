@@ -299,3 +299,17 @@ html[data-theme="dark"] .btn-subscribe { color: #16211F !important; }
   display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .ep-nav-spacer { flex: 1; }
 @media print { .ep-nav, .theme-toggle, .btn-subscribe, .video-embed, .video-hint { display: none !important; } }
+
+/* ---------- Click-to-seek transcript ---------- */
+.turn { border-left: 3px solid transparent; }
+.turn.seekable { cursor: pointer; }
+.turn .seek-chip {
+  float: right; font: inherit; font-size: 0.72rem; font-weight: 800; cursor: pointer;
+  color: var(--jade-deep); background: transparent;
+  border: 1.5px solid var(--mist); border-radius: 999px;
+  padding: 0.08rem 0.55rem; margin: 0.15rem 0 0 0.6rem;
+}
+.turn:hover .seek-chip, .turn.now .seek-chip { border-color: var(--jade-deep); }
+.turn.now { border-left-color: var(--jade-deep); background: rgba(26, 143, 118, 0.08); }
+html[data-theme="dark"] .turn.now { background: rgba(69, 192, 163, 0.10); }
+@media print { .seek-chip { display: none !important; } .turn { border-left: 0; } }

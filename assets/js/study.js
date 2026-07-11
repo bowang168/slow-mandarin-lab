@@ -104,3 +104,88 @@
     apply(layer, !turningOff);
   });
 })();
+
+/* Click-to-seek + follow-along highlight (turn-times JSON exported by the
+   ytfactory pipeline from the episode's zh-Hans caption track). No autoplay:
+   playback only ever starts from a user click. */
+(function () {
+  "use strict";
+
+  var dataEl = document.querySelector("script.turn-times");
+  var iframe = document.querySelector(".video-embed iframe");
+  if (!dataEl || !iframe) return;
+  var times;
+  try { times = JSON.parse(dataEl.textContent).t || []; } catch (e) { return; }
+  var turns = Array.prototype.slice.call(document.querySelectorAll("p.turn"));
+  if (!turns.length) return;
+
+  function fmt(t) {
+    t = Math.floor(t);
+    var m = Math.floor(t / 60), s = t % 60;
+    return m + ":" + (s < 10 ? "0" : "") + s;
+  }
+  turns.forEach(function (p, i) {
+    if (i >= times.length || times[i] == null) return;
+    p.classList.add("seekable");
+    p.setAttribute("data-t", times[i]);
+    var chip = document.createElement("button");
+    chip.type = "button";
+    chip.className = "seek-chip";
+    chip.textContent = "▶ " + fmt(times[i]);
+    chip.title = "Play the video from this line";
+    p.insertBefore(chip, p.firstChild);
+  });
+
+  var player = null, ready = false, pendingSeek = null;
+  function create() {
+    if (player || !(window.YT && window.YT.Player)) return;
+    player = new YT.Player(iframe, {
+      events: {
+        onReady: function () {
+          ready = true;
+          if (pendingSeek !== null) { doSeek(pendingSeek); pendingSeek = null; }
+        }
+      }
+    });
+  }
+  var prev = window.onYouTubeIframeAPIReady;
+  window.onYouTubeIframeAPIReady = function () { if (prev) prev(); create(); };
+  var api = document.createElement("script");
+  api.src = "https://www.youtube.com/iframe_api";
+  document.head.appendChild(api);
+
+  function doSeek(t) { player.seekTo(t, true); player.playVideo(); }
+  function seek(t) { if (ready) doSeek(t); else pendingSeek = t; }
+  window.SMLPlayer = function () { return player; }; /* debug hook */
+
+  document.addEventListener("click", function (ev) {
+    var chip = ev.target.closest(".seek-chip");
+    var row = ev.target.closest("p.turn.seekable");
+    if (!chip && !row) return;
+    if (!chip) {
+      var sel = window.getSelection();
+      if (sel && String(sel).length) return;   /* don't hijack text selection */
+      if (ev.target.closest("a")) return;
+    }
+    var el = chip ? chip.parentNode : row;
+    var t = parseFloat(el.getAttribute("data-t"));
+    if (!isNaN(t)) seek(Math.max(0, t - 0.2));
+  });
+
+  /* follow-along: highlight the line under the playhead while playing */
+  var current = -1;
+  setInterval(function () {
+    if (!ready || !player || player.getPlayerState() !== 1) return;
+    var t = player.getCurrentTime(), idx = -1;
+    for (var i = 0; i < turns.length; i++) {
+      var ti = parseFloat(turns[i].getAttribute("data-t"));
+      if (isNaN(ti)) continue;
+      if (ti <= t + 0.3) idx = i;
+      else break;
+    }
+    if (idx === current) return;
+    if (current > -1) turns[current].classList.remove("now");
+    if (idx > -1) turns[idx].classList.add("now");
+    current = idx;
+  }, 600);
+})();
