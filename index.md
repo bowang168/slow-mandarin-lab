@@ -18,8 +18,7 @@ title: Slow Mandarin Lab · Study Notes
 
 ## Episodes
 
-Newest first — every episode gets a free study page: the full transcript (汉字 · pinyin · English, with
-switchable layers), key vocabulary, the pattern of the day, and a speaking task.
+Newest first — every episode gets a free study page: the full transcript (汉字 · pinyin · English, with switchable layers), key vocabulary, the pattern of the day, and a speaking task.
 
 {% assign eps = site.pages | where_exp: "p", "p.url contains '/episodes/'" | sort: "url" %}
 {% assign published = "" | split: "" %}{% assign upcoming = "" | split: "" %}
@@ -62,10 +61,8 @@ Study pages are already live for the rest of Season 1 — videos are added as th
 ## How to use a study page
 
 1. **Listen first** — play the episode once without reading.
-2. **Read along** — replay it with the study page open; use the layer buttons to hide
-   pinyin or English when you're ready.
-3. **Speak** — do the speed round out loud, then post your sentence in the video comments.
-   We read them and reply.
+2. **Read along** — replay it with the study page open; use the layer buttons to hide pinyin or English when you're ready.
+3. **Speak** — do the speed round out loud, then post your sentence in the video comments. We read them and reply.
 
 ---
 
