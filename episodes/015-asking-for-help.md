@@ -127,11 +127,11 @@ Yǒu méiyǒu hǎoyòng de huà, yì xué jiù huì de?
 *Are there useful sentences — ones you learn instantly?*
 
 **莎莎：**有。一句最好用的话，三个小词。最后，还有一句"还回去"的话。
-Yǒu. Yí jù zuì hǎoyòng de huà, sān ge xiǎo cí. Zuìhòu, háiyǒu yí jù "hái huíqù" de huà.
+Yǒu. Yí jù zuì hǎoyòng de huà, sān ge xiǎo cí. Zuìhòu, háiyǒu yí jù "huán huíqù" de huà.
 *Yes. One best sentence, three little words — and at the end, a "give it back" sentence.*
 
 **波哥：**还回去？
-Hái huíqù?
+Huán huíqù?
 *Give it back?*
 
 **莎莎：**对。别人帮了你，你怎么帮回去。别走开。
@@ -453,7 +453,7 @@ Háiyǒu yí jù gèng hǎo de, fàng zài hòumiàn: Xiàcì wǒ bāng nǐ.
 *And an even better one to add after it: next time, I'll help you.*
 
 **波哥：**下次我帮你……哦，这就是"还回去"的话！
-Xiàcì wǒ bāng nǐ…… ó, zhè jiùshì "hái huíqù" de huà!
+Xiàcì wǒ bāng nǐ…… ó, zhè jiùshì "huán huíqù" de huà!
 *"Next time I'll help you"… oh, that's the give-it-back sentence!*
 
 **莎莎：**对。帮忙不是一次的事，是来来回回的事。
