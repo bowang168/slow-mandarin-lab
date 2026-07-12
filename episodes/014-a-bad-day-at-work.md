@@ -181,7 +181,7 @@ Ránhòu ne?
 *And then?*
 
 **莎莎：**他一转身，手碰到了杯子。杯子倒了。
-Tā yì zhuǎnshēn, shǒu pèngdào le bēizi. Bēizi dào le.
+Tā yì zhuǎnshēn, shǒu pèngdào le bēizi. Bēizi dǎo le.
 *He turns around — his hand catches the cup. The cup tips over.*
 
 **波哥：**不会吧……
