@@ -1,15 +1,17 @@
 ---
 layout: page
-title: "A Bad Day at Work · 工作中不顺的一天"
+title: "Everything Went Wrong at Work Today · 工作中不顺的一天"
 description: "Free study notes for Slow Mandarin Lab Episode 14: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/014-a-bad-day-at-work/
 note: 虽然……但是…… · slow story
 series: Season 1
 hsk: HSK 3
+youtube_id: I5wy51fns9Q
+upload_date: 2026-07-11
 ---
 
 **Slow Mandarin Lab · Episode 14** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=I5wy51fns9Q) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 A slow Chinese story with slightly richer vocabulary in short sentences. Every line is shown
 three ways: **汉字 Hanzi**, pinyin, and *a short English gloss* — the same three layers you
