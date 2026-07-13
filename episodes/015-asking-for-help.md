@@ -1,15 +1,16 @@
 ---
 layout: page
-title: "Asking for Help · 怎么请人帮忙"
+title: "How to Ask for Help in Chinese · 怎么请人帮忙"
 description: "Free study notes for Slow Mandarin Lab Episode 15: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/015-asking-for-help/
 note: 麻烦你 · dialogue
 series: Season 1
-hsk: HSK 2-3
+hsk: HSK 3-4
+youtube_id: EF7Kc6te3fk
 ---
 
 **Slow Mandarin Lab · Episode 15** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=EF7Kc6te3fk) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 Beginner-friendly slow Mandarin. Every line is shown three ways: **汉字 Hanzi**, pinyin,
 and *a short English gloss* — the same three layers you see on screen in the video.
@@ -620,3 +621,5 @@ Xiàcì jiàn. Mànmàn lái.
   谢谢你，帮了我大忙。下次我帮你。
 
 *© Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
+
+<script type="application/json" class="turn-times">{"v": 1, "t": [0.3, 3.34, 4.7, 10.48, 15.48, 20.14, 23.3, 24.76, 29.0, 35.18, 37.26, 42.16, 45.08, 53.58, 55.12, 67.22, 71.7, 77.58, 81.58, 83.06, 87.86, 90.72, 97.24, 101.04, 106.06, 112.57, 118.17, 126.23, 146.13, 148.35, 153.15, 155.95, 163.22, 164.52, 170.02, 173.06, 179.86, 182.7, 188.48, 191.32, 197.9, 200.7, 206.2, 210.32, 222.16, 236.1, 238.96, 240.78, 244.56, 248.38, 253.86, 257.68, 264.35, 267.27, 268.51, 274.09, 281.25, 284.75, 286.13, 291.13, 295.65, 302.03, 305.01, 309.63, 311.01, 316.81, 323.37, 327.49, 329.39, 333.91, 337.97, 342.97, 348.83, 354.71, 358.81, 363.19, 364.97, 372.55, 376.35, 382.71, 397.6, 402.38, 403.45, 407.38, 412.71, 418.21, 423.08, 428.82, 430.06, 435.23, 440.23, 445.46, 451.52, 457.25, 461.37, 468.14, 470.7, 475.67, 478.55, 482.93, 486.79, 492.63, 497.31, 501.59, 502.95, 506.39, 509.27, 511.63, 514.47, 517.49, 527.07, 531.07, 534.65, 537.65, 540.17, 541.99, 546.87, 550.13, 562.21, 563.11, 567.37, 573.39, 579.47, 583.25, 586.81, 594.15, 600.95, 604.65, 607.25]}</script>
