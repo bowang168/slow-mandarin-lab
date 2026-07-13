@@ -340,6 +340,14 @@ Tā hái xiǎng: biéren sān ge yuè jiù huì shuō le, wǒ liù ge yuè hái 
 Yòu kāishǐ hé biéren bǐjiào le. Yuè bǐjiào, xīnlǐ yuè nánshòu.
 *Comparing himself with others again. The more you compare, the worse it feels.*
 
+**莎莎：**第十集我们说过：别人的三个月，不是你的三个月。
+Dìshíjí wǒmen shuō guò: biéren de sānge yuè, búshì nǐ de sānge yuè.
+*Episode 10 said it: someone else's three months are not your three months.*
+
+**波哥：**对，每个人有自己的路。可是难过的时候，人会忘。
+Duì, měige rényǒu zìjǐ de lù. Kěshì nánguò de shíhou, rénhuì wàng.
+*Right, everyone has their own road. But when you're down, you forget.*
+
 **莎莎：**对。可是晚上走路的时候，他还是会想起几个中文词。
 Duì. Kěshì wǎnshang zǒulù de shíhou, tā háishì huì xiǎngqǐ jǐ ge Zhōngwén cí.
 *Yes. But at night, out walking, a few Chinese words would still come to him.*
@@ -498,6 +506,14 @@ Dì èr tiān ne?
 Dì èr tiān, tā yòu kāishǐ měitiān tīng yìdiǎn. Mànmàn lái, bù gēn biéren bǐ.
 *The next day he went back to listening a little every day. Slowly — and no comparing.*
 
+**波哥：**还是那个老办法。
+Háishì nàge lǎobànfǎ.
+*The same old method.*
+
+**莎莎：**对，好办法不用换新的。
+Duì, hǎo bànfǎ búyòng huàn xīn de.
+*Right. A good method doesn't need replacing.*
+
 **波哥：**信心全回来了吗？
 Xìnxīn quán huílái le ma?
 *Did his confidence all come back?*
@@ -562,6 +578,14 @@ Tā dá le shénme?
 **波哥：**三点半！
 Sān diǎn bàn!
 *Half past three!*
+
+**莎莎：**六个月的中文，白学了吗？
+Liùgeyuè de Zhōngwén, báixué le ma?
+*Six months of Chinese, all wasted?*
+
+**波哥：**没有白学，它们都在身体里。
+Méiyǒu báixué, tāmen dōu zài shēntǐ lǐ.
+*Not wasted. It's all still in you.*
 
 **莎莎：**跑不动，等于不会走吗？
 Pǎo bu dòng, děngyú bú huì zǒu ma?
@@ -644,3 +668,5 @@ Xiàcì jiàn. Mànmàn lái.
 
 *Xiao Ding is a fictional character.
 © Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
+
+<script type="application/json" class="turn-times">{"v": 1, "t": [0.32, 5.26, 6.72, 9.94, 12.52, 16.7, 19.06, 22.66, 25.66, 30.66, 34.22, 38.42, 39.74, 43.74, 47.14, 57.22, 61.36, 66.56, 72.88, 82.57, 85.05, 86.57, 91.21, 95.09, 97.99, 101.13, 102.67, 108.31, 112.67, 116.43, 121.97, 123.81, 128.45, 133.11, 138.27, 141.89, 147.83, 149.95, 155.35, 157.16, 162.66, 165.99, 172.88, 179.76, 187.38, 190.28, 194.51, 198.13, 202.17, 206.49, 213.63, 217.99, 227.87, 232.72, 238.7, 244.08, 248.26, 252.66, 260.4, 264.74, 272.32, 275.42, 281.7, 287.34, 292.96, 299.18, 305.98, 310.96, 320.81, 325.05, 326.21, 332.17, 333.77, 336.87, 338.63, 343.05, 345.95, 351.07, 353.95, 359.11, 364.31, 371.79, 374.31, 380.13, 381.99, 388.05, 391.57, 395.15, 401.63, 406.11, 407.39, 411.03, 414.69, 421.99, 426.35, 431.99, 438.47, 444.09, 451.97, 458.59, 460.11, 467.65, 469.03, 476.39, 478.25, 481.45, 483.35, 488.17, 494.31, 500.56, 506.07, 508.83, 510.51, 513.34, 515.05, 517.89, 522.0, 525.64, 527.12, 528.96, 531.22, 534.36, 537.52, 540.06, 541.38, 543.82, 547.7, 552.1, 558.34, 565.66, 570.98, 577.22, 583.56, 587.66, 589.1, 597.74, 599.02, 601.66, 605.74]}</script>
