@@ -195,6 +195,22 @@ Nǐ kàn, nǐ zìjǐ shuō le: Qǐng nǐ bāngmáng, shì xiāngxìn nǐ.
 Duì. Dàbùfen rén, qíshí hěn xǐhuan bāng biéren yí ge xiǎo máng.
 *Right. Most people actually enjoy doing someone a small favour.*
 
+**波哥：**这样想，我心里轻一点了。
+Zhèyàng xiǎng, wǒ xīnlǐ qīng yìdiǎn le.
+*Put that way, I feel a bit lighter.*
+
+**莎莎：**请人帮忙，不是麻烦，是给别人一个机会。
+Qǐng rén bāngmáng, búshì máfan, shì gěi biéren yí ge jīhuì.
+*Asking for help isn't a bother, it's giving someone a chance.*
+
+**波哥：**一个机会？
+Yí ge jīhuì?
+*A chance?*
+
+**莎莎：**对，一个帮你、也让你们更近的机会。
+Duì, yí ge bāng nǐ, yě ràng nǐmen gèng jìn de jīhuì.
+*Yes, a chance to help you, and to bring you closer.*
+
 **波哥：**那怎么开口呢？
 Nà zěnme kāikǒu ne?
 *So how do you start?*
@@ -258,6 +274,22 @@ Shuō le zhè sān ge xiǎo cí, biéren jiù zhīdào nǐ hěn kèqi.
 **莎莎：**对，话说得轻，大家都舒服。
 Duì, huà shuō de qīng, dàjiā dōu shūfu.
 *Yes — speak lightly, and everyone's comfortable.*
+
+**波哥：**那这三个小词，可以一起用吗？
+Nà zhè sānge xiǎo cí, kěyǐ yìqǐ yòng ma?
+*So can you use the three words together?*
+
+**莎莎：**可以。合在一起，就是最舒服的一句话。
+Kěyǐ. Hézàiyìqǐ, jiùshì zuìshūfu de yí jù huà.
+*You can. Put together, they make the smoothest line of all.*
+
+**波哥：**麻烦你、帮我一下、可以吗。
+Máfan nǐ, bāng wǒ yíxià, kěyǐ ma.
+*"Mafan ni," "bang wo yixia," "keyi ma."*
+
+**莎莎：**对。一句话说完，别人心里就舒服。听起来客气，也不难。
+Duì. Yíjù huà shuōwán, biéren xīnlǐ jiù shūfu. Tīng qǐlái kèqi, yě bùnán.
+*Right. Say the whole line, and the other person feels at ease. It sounds polite, and it isn't hard.*
 
 **波哥：**麻烦你帮我一下，可以吗？这句话我今天就要用。
 Máfan nǐ bāng wǒ yíxià, kěyǐ ma? Zhè jù huà wǒ jīntiān jiù yào yòng.
@@ -407,6 +439,14 @@ Duì. "Kěyǐ ma" bǎ mén dǎkāi, "méi guānxi" bǎ mén qīngqīng guānshà
 Wèn yí ge rén bù xíng, jiù zài wèn yí ge rén, zǒng yǒu rén kěyǐ.
 *If one person can't, ask another — someone always can.*
 
+**莎莎：**你看，从害怕开口，到现在你敢问了。
+Nǐ kàn, cóng hàipà kāikǒu, dào xiànzài nǐ gǎn wèn le.
+*Look: from too scared to ask, to daring to ask now.*
+
+**波哥：**对。我以前一个人搬箱子，现在我会先问一句。
+Duì. Wǒ yǐqián yí ge rén bān xiāngzi, xiànzài wǒhuì xiānwèn yí jù.
+*Right. I used to carry boxes alone; now I'll ask first.*
+
 ### 帮回去的话 · Giving it back
 
 **莎莎：**波哥，我发现今天这一集，很像我们的频道。
@@ -481,6 +521,14 @@ Nǐ yě kěyǐ xiān kāikǒu: Xūyào bāngmáng ma? Wǒ lái bāng nǐ.
 Xūyào bāngmáng ma? Wǒ lái bāng nǐ.
 *Need a hand? I'll help you.*
 
+**莎莎：**那请人帮忙，为什么其实不难？
+Nà qǐng rén bāngmáng, wèishénme qíshí bùnán?
+*So why is asking for help actually not hard?*
+
+**波哥：**因为请你帮忙，是相信你。大家都愿意帮一个小忙。
+Yīnwèi qǐng nǐ bāngmáng, shì xiāngxìn nǐ. Dàjiā dōu yuànyì bāng yí ge xiǎománg.
+*Because asking you for help means trusting you. Everyone's willing to do a small favour.*
+
 **莎莎：**看见别人拿不动东西的时候，就可以用它。
 Kànjiàn biéren ná bu dòng dōngxi de shíhou, jiù kěyǐ yòng tā.
 *Use it whenever you see someone struggling to carry something.*
@@ -532,6 +580,14 @@ Bù rènshi de rén, qiánmiàn jiā shénme?
 **波哥：**不好意思。
 Bù hǎoyìsi.
 *Bù hǎoyìsi.*
+
+**莎莎：**"可以吗"这三个字，好在哪里？
+"Kěyǐ ma"zhè sānge zì, hǎo zài nǎlǐ?
+*What's good about "keyi ma"?*
+
+**波哥：**它把门打开，别人可以说好，也可以说不。
+Tā bǎmén dǎkāi, biéren kěyǐ shuōhǎo, yě kěyǐ shuō bú.
+*It opens the door; they can say yes, or no.*
 
 **莎莎：**"帮我"和"帮我一下"，哪个更客气？
 "Bāng wǒ" hé "bāng wǒ yíxià", nǎge gèng kèqi?
@@ -622,4 +678,4 @@ Xiàcì jiàn. Mànmàn lái.
 
 *© Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
 
-<script type="application/json" class="turn-times">{"v": 1, "t": [0.3, 3.34, 4.7, 10.48, 15.48, 20.14, 23.3, 24.76, 29.0, 35.18, 37.26, 42.16, 45.08, 53.58, 55.12, 67.22, 71.7, 77.58, 81.58, 83.06, 87.86, 90.72, 97.24, 101.04, 106.06, 112.57, 118.17, 126.23, 146.13, 148.35, 153.15, 155.95, 163.22, 164.52, 170.02, 173.06, 179.86, 182.7, 188.48, 191.32, 197.9, 200.7, 206.2, 210.32, 222.16, 236.1, 238.96, 240.78, 244.56, 248.38, 253.86, 257.68, 264.35, 267.27, 268.51, 274.09, 281.25, 284.75, 286.13, 291.13, 295.65, 302.03, 305.01, 309.63, 311.01, 316.81, 323.37, 327.49, 329.39, 333.91, 337.97, 342.97, 348.83, 354.71, 358.81, 363.19, 364.97, 372.55, 376.35, 382.71, 397.6, 402.38, 403.45, 407.38, 412.71, 418.21, 423.08, 428.82, 430.06, 435.23, 440.23, 445.46, 451.52, 457.25, 461.37, 468.14, 470.7, 475.67, 478.55, 482.93, 486.79, 492.63, 497.31, 501.59, 502.95, 506.39, 509.27, 511.63, 514.47, 517.49, 527.07, 531.07, 534.65, 537.65, 540.17, 541.99, 546.87, 550.13, 562.21, 563.11, 567.37, 573.39, 579.47, 583.25, 586.81, 594.15, 600.95, 604.65, 607.25]}</script>
+<script type="application/json" class="turn-times">{"v": 1, "t": [0.3, 3.34, 4.7, 10.48, 15.48, 20.14, 23.3, 24.76, 29.0, 35.18, 37.26, 42.16, 45.08, 53.58, 55.12, 67.22, 71.7, 77.58, 81.58, 83.06, 87.86, 90.72, 97.24, 101.04, 106.06, 112.57, 118.17, 126.23, 131.23, 134.31, 139.33, 141.31, 146.13, 148.35, 153.15, 155.95, 163.22, 164.52, 170.02, 173.06, 179.86, 182.7, 188.48, 191.32, 197.9, 200.7, 206.2, 210.32, 214.06, 217.62, 222.16, 224.38, 231.44, 236.1, 238.96, 240.78, 244.56, 248.38, 253.86, 257.68, 264.35, 267.27, 268.51, 274.09, 281.25, 284.75, 286.13, 291.13, 295.65, 302.03, 305.01, 309.63, 311.01, 316.81, 323.37, 327.49, 329.39, 333.91, 337.97, 342.97, 348.83, 354.71, 358.81, 363.19, 364.97, 372.55, 376.35, 382.71, 388.05, 392.59, 397.6, 402.38, 403.45, 407.38, 412.71, 418.21, 423.08, 428.82, 430.06, 435.23, 440.23, 445.46, 451.52, 457.25, 461.37, 468.14, 470.7, 475.67, 553.01, 556.63, null, null, null, null, null, null, null, 567.37, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 573.39, 579.47, 583.25, 586.81, 594.15, 600.95, 604.65, 607.25]}</script>
