@@ -508,6 +508,22 @@ Jīnglǐ de nà jù "méi guānxi".
 Háiyǒu Lǎo Wáng de shí fēnzhōng.
 *And Lao Wang's ten minutes.*
 
+**莎莎：**对。帮忙的人，都只是做了一件很小的事。
+Duì. Bāngmáng de rén, dōu zhǐshì zuò le yíjiàn hěnxiǎo de shì.
+*Right. Each helper only did one small thing.*
+
+**波哥：**可是对小赵来说，这三件小事，真的比什么都重要。
+Kěshì duì xiǎo zhào láishuō, zhè sānjiàn xiǎoshì, zhēnde bǐ shénme dōu zhòngyào.
+*But to Xiao Zhao, those three small things mattered most of all.*
+
+**莎莎：**小事加小事，不顺的一天，就慢慢好了。
+Xiǎoshì jiā xiǎoshì, búshùn de yìtiān, jiù mànmàn hǎo le.
+*Small thing plus small thing, and the rough day slowly got better.*
+
+**波哥：**说得真好。
+Shuō de zhēn hǎo.
+*Well said.*
+
 **莎莎：**想到这里，小赵在回家的路上买了两杯咖啡。
 Xiǎngdào zhèlǐ, Xiǎozhào zài huíjiā de lù shàng mǎi le liǎng bēi kāfēi.
 *Thinking of that, Xiao Zhao buys two coffees on the way home.*
@@ -596,6 +612,30 @@ Suīrán jīntiān hěn nán, dànshì míngtiān huì hǎo.
 Quán duì.
 *All correct.*
 
+**波哥：**还有一件小事，别忘了。今天，谁帮了你？
+Háiyǒu yíjiàn xiǎoshì, biéwàngle. Jīntiān, shéi bāng le nǐ?
+*And one small thing, don't forget. Today, who helped you?*
+
+**莎莎：**想一想。想到了，就对他说：太谢谢你了。
+Xiǎngyìxiǎng. Xiǎngdào le, jiù duì tā shuō: tài xièxie nǐ le.
+*Think about it. When you think of them, tell them: thank you so much.*
+
+**波哥：**今天别人帮了你，明天你也可以帮别人一下。
+Jīntiān biéren bāng le nǐ, míngtiān nǐ yě kěyǐ bāngbiéren yíxià.
+*Someone helped you today, and tomorrow you can help someone too.*
+
+**莎莎：**不用做大事。一杯咖啡，一句“没关系”，就行了。
+Búyòng zuò dàshì. Yìbēi kāfēi, yíjù "méiguānxì", jiùxíngle.
+*You don't need to do anything big. A cup of coffee, a "mei guanxi", is enough.*
+
+**波哥：**对。这些小事，会让不顺的一天，也有一点暖。
+Duì. Zhèxiē xiǎoshì, huì ràng búshùn de yìtiān, yě yǒu yìdiǎn nuǎn.
+*Right. These small things bring a little warmth even to a rough day.*
+
+**莎莎：**小事不小。你帮我一下，我帮你一下，一天就不那么难了。
+Xiǎoshì bùxiǎo. Nǐ bāng wǒ yíxià, wǒ bāng nǐ yíxià, yìtiān jiù bú nàme nán le.
+*Small things aren't small. You help me, I help you, and the day isn't so hard.*
+
 ### 结尾 · Ending
 
 **波哥：**今天的故事说完了。"虽然……但是……"，请你带回家。
@@ -650,4 +690,4 @@ Xiàcì jiàn. Mànmàn lái.
 *Xiao Zhao and his colleagues are fictional characters.
 © Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
 
-<script type="application/json" class="turn-times">{"v": 1, "t": [0.3, 3.7, 8.68, 12.14, 13.62, 18.4, 23.06, 27.34, 29.1, 33.48, 37.96, 41.64, 46.82, 56.72, 60.94, 66.02, 70.56, 75.24, 80.17, 84.29, 86.53, 91.71, 94.49, 99.11, 100.39, 105.29, 107.47, 114.31, 119.65, 123.69, 127.69, 131.57, 133.07, 137.35, 142.43, 146.17, 149.59, 154.29, 159.51, 164.27, 169.61, 176.97, 180.37, 184.83, 187.79, 193.69, 198.51, 200.61, 204.45, 209.69, 213.67, 219.49, 220.95, 224.93, 228.68, 234.48, 236.0, 239.26, 240.94, 245.1, 247.14, 254.99, 257.44, 261.76, 263.56, 268.31, 272.49, 278.73, 281.93, 287.46, 288.94, 293.49, 297.99, 301.31, 303.75, 309.13, 313.06, 316.74, 319.68, 325.68, 329.4, 333.6, 335.06, 341.54, 347.14, 351.82, 353.1, 356.28, 361.7, 367.1, 368.6, 374.42, 377.34, 380.0, 384.34, 390.24, 397.89, 401.17, 404.55, 407.87, 413.03, 419.33, 422.23, 425.25, 444.95, 449.73, 452.79, 458.65, 463.09, 467.81, 469.19, 472.79, 476.19, 480.09, 483.11, 485.99, 492.71, 493.87, 500.11, 501.47, 507.15, 515.81, 518.87, 520.71, 524.25, 561.25, 567.89, 571.57, 577.87, 582.57, 584.13, 589.49, 594.45, 598.23, 600.75]}</script>
+<script type="application/json" class="turn-times">{"v": 1, "t": [0.3, 3.7, 8.68, 12.14, 13.62, 18.4, 23.06, 27.34, 29.1, 33.48, 37.96, 41.64, 46.82, 56.72, 60.94, 66.02, 70.56, 75.24, 80.17, 84.29, 86.53, 91.71, 94.49, 99.11, 100.39, 105.29, 107.47, 114.31, 119.65, 123.69, 127.69, 131.57, 133.07, 137.35, 142.43, 146.17, 149.59, 154.29, 159.51, 164.27, 169.61, 176.97, 180.37, 184.83, 187.79, 193.69, 198.51, 200.61, 204.45, 209.69, 213.67, 219.49, 220.95, 224.93, 228.68, 234.48, 236.0, 239.26, 240.94, 245.1, 247.14, 254.99, 257.44, 261.76, 263.56, 268.31, 272.49, 278.73, 281.93, 287.46, 288.94, 293.49, 297.99, 301.31, 303.75, 309.13, 313.06, 316.74, 319.68, 325.68, 329.4, 333.6, 335.06, 341.54, 347.14, 351.82, 353.1, 356.28, 361.7, 367.1, 368.6, 374.42, 377.34, 380.0, 384.34, 390.24, 397.89, 401.17, 404.55, 407.87, 413.03, 419.33, 422.23, 425.25, 427.59, 431.81, 438.09, 443.37, 444.95, 449.73, 452.79, 458.65, 463.09, 467.81, 469.19, 472.79, 476.19, 480.09, 483.11, 485.99, 492.71, 493.87, 500.11, 501.47, 507.15, 515.81, 518.87, 520.71, 524.25, 525.53, 531.03, 537.41, 542.27, 547.95, 554.51, 561.25, 567.89, 571.57, 577.87, 582.57, 584.13, 589.49, 594.45, 598.23, 600.75]}</script>
