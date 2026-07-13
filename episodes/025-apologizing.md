@@ -200,6 +200,14 @@ Duì. Jièguò yíxià, biéren jiù gěi nǐ rànglù le.
 Bù hǎoyìsi, jièguò yíxià. Zhè jù tài hǎo yòng le.
 *Excuse me, coming through. So useful.*
 
+**莎莎：**说的时候，声音轻一点，再笑一笑。
+Shuō de shíhou, shēngyīn qīng yìdiǎn, zài xiàoyíxiào.
+*Say it gently, with a smile.*
+
+**波哥：**轻轻的词，就要轻轻地说。
+Qīngqīng de cí, jiùyào qīngqīngde shuō.
+*A light word should be spoken lightly.*
+
 **莎莎：**还有一种：你想问路，可是别人正在忙。
 Háiyǒu yì zhǒng: nǐ xiǎng wènlù, kěshì biéren zhèngzài máng.
 *One more: you want to ask directions, but the person is busy.*
@@ -348,6 +356,14 @@ Duì. Rènzhēn shuō, jiùshì kànzhe duìfāng, màn yìdiǎn, shuō qīngchu
 Bù néng xiào zhe shuō. Xīn yào zài lǐmiàn.
 *Not with a grin. Your heart has to be in it.*
 
+**莎莎：**对不起三个字不难，难的是说得真。
+Duìbuqǐ sānge zì bùnán, nán de shì shuō de zhēn.
+*The words "duibuqi" aren't hard; saying them sincerely is.*
+
+**波哥：**说得真，别人才听得到你的心。
+Shuō de zhēn, biéren cái tīng dedào nǐ de xīn.
+*Say it sincerely, and people hear your heart.*
+
 **莎莎：**说得好。现在说回答：别人对你说"对不起"，你怎么办？
 Shuō de hǎo. Xiànzài shuō huídá: biéren duì nǐ shuō "duìbuqǐ", nǐ zěnme bàn?
 *Well said. Now the reply: someone says sorry to you — what do you do?*
@@ -434,9 +450,9 @@ Hěn bàoqiàn, zhè shì wǒmen de cuò. Tīng qǐlái hěn rènzhēn.
 Yīnwèi bàoqiàn chángcháng bù zhǐ dàibiǎo nǐ yí ge rén, hái dàibiǎo gōngsī, dàibiǎo diàn.
 *Because bàoqiàn often speaks for more than you — for the company, for the shop.*
 
-**波哥：**所以它重。
-Suǒyǐ tā zhòng.
-*That's why it's heavy.*
+**波哥：**难怪它重。
+Nánguài tāzhòng.
+*No wonder it's heavy.*
 
 **莎莎：**对。朋友之间，很少用。
 Duì. Péngyou zhījiān, hěn shǎo yòng.
@@ -508,6 +524,14 @@ Xièxie nǐ děng wǒ… zhè jù tīng qǐlái zhēn shūfu.
 Duì. Dàoqiàn yí cì, xièxie yí cì, jiù hěn hǎo le.
 *Right. One apology, one thank-you — that's plenty.*
 
+**波哥：**把"对不起"变少，把"谢谢"变多。
+Bǎ"duìbuqǐ"biàn shǎo, bǎ"xièxie"biànduō.
+*Fewer "sorries", more "thank yous".*
+
+**莎莎：**对，这样说话，两个人都轻。
+Duì, zhèyàng shuōhuà, liǎngge rén dōu qīng.
+*Right. Talk like that and both of you feel lighter.*
+
 ### 快问快答 · Speed round
 
 Answer out loud **before** Bo does.
@@ -571,6 +595,14 @@ Yí jiàn xiǎoshì, dàoqiàn jǐ cì?
 **波哥：**一次就够了。
 Yí cì jiù gòu le.
 *Once is enough.*
+
+**莎莎：**一块饼干，用"抱歉"行吗？
+Yíkuài bǐnggān, yòng"bàoqiàn"xíng ma?
+*One biscuit. Would "baoqian" work?*
+
+**波哥：**太重了！不好意思就够了。
+Tàizhòng le! Bùhǎoyìsi jiùgòu le.
+*Way too heavy! "Bu haoyisi" is plenty.*
 
 **莎莎：**全对！你毕业了。
 Quán duì! Nǐ bìyè le.
@@ -639,3 +671,5 @@ Xiàcì jiàn. Mànmàn lái.
 - **This week:** the next time you apologize for something small, say it once — then add 谢谢.
 
 *© Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
+
+<script type="application/json" class="turn-times">{"v": 1, "t": [0.28, 4.98, 6.34, 10.82, 12.96, 15.78, 21.76, 26.08, 28.08, 32.7, 38.62, 45.76, 50.36, 58.08, 67.88, 71.58, 77.1, 82.02, 86.09, 89.73, 91.89, 95.37, 96.57, 104.39, 106.69, 117.95, 120.53, 123.35, 126.39, 129.65, 133.51, 137.45, 140.83, 145.11, 147.13, 150.69, 152.39, 156.09, 161.13, 166.51, 171.21, 180.31, 184.09, 186.13, 190.87, 193.25, 195.05, 199.47, 202.85, 206.51, 211.13, 218.05, 223.56, 231.02, 234.56, 240.64, 242.04, 245.18, 248.64, 252.86, 254.96, 259.44, 263.22, 267.64, 272.85, 278.05, 283.14, 288.76, 291.85, 296.52, 300.19, 306.43, 309.7, 314.17, 316.29, 320.29, 322.61, 325.85, 328.73, 333.43, 340.89, 344.91, 350.83, 355.01, 359.97, 365.51, 370.14, 377.44, 380.52, 389.44, 393.64, 399.28, 401.1, 404.36, 408.58, 415.16, 416.32, 422.42, 425.5, 434.46, 438.98, 444.3, 450.51, 457.51, 459.77, 465.65, 466.89, 473.57, 477.15, 481.83, 485.59, 489.15, 493.59, 496.39, 497.75, 501.33, 503.17, 506.25, 508.79, 511.13, 516.77, 519.55, 522.19, 526.69, 529.27, 532.09, 533.91, 537.65, 540.83, 543.31, 546.81, 551.33, 555.77, 560.23, 564.45, 567.49, 573.49, 578.81, 581.95, 588.43, 592.93, 594.69]}</script>
