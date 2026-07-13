@@ -175,9 +175,9 @@ Bù xiǎng ràng qǐng nǐ de rén nánguò.
 Duì. Tā qǐng nǐ, shì yīnwèi tā xǐhuan nǐ.
 *Exactly. They invited you because they like you.*
 
-**波哥：**所以不能把"不"说得太硬。
-Suǒyǐ bù néng bǎ "bù" shuō de tài yìng.
-*So the "no" shouldn't come out too hard.*
+**波哥：**难怪不能把"不"说得太硬。
+Nánguài bùnéng bǎ"bù"shuō de tài yìng.
+*No wonder you can't make the "no" too hard.*
 
 **莎莎：**在新西兰，很多人会直接说：不了，谢谢。
 Zài Xīnxīlán, hěn duō rén huì zhíjiē shuō: Bù le, xièxie.
@@ -317,6 +317,14 @@ Bù fāngbiàn, jiùshì xiànzài zuò, yǒudiǎnr nán.
 Duì. Nǐ búyòng shuō wèishénme, shuō "bù fāngbiàn" jiù gòu le.
 *Right. No reason needed — "bù fāngbiàn" is enough.*
 
+**波哥：**那"不方便"可以用在很多地方吧？
+Nà"bù fāngbiàn"kěyǐ yòng zài hěnduō dìfāng ba?
+*So "bu fangbian" works in lots of places?*
+
+**莎莎：**对。吃饭、帮忙、借东西，都可以用它。
+Duì. Chīfàn, bāngmáng, jiè dōngxi, dōu kěyǐ yòng tā.
+*Right. Meals, favours, borrowing things, it works for all of them.*
+
 **波哥：**好，三句话我都记下来了。
 Hǎo, sān jù huà wǒ dōu jì xiàlái le.
 *Great — I've got all three.*
@@ -374,6 +382,14 @@ Xiān gěi yí kuài táng, zài shuō nán de huà.
 **莎莎：**哈哈，可以这么说。这就是"软"的意思。
 Hāhā, kěyǐ zhème shuō. Zhè jiùshì "ruǎn" de yìsi.
 *Haha — you could put it that way. That's what "soft" means.*
+
+**波哥：**软话的顺序，原来这么重要。
+Ruǎnhuà de shùnxù, yuánlái zhème zhòngyào.
+*So the order of the soft words really matters.*
+
+**莎莎：**对。先暖，再说"不"，话就不伤人。
+Duì. Xiānnuǎn, zàishuō"bú", huà jiù bù shāngrén.
+*Right. Warmth first, then the "no", and nobody gets hurt.*
 
 ### 场景二：同事加活 · Declining extra work
 
@@ -459,8 +475,8 @@ Zhè huà zěnme shuō?
 Nǐ shuō "wǒ zài xiǎng yi xiǎng", jiù yào zhēn de xiǎng yi xiǎng, xiǎng hǎo le gàosu biéren.
 *If you say "let me think", actually think — and then tell them.*
 
-**波哥：**那如果我已经知道去不了呢？
-Nà rúguǒ wǒ yǐjīng zhīdào qù bu liǎo ne?
+**波哥：**那我已经知道去不了呢？
+Nà wǒ yǐjīng zhīdào qù bùliǎo ne?
 *And if I already know I can't go?*
 
 **莎莎：**那就说"我可能去不了，下次吧"，别让朋友一直等。
@@ -475,6 +491,14 @@ Nà jiù shuō "wǒ kěnéng qù bu liǎo, xiàcì ba", bié ràng péngyou yìz
 Duì. Ruǎnruǎn de jùjué, shì bǎ zhēnhuà shuō de ràng rén shūfu.
 *Right. A gentle refusal is the truth, said comfortably.*
 
+**波哥：**话软，心不软；话轻，事不轻。
+Huà ruǎn, xīnbùruǎn; huà qīng, shìbùqīng.
+*Soft words, firm heart; light words, real matters.*
+
+**莎莎：**说得好，这十二个字，可以写下来了。
+Shuōdehǎo, zhè shíèrge zì, kěyǐ xiě xiàlái le.
+*Well said. Those twelve characters are worth writing down.*
+
 **波哥：**第五集我们说过，开口会怕。说"不"，很多人更怕。
 Dì wǔ jí wǒmen shuō guò, kāikǒu huì pà. Shuō "bù", hěn duō rén gèng pà.
 *Episode five was about the fear of speaking. Saying no scares people even more.*
@@ -486,6 +510,14 @@ Shì a. Kěshì yí jù ruǎnruǎn de "bù", bǐ yí jù jiǎjiǎ de "hǎo" gèn
 **波哥：**因为说了假的"好"，最后难过的是两个人。
 Yīnwèi shuō le jiǎ de "hǎo", zuìhòu nánguò de shì liǎng ge rén.
 *Because a fake "yes" ends up hurting both people.*
+
+**莎莎：**所以说"不"以前，先想一想：我是真的去不了，还是只要一点儿时间？
+Suǒyǐ shuō"bù"yǐqián, xiān xiǎngyìxiǎng: wǒ shì zhēnde qù bùliǎo, háishì zhǐyào yìdiǎnēr shíjiān?
+*So before saying "no", ask yourself: can I really not go, or do I just need a little time?*
+
+**波哥：**想清楚了，再选那句最合适的话。
+Xiǎng qīngchǔ le, zàixuǎn nàjù zuìhéshì dehuà.
+*Think it through, then pick the line that fits best.*
 
 **莎莎：**这句说得真好。好，快问快答的时间到了！
 Zhè jù shuō de zhēn hǎo. Hǎo, kuài wèn kuài dá de shíjiān dào le!
@@ -531,6 +563,22 @@ Ruǎn de huà shì jiǎhuà ma?
 Búshì. Ruǎn, shì hǎohǎo de shuō zhēnhuà.
 *No. Soft means saying the truth kindly.*
 
+**莎莎：**"不行"两个字，为什么太硬？
+"Bùxíng"liǎngge zì, wèishénme tàiyìng?
+*Why does "bu xing" sound so hard?*
+
+**波哥：**像一扇门，一下就关上了。
+Xiàng yíshànmén, yíxià jiù guānshàng le.
+*Like a door slamming shut in one go.*
+
+**莎莎：**工作里的"不"，最好带什么？
+Gōngzuò lǐ de"bù", zuìhǎo dài shénme?
+*A "no" at work is best served with what?*
+
+**波哥：**带一个办法，比如"明天可以吗"。
+Dài yí ge bànfǎ, bǐrú"míngtiān kěyǐ ma".
+*With a plan B, like "how about tomorrow?"*
+
 **莎莎：**说"下次吧"的时候，门关上了吗？
 Shuō "xiàcì ba" de shíhou, mén guānshàng le ma?
 *When you say "next time", does the door close?*
@@ -546,6 +594,14 @@ Jùjué yǐhòu, péngyou háishì péngyou ma?
 **波哥：**还是朋友。
 Háishì péngyou.
 *Still your friend.*
+
+**莎莎：**拒绝了一次，下次还能一起吃饭吗？
+Jùjué le yícì, xiàcì hái néng yìqǐ chīfàn ma?
+*After turning someone down once, can you still have dinner together?*
+
+**波哥：**当然能。门开着，人就还在。
+Dāngrán néng. Ménkāi zhe, rén jiù hái zài.
+*Of course. The door is open, so the friendship stays.*
 
 **莎莎：**全对！毕业了。
 Quán duì! Bìyè le.
@@ -569,9 +625,25 @@ Wǒ kěnéng qù bu liǎo, xiàcì ba.
 Zhè jǐ tiān yǒudiǎnr bù fāngbiàn.
 *These days are a bit inconvenient for me.*
 
+**波哥：**三句话都不硬，可是都是真话。
+Sānjùhuà dōu bú yìng, kěshì dōu shì zhēnhuà.
+*Three lines, none of them hard, and all of them true.*
+
+**莎莎：**对。软软地说"不"，两个人都舒服。
+Duì. Ruǎnruǎn dìshuō"bù", liǎngge rén dōu shūfu.
+*Right. Say "no" softly and both of you feel fine.*
+
 **波哥：**拒绝，不是不喜欢别人。是照顾自己，也照顾别人。
 Jùjué, búshì bù xǐhuan biéren. Shì zhàogù zìjǐ, yě zhàogù biéren.
 *Refusing doesn't mean disliking someone. It's caring for yourself — and for them.*
+
+**莎莎：**会说"好"，也会说"不"，朋友才做得长。
+Huì shuō"hǎo", yě huì shuō"bù", péngyou cái zuò de cháng.
+*Know how to say "yes" and how to say "no", and friendships last.*
+
+**波哥：**这句话，我记住了。
+Zhèjù huà, wǒ jìzhù le.
+*That line, I'm keeping it.*
 
 **莎莎：**别忘了你的小事：用"我再想一想"写一句话，放在评论区。
 Bié wàng le nǐ de xiǎo shì: yòng "wǒ zài xiǎng yi xiǎng" xiě yí jù huà, fàng zài pínglùnqū.
@@ -618,3 +690,5 @@ Xiàcì jiàn. Mànmàn lái.
 - **This week:** the next time you want to say no, try the soft version — and keep it honest. 软，是好好地说真话。
 
 *© Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
+
+<script type="application/json" class="turn-times">{"v": 1, "t": [0.28, 3.14, 6.46, 9.2, 12.76, 14.86, 18.96, 24.2, 27.66, 33.1, 35.8, 42.44, 52.26, 56.42, 61.84, 65.88, 70.4, 77.02, 81.02, 88.03, 91.93, 97.49, 98.61, 102.41, 104.83, 108.45, 111.53, 115.65, 119.47, 123.35, 127.63, 132.17, 134.39, 138.71, 140.85, 146.85, 150.88, 157.24, 160.34, 164.44, 167.93, 172.34, 175.75, 178.84, 180.75, 186.0, 190.94, 196.63, 199.71, 204.03, 209.81, 213.17, 219.37, 223.47, 227.13, 230.45, 232.73, 237.15, 241.27, 245.51, 248.21, 253.01, 257.84, 264.12, 266.74, 270.84, 275.4, 280.38, 281.38, 285.34, 289.24, 295.24, 301.56, 307.12, 310.24, 314.8, 318.42, 322.72, 324.44, 330.2, 333.08, 336.72, 340.82, 345.54, 347.32, 354.48, 359.6, 364.54, 367.48, 371.86, 374.02, 379.04, 385.12, 392.79, 398.09, 402.63, 404.09, 410.15, 412.53, 418.75, 425.99, 431.53, 436.87, 440.65, 447.35, 453.39, 457.11, 464.49, 468.39, 473.69, 475.35, 479.51, 482.33, 485.59, 487.65, 492.07, 497.1, 499.3, 504.1, 507.12, 510.07, 512.74, 516.75, 520.65, 523.2, 526.36, 527.82, 531.42, 535.64, 538.2, 541.92, 544.18, 547.06, 549.48, 553.04, 557.44, 563.7, 569.34, 572.02, 578.52, 582.36, 585.92, 589.58, 594.92, 597.5, 600.84, 603.62]}</script>
