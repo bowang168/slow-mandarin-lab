@@ -139,7 +139,7 @@ Nà zěnme zuò yí ge ràng rén xǐhuan de kèrén ne?
 *And how do I become a guest people love?*
 
 **莎莎：**三件小事，就够了。今天也教你。
-Sān jiàn xiǎo shì, jiù gòu le. Jīntiān yě jiào nǐ.
+Sān jiàn xiǎo shì, jiù gòu le. Jīntiān yě jiāo nǐ.
 *Three small things — that's all. We'll teach you today.*
 
 **波哥：**好，我要学。别走开。
@@ -386,7 +386,7 @@ Wǒ bù xiǎng méiyǒu lǐmào, kěshì wǒ de dùzi shuō: bù xíng le.
 *I don't want to be rude, but my stomach says: no more.*
 
 **莎莎：**教你一句话：够了够了，我吃饱了。
-Jiào nǐ yí jù huà: gòu le gòu le, wǒ chībǎo le.
+Jiāo nǐ yí jù huà: gòu le gòu le, wǒ chībǎo le.
 *Here's your sentence: enough, enough — I'm full.*
 
 **波哥：**够了够了，我吃饱了。
