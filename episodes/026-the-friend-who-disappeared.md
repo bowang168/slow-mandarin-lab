@@ -186,6 +186,14 @@ Yìqǐ chīfàn, yìqǐ shàngkè, yìqǐ kǎoshì.
 Duì. Nà shíhou, Xiǎowén yǒu shénme shì, dì yī ge gàosu de jiùshì Dàwěi.
 *Right. Back then, whatever happened, Dawei was the first to know.*
 
+**波哥：**开心的事，难过的事，都先告诉他。
+Kāixīn de shì, nánguò de shì, dōu xiān gàosu tā.
+*Happy things, sad things, he told him first.*
+
+**莎莎：**考试考好了，第一个电话也是打给他的。
+Kǎoshì kǎohǎo le, dìyīge diànhuà yě shì dǎ gěi tā de.
+*After a good exam, the first phone call went to him too.*
+
 **波哥：**真正的好朋友。后来呢？
 Zhēnzhèng de hǎo péngyou. Hòulái ne?
 *A true friend. And then?*
@@ -317,6 +325,14 @@ Tā pà dǎrǎo Dàwěi.
 **莎莎：**对。大伟现在一定很忙吧？他还记得我吗？
 Duì. Dàwěi xiànzài yídìng hěn máng ba? Tā hái jìde wǒ ma?
 *Right. Dawei must be so busy now. Does he even remember me?*
+
+**波哥：**两年了，他的生活一定变了很多。
+Liǎngnián le, tā de shēnghuó yídìng biàn le hěnduō.
+*Two years. His life must have changed a lot.*
+
+**莎莎：**新的城市，新的朋友——小文越想越多。
+Xīn de chéngshì, xīn de péngyou——xiǎowényuè xiǎng yuè duō.
+*New city, new friends... the more Xiao Wen thought, the more there was.*
 
 **波哥：**越想，越不敢发。
 Yuè xiǎng, yuè bù gǎn fā.
@@ -526,6 +542,14 @@ Xīn de chéngshì, xīn de gōngzuò, háiyǒu dàxué shíhou de nàxiē lǎo 
 Xiàng huídào le yǐqián.
 *Like going back in time.*
 
+**莎莎：**两年的话，一个晚上说不完。
+Liǎngnián dehuà, yí ge wǎnshang shuōbùwán.
+*Two years of things to say won't fit in one evening.*
+
+**波哥：**没关系，后面还有很多个晚上。
+Méiguānxì, hòumiàn háiyǒu hěnduō ge wǎnshang.
+*That's fine. There are plenty of evenings ahead.*
+
 **莎莎：**小文说：我们两年没说话，可是一开口，还是老样子。
 Xiǎowén shuō: wǒmen liǎng nián méi shuōhuà, kěshì yì kāikǒu, háishì lǎo yàngzi.
 *Xiaowen says: two years of silence — and the moment we speak, we're the same as always.*
@@ -570,6 +594,14 @@ Zuìhòu tā fā de wǔ ge zì shì——
 Zuìjìn zěnmeyàng?
 *How have you been lately?*
 
+**莎莎：**为什么不用"你还记得我吗"开头？
+Wèishénme búyòng"nǐ hái jìde wǒ ma"kāitóu?
+*Why not open with "do you still remember me"?*
+
+**波哥：**太奇怪了。老朋友，不用想太多。
+Tài qíguài le. Lǎopéngyou, búyòng xiǎngtàiduō.
+*Too strange. Old friends don't need to overthink it.*
+
 **莎莎：**大伟的回答，告诉了我们什么？
 Dàwěi de huídá, gàosu le wǒmen shénme?
 *What did Dawei's reply tell us?*
@@ -595,6 +627,22 @@ Hǎo péngyou, bú pà wǎn.
 **波哥：**好朋友，不怕晚。两年不说话，一句话就回来了。
 Hǎo péngyou, bú pà wǎn. Liǎng nián bù shuōhuà, yí jù huà jiù huílái le.
 *Not afraid of late. Two years of silence — one sentence brings it back.*
+
+**莎莎：**门没有锁，只是没有人去开。
+Mén méiyǒu suǒ, zhǐshì méiyǒu rénqù kāi.
+*The door was never locked; no one went to open it.*
+
+**波哥：**谁先开口，谁就把门打开了。
+Shéi xiān kāikǒu, shéi jiù bǎmén dǎkāi le.
+*Whoever speaks first opens the door.*
+
+**莎莎：**五个字，就是那把钥匙。
+Wǔge zì, jiùshì nà bǎ yàoshi.
+*Five characters, and that's the key.*
+
+**波哥：**而且今天就可以用。
+Érqiě jīntiān jiù kěyǐ yòng.
+*And you can use it today.*
 
 **莎莎：**如果你心里也有一个"他很久没有消息了"的人，今天就发那五个字吧。
 Rúguǒ nǐ xīnlǐ yě yǒu yí ge "tā hěn jiǔ méiyǒu xiāoxi le" de rén, jīntiān jiù fā nà wǔ ge zì ba.
@@ -643,3 +691,5 @@ Xiàcì jiàn. Mànmàn lái.
 
 *Xiaowen and Dawei are fictional.
 © Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
+
+<script type="application/json" class="turn-times">{"v": 1, "t": [0.32, 9.84, 12.5, 17.04, 20.84, 22.72, 30.24, 34.08, 35.98, 38.22, 42.12, 46.78, 55.1, 59.52, 64.74, 70.88, 73.4, 79.3, 83.29, 87.51, 89.47, 95.67, 97.57, 104.75, 106.57, 111.69, 116.59, 122.89, 127.65, 131.71, 135.07, 142.59, 143.89, 147.27, 148.71, 153.07, 156.39, 162.41, 167.89, 175.45, 177.79, 183.25, 184.47, 186.79, 190.51, 196.57, 198.29, 202.91, 204.95, 211.17, 214.87, 217.61, 223.27, 229.53, 234.45, 239.39, 243.36, 246.0, 247.94, 258.14, 260.16, 264.88, 269.46, 275.94, 278.32, 286.99, 288.32, 289.99, 294.19, 301.75, 305.08, 310.58, 312.81, 319.12, 327.45, 331.33, 332.94, 335.44, 337.06, 343.63, 346.3, 353.18, 358.9, 362.9, 364.26, 365.74, 368.34, 375.04, 377.62, 381.2, 383.58, 387.38, 389.26, 393.68, 397.02, 400.1, 406.36, 410.74, 416.61, 420.89, 422.75, 427.27, 428.71, 437.53, 440.63, 444.01, 446.89, 453.37, 455.73, 460.27, 464.85, 471.03, 472.45, 478.93, 481.67, 486.11, 489.31, 496.73, 502.19, 509.17, 513.61, 522.67, 525.35, 527.17, 534.11, 536.67, 537.91, 541.83, 546.47, 550.09, 554.77, 560.99, 562.41, 565.09, 572.33, 575.93, 580.09, 583.17, 585.21, 591.69, 593.05, 599.83, 602.89, 606.77, 609.29, 615.49, 617.17]}</script>
