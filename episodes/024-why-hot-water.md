@@ -185,6 +185,14 @@ Māma wèn: Chīfàn le ma? Tiān lěng le, duō chuān yìdiǎnr, duō hē rès
 Hāhā, hěn duō māma dōu huì shuō zhè sān jù.
 *Haha — many mums know all three lines.*
 
+**波哥：**一句话都不长，可是都很暖。
+Yíjù huà dōu bùcháng, kěshì dōu hěn nuǎn.
+*None of these lines are long, but they're all warm.*
+
+**莎莎：**对，短短的话，里面都是心。
+Duì, duǎnduǎnde huà, lǐmiàn dōu shì xīn.
+*Right. Short words, full of heart.*
+
 **波哥：**可是莎莎，为什么是热水？为什么不是别的？
 Kěshì Shāsha, wèishénme shì rèshuǐ? Wèishénme búshì biéde?
 *But Sasha — why hot water? Why not something else?*
@@ -235,6 +243,22 @@ Chá yě shì rè de.
 Rè chá, rèshuǐ, rè tāng — hěn duō Zhōngguórén juéde, rè de dōngxi ràng shēntǐ shūfu.
 *Hot tea, hot water, hot soup — many Chinese people feel that warm things make the body comfortable.*
 
+**波哥：**我们国家正好不一样，很多人爱喝冰水。
+Wǒmen guójiā zhènghǎo bù yíyàng, hěnduō rén àihē bīngshuǐ.
+*My country is the opposite; lots of people love ice water.*
+
+**莎莎：**对，加了冰的水，夏天冬天都喝。
+Duì, jiā le bīng de shuǐ, xiàtiān dōngtiān dōu hē.
+*Right, water with ice, summer and winter.*
+
+**波哥：**第一次看到，我还有点儿不习惯。
+Dìyí cì kàndào, wǒ hái yǒudiǎnēr bù xíguàn.
+*The first time I saw that, it felt strange to me.*
+
+**莎莎：**你看，习惯就是这样，每个人都有自己的。
+Nǐ kàn, xíguàn jiùshì zhèyàng, měige rén dōu yǒu zìjǐ de.
+*See? That's how habits are; everyone has their own.*
+
 **波哥：**这是真的吗？热水真的对身体好吗？
 Zhè shì zhēn de ma? Rèshuǐ zhēn de duì shēntǐ hǎo ma?
 *Is that true, though? Is hot water really good for you?*
@@ -262,6 +286,14 @@ Nǐ dào le biéde guójiā, jiù huì kàndào biéde xíguàn.
 **波哥：**习惯不一样，没有谁对谁错。
 Xíguàn bù yíyàng, méiyǒu shéi duì shéi cuò.
 *Different habits — nobody's right or wrong.*
+
+**莎莎：**你现在也喝热水吗？
+Nǐ xiànzài yě hē rèshuǐ ma?
+*Do you drink hot water now too?*
+
+**波哥：**冬天喝。现在我的大杯子里，天天都是热水。
+Dōngtiān hē. Xiànzài wǒ de dà bēizi lǐ, tiāntiān dōu shì rèshuǐ.
+*In winter I do. These days my big bottle is full of hot water.*
 
 ### 小任务 · Your turn
 
@@ -465,6 +497,14 @@ Huà jiāshàng xiǎo shì, guānxīn cái shì zhēn de.
 Duì. Huà shì xīn de kāishǐ, búshì xīn de quánbù.
 *Right. Words are where the heart starts — not the whole of it.*
 
+**波哥：**话是开始，小事是后面的路。
+Huà shì kāishǐ, xiǎoshì shì hòumiàn de lù.
+*The words are the start; the little deed is the road after.*
+
+**莎莎：**说得真好，你都可以当老师了。
+Shuō de zhēn hǎo, nǐ dōu kěyǐ dāng lǎoshī le.
+*Well said. You could teach this class.*
+
 ### 一家人的关心话 · A family of caring phrases
 
 **波哥：**除了"多喝热水"，还有别的这样的话吗？
@@ -492,8 +532,16 @@ Nǐ yào chūmén le — lùshang xiǎoxīn.
 *You're heading out — take care on the road.*
 
 **波哥：**路上小心。
-Lùshang xiǎoxīn.
+Lùshàng xiǎoxīn.
 *Take care on the road.*
+
+**莎莎：**吃饭的时候，妈妈会说——慢慢吃。
+Chīfàn de shíhou, māma huì shuō——mànmàn chī.
+*At mealtimes, mum says: eat slowly.*
+
+**波哥：**慢慢吃。这些话我全都听过！
+Mànmàn chī. Zhèxiē huà wǒ quándōu tīngguò!
+*Eat slowly. I've heard every one of these!*
 
 **莎莎：**你也可以把这些话送回去。
 Nǐ yě kěyǐ bǎ zhèxiē huà sòng huíqù.
@@ -571,6 +619,30 @@ Tiān lěng le, zěnme guānxīn péngyou?
 Duō chuān yìdiǎnr.
 *Dress a bit warmer.*
 
+**莎莎：**朋友要出门，你说什么？
+Péngyou yào chūmén, nǐ shuō shénme?
+*A friend is heading out. What do you say?*
+
+**波哥：**路上小心。
+Lùshàng xiǎoxīn.
+*Take care on the road.*
+
+**莎莎：**这些话，都是什么意思？
+Zhèxiē huà, dōu shì shénme yìsi?
+*What do all these lines really mean?*
+
+**波哥：**我关心你。
+Wǒ guānxīn nǐ.
+*I care about you.*
+
+**莎莎：**这些话，怎么送回去？
+Zhèxiē huà, zěnme sòng huíqù?
+*How do you send these lines back?*
+
+**波哥：**你也是，多喝热水！
+Nǐ yě shì, duō hē rèshuǐ!
+*You too! Drink more hot water!*
+
 **莎莎：**全对！毕业了。
 Quán duì! Bìyè le.
 *All correct! You graduate.*
@@ -634,3 +706,5 @@ Hāhā, mànmàn lái.
 - **This week:** send one caring phrase to someone — 多穿一点儿 / 早点儿睡 / 路上小心 — and add one small action.
 
 *© Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
+
+<script type="application/json" class="turn-times">{"v": 1, "t": [0.35, 4.49, 9.09, 10.99, 13.25, 20.69, 24.47, 28.21, 33.97, 36.75, 43.59, 45.01, 54.59, 58.39, 63.69, 67.41, 71.71, 75.93, 86.88, 91.78, 97.26, 99.22, 109.64, 113.0, 118.28, 119.98, 127.0, 131.04, 134.24, 137.94, 143.15, 148.43, 153.66, 157.41, 159.09, 165.19, 166.66, 173.56, 178.52, 183.6, 185.64, 192.72, 197.0, 201.26, 204.78, 209.46, 213.72, 218.66, 221.14, 226.4, 230.62, 234.66, 238.0, 240.46, 245.68, 249.08, 251.06, 255.52, 259.74, 267.68, 272.64, 273.98, 280.96, 283.24, 289.3, 292.44, 297.94, 302.18, 305.11, 309.71, 312.59, 317.53, 321.33, 326.57, 329.55, 333.85, 336.19, 341.27, 345.91, 347.25, 348.75, 353.53, 358.03, 362.05, 365.97, 370.19, 373.09, 380.63, 383.69, 389.85, 394.27, 399.39, 402.13, 403.23, 408.61, 409.79, 414.61, 421.03, 424.45, 428.21, 431.5, 439.31, 442.75, 447.96, 451.61, 455.21, 458.73, 462.45, 463.93, 466.89, 468.41, 471.81, 473.45, 478.37, 481.99, 484.85, 486.03, 490.79, 496.31, 500.05, 501.79, 506.75, 509.81, 513.53, 516.15, 520.25, 523.47, 525.97, 528.27, 530.51, 533.53, 536.67, 538.29, 540.97, 542.37, 545.09, 546.65, 550.05, 552.37, 555.03, 559.77, 564.39, 570.71, 576.31, 580.99, 584.93, 591.23, 597.81, 601.15, 604.17, 606.55]}</script>
