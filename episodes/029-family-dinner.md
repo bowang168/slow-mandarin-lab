@@ -208,6 +208,14 @@ Yīnwèi zài hěnduō jiātíng, jiācài bù zhǐshì jiācài, shì "wǒ ài 
 Ó…… hěnduō rén bù hǎoyìsi shuō "wǒ ài nǐ", jiù yòng cài lái shuō.
 *Oh… people too shy to say "I love you" say it with food.*
 
+**莎莎：**上一集的热水，这一集的菜，是一家人。
+Shàng yìjí de rèshuǐ, zhè yìjí de cài, shì yìjiārén.
+*Last episode's hot water and this episode's food are one family.*
+
+**波哥：**都是心里的话，换了一个样子。
+Dōu shì xīnlǐ dehuà, huàn le yí ge yàngzi.
+*All words from the heart, wearing different clothes.*
+
 **莎莎：**对。所以"多吃一点，别客气"，也不只是让你吃。
 Duì. Suǒyǐ "duō chī yìdiǎn, bié kèqi", yě bù zhǐshì ràng nǐ chī.
 *Right. So "eat a little more, don't be polite" isn't only about eating either.*
@@ -277,6 +285,14 @@ Búyòng. Jiātíng jùcān búshì kàn lǐwù, shì kàn nǐ lái bu lái. Ré
 **波哥：**东西小，意思大。
 Dōngxi xiǎo, yìsi dà.
 *Small thing, big meaning.*
+
+**莎莎：**空手去，也没有人说你；可是带一点，心意就到了。
+Kōngshǒu qù, yě méiyǒu rén shuō nǐ; kěshì dài yìdiǎn, xīnyì jiù dào le.
+*Go empty-handed and nobody blames you; bring a little and the thought arrives.*
+
+**波哥：**心意，就是心里的意思。
+Xīnyì, jiùshì xīnlǐ de yìsi.
+*"Xinyi" means the thought behind the gift.*
 
 **莎莎：**对。第二件：吃的时候，说"好吃"。
 Duì. Dì èr jiàn: chī de shíhou, shuō "hǎochī".
@@ -500,6 +516,14 @@ Duì, shì chángjiàn de yàngzi. Nǐ dào le nàge jiā, yòng yǎnjing kàn, 
 Kàn biéren zěnme zuò, wǒ jiù zěnme zuò. Zhège bànfǎ nǎlǐ dōu néng yòng.
 *Watch what others do and do the same. That method works everywhere.*
 
+**莎莎：**对，这就是做客最大的规矩：用心看。
+Duì, zhè jiùshì zuòkè zuìdà de guījǔ: yòngxīnkàn.
+*Right. That's the biggest rule of visiting: watch with your heart.*
+
+**波哥：**比记住十条规矩都有用。
+Bǐ jìzhù shítiáo guījǔ dōu yǒuyòng.
+*More useful than memorising ten rules.*
+
 
 ### 快问快答 · Speed round
 
@@ -536,6 +560,14 @@ Chī dào hǎochī de cài, shuō shénme?
 **波哥：**太好吃了！
 Tài hǎochī le!
 *太好吃了!*
+
+**莎莎：**碗里的饭呢？
+Wǎn lǐ de fàn ne?
+*And the rice in your bowl?*
+
+**波哥：**吃多少，拿多少，尽量吃完。
+Chī duōshǎo, ná duōshǎo, jìnliàng chī wán.
+*Take what you'll eat, and try to finish it.*
 
 **莎莎：**真的吃不下了，说什么？
 Zhēnde chī bu xià le, shuō shénme?
@@ -633,3 +665,5 @@ Xiàcì jiàn. Mànmàn lái.
 - **Next invitation:** bring a little fruit and say 太好吃了 — then watch the cook smile.
 
 *© Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
+
+<script type="application/json" class="turn-times">{"v": 1, "t": [0.34, 6.68, 12.18, 13.62, 17.72, 21.6, 25.76, 27.06, 29.64, 34.2, 36.7, 41.48, 44.06, 49.6, 52.64, 57.24, 66.86, 71.32, 76.6, 82.28, 88.42, 94.66, 97.02, 103.97, 106.17, 113.13, 116.61, 121.87, 128.48, 134.52, 141.2, 146.32, 149.74, 155.82, 160.0, 166.64, 168.64, 173.34, 177.28, 181.98, 186.32, 195.27, 196.79, 201.05, 203.13, 207.55, 210.47, 218.31, 221.11, 226.97, 229.91, 234.63, 236.15, 241.83, 245.61, 252.49, 254.29, 259.1, 260.74, 267.42, 271.31, 275.0, 277.6, 283.51, 286.57, 291.36, 295.31, 302.83, 304.45, 309.48, 312.54, 320.26, 324.62, 325.96, 333.06, 337.78, 343.38, 350.01, 352.17, 356.73, 359.87, 365.71, 368.33, 373.35, 378.05, 382.77, 384.35, 392.57, 394.95, 400.27, 404.67, 411.07, 415.41, 422.83, 427.27, 434.59, 440.93, 444.61, 449.29, 452.67, 453.67, 461.79, 465.99, 473.35, 479.61, 484.29, 487.27, 491.89, 493.33, 495.09, 499.89, 502.89, 504.61, 508.01, 509.75, 511.71, 516.77, 520.99, 523.55, 527.11, 532.25, 536.71, 539.61, 543.03, 547.27, 555.35, 562.49, 567.41, 574.25, 580.97, 584.31, 590.67, 593.69, 599.61, 603.99, 608.55, 610.45]}</script>
