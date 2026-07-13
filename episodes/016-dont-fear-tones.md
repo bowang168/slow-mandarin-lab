@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Don't Fear Tones · 声调，别怕"
+title: "Scared of Chinese Tones? Slow Down · 声调，别怕"
 description: "Free study notes for Slow Mandarin Lab Episode 16: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/016-dont-fear-tones/
 note: 说慢一点 · learning method
 series: Season 1
-hsk: HSK 1-2
+hsk: HSK 2-3
 ---
 
 **Slow Mandarin Lab · Episode 16** — free study notes
@@ -634,3 +634,5 @@ Xiàcì jiàn. Mànmàn lái.
 - **This week:** whenever a sentence feels hard, don't speed up — slow down. 说慢一点，声调就清楚了。
 
 *© Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
+
+<script type="application/json" class="turn-times">{"v": 1, "t": [0.32, 5.6, 8.1, 9.46, 15.3, 16.86, 24.5, 28.74, 35.66, 45.62, 47.6, 53.04, 54.84, 67.72, 72.06, 77.98, 85.3, 91.1, 94.0, 99.4, 105.34, 106.92, 112.04, 115.81, 121.03, 123.85, 131.43, 135.85, 141.91, 148.11, 153.53, 157.19, 163.75, 169.33, 175.31, 180.45, 186.31, 189.65, 191.79, 196.85, 200.35, 203.44, 209.06, 217.09, 220.5, 221.85, 229.03, 233.22, 239.83, 246.51, 252.03, 257.23, 260.89, 267.87, 272.89, 279.83, 284.43, 290.83, 296.89, 300.47, 302.37, 307.33, 311.31, 318.29, 322.47, 331.39, 335.97, 345.35, 350.91, 356.09, 363.12, 370.42, 372.86, 376.96, 380.72, 386.8, 391.22, 397.12, 402.26, 408.08, 412.52, 418.12, 419.66, 429.64, 435.48, 440.92, 444.26, 451.34, 453.62, 461.54, 463.62, 471.62, 476.62, 485.32, 487.02, 493.58, 501.32, 510.52, 515.26, 525.2, 528.58, 536.08, 537.74, 542.44, 543.86, 547.12, 555.04, 559.76, 565.19, 569.73, 571.43, 574.41, 579.13, 583.09, 588.69, 592.53, 594.13, 596.11, 599.63, 604.99, 609.57, 612.32, 619.53, 626.75, 631.12, 636.88, 643.05, 649.48, 653.7, 658.72, 662.02, 667.9, 670.16]}</script>
