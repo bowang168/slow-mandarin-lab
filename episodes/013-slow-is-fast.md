@@ -247,6 +247,62 @@ Tīng de kuài, wàng de kuài; tīng de màn, jì de zhù.
 Shuō de zhēn hǎo. Zhè liǎng jù huà, qǐng nǐ jìzhù.
 *Well said. Please remember those two sentences.*
 
+**波哥：**对了，有一个朋友，给我们写了一句话。
+Duì le, yǒu yí ge péngyou, gěi wǒmen xiě le yíjù huà.
+*By the way, a friend wrote us a message.*
+
+**莎莎：**他说什么？
+Tā shuō shénme?
+*What did they say?*
+
+**波哥：**他说，以前他很着急，一天快听十遍。
+Tā shuō, yǐqián tā hěnzháojí, yìtiān kuài tīng shíbiàn.
+*They said they used to be anxious and listened fast ten times a day.*
+
+**莎莎：**十遍很多。他记住了吗？
+Shíbiàn hěnduō. Tā jìzhù le ma?
+*Ten times is a lot. Did they remember it?*
+
+**波哥：**没有。第二天早上，差不多都忘了。
+Méiyǒu. Dìèrtiān zǎoshang, chàbùduō dōu wàng le.
+*No. By the next morning, almost all of it was gone.*
+
+**莎莎：**后来呢？
+Hòulái ne?
+*Then what?*
+
+**波哥：**后来他试着慢下来，一天只慢听一遍。
+Hòulái tāshì zhe mànxiàlái, yìtiān zhǐmàn tīng yíbiàn.
+*Then they tried slowing down - just one slow listen a day.*
+
+**莎莎：**只听一遍，会不会太少？
+Zhǐ tīng yíbiàn, huì búhuì tài shǎo?
+*Only once - isn't that too little?*
+
+**波哥：**他也怕太少。可是这一遍，他真的记住了。
+Tā yě pà tàishǎo. Kěshì zhè yíbiàn, tā zhēnde jìzhù le.
+*They worried it was too little too. But that one time, they really remembered it.*
+
+**莎莎：**因为他慢慢听，所以他真的懂了。
+Yīnwèi tā mànmàn tīng, suǒyǐ tā zhēnde dǒng le.
+*Because they listened slowly, they truly understood.*
+
+**波哥：**快听十遍，也没有慢听一遍好。
+Kuài tīng shíbiàn, yě méiyǒu màntīng yíbiàn hǎo.
+*Ten fast listens aren't as good as one slow one.*
+
+**莎莎：**对。快听十遍，脑子还是空的。
+Duì. Kuài tīng shíbiàn, nǎozi háishì kōng de.
+*Right. Ten fast listens and your brain is still empty.*
+
+**波哥：**慢听一遍，词就留下来了。
+Màntīng yíbiàn, cí jiù liúxiàlái le.
+*One slow listen and the words stay.*
+
+**莎莎：**所以不是听得多，是听得慢。
+Suǒyǐ búshì tīngde duō, shì tīng de màn.
+*So it's not about listening more, but listening slowly.*
+
 ### 小任务 · Your turn
 
 **波哥：**莎莎，是不是到评论区时间了？
@@ -432,6 +488,38 @@ Yīnwèi màn de shíhou, měi ge zì, měi ge shēngdiào, dōu yào shuō qīn
 **波哥：**像把每个词，慢慢放到我手里。
 Xiàng bǎ měi ge cí, mànmàn fàngdào wǒ shǒu lǐ.
 *Like placing each word slowly into my hands.*
+
+**莎莎：**这就像喝茶，喝得慢，才喝出味道。
+Zhè jiù xiàng hēchá, hēdemàn, cái hē chū wèidào.
+*It's like tea - drink slowly and you taste the flavor.*
+
+**波哥：**喝得太快，就喝不出味道。
+Hēde tàikuài, jiù hē bùchū wèidào.
+*Drink too fast and you taste nothing.*
+
+**莎莎：**对。一杯茶，慢慢喝，才知道它好。
+Duì. Yìbēi chá, mànmàn hē, cái zhīdào tā hǎo.
+*Right. Sip a cup of tea slowly and you know how good it is.*
+
+**波哥：**慢慢喝，人也不着急了。
+Mànmàn hē, rén yě bù zháojí le.
+*Drink slowly and you stop feeling rushed.*
+
+**莎莎：**中文也一样，慢慢说，你才听得清楚。
+Zhōngwén yě yíyàng, mànmànshuō, nǐ cái tīng de qīngchǔ.
+*Chinese is the same - spoken slowly, you hear it clearly.*
+
+**波哥：**因为你们说得慢，所以我听得懂。
+Yīnwèi nǐmen shuō de màn, suǒyǐ wǒ tīng de dǒng.
+*Because you speak slowly, I can understand.*
+
+**莎莎：**对。慢慢来，你懂得更多。
+Duì. Mànmànlái, nǐ dǒngde gèng duō.
+*Right. Take it slow, and you'll understand more.*
+
+**波哥：**因为我不着急，所以我记得住。
+Yīnwèi wǒ bù zháojí, suǒyǐ wǒ jìdezhù.
+*Because I'm not rushed, I remember.*
 
 **莎莎：**如果你也想每天慢慢听一点，就订阅慢慢中文。
 Rúguǒ nǐ yě xiǎng měitiān mànmàn tīng yìdiǎn, jiù dìngyuè Mànmàn Zhōngwén.
@@ -625,4 +713,4 @@ Xiàcì jiàn. Mànmàn lái.
 
 *© Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
 
-<script type="application/json" class="turn-times">{"v": 1, "t": [0.35, 3.23, 4.65, 9.25, 13.71, 18.79, 23.19, 27.83, 34.53, 41.69, 43.19, 48.21, 52.61, 61.67, 66.23, 71.75, 78.29, 79.85, 86.07, 92.11, 96.75, 101.23, 102.75, 108.38, 112.86, 119.44, 123.5, 127.88, 132.54, 137.04, 141.72, 143.36, 148.52, 152.48, 157.3, 161.14, 166.7, 170.32, 174.43, 177.87, 185.04, 189.93, 247.93, 251.25, 257.51, 262.35, 266.17, 270.69, 277.53, 283.31, 286.87, 290.81, 295.57, 297.43, 303.25, 306.29, 313.95, 316.59, 320.75, 324.99, 332.05, 337.54, 342.14, 349.48, 356.06, 361.3, 364.9, 369.16, 375.48, 378.8, 385.06, 389.04, 391.96, 395.84, 401.4, 404.86, 409.69, 412.61, 416.17, 421.97, 428.03, 429.61, 434.29, 438.49, 442.61, 444.73, 450.65, 487.91, 492.91, 499.17, 503.11, 505.73, 509.93, 514.11, 517.85, 522.23, 526.17, 532.49, 537.77, 541.22, 547.8, 550.25, 553.11, 555.52, 557.26, 559.8, 562.76, 567.75, 571.42, 574.57, 578.99, 582.15, 583.69, 586.87, 590.77, 595.93, 600.31, 604.53, 610.53, 615.61, 620.53, 624.01, 630.35, 634.05, 638.13, 644.57, 647.85, 653.21, 658.15, 662.09, 664.97]}</script>
+<script type="application/json" class="turn-times">{"v": 1, "t": [0.35, 3.23, 4.65, 9.25, 13.71, 18.79, 23.19, 27.83, 34.53, 41.69, 43.19, 48.21, 52.61, 61.67, 66.23, 71.75, 78.29, 79.85, 86.07, 92.11, 96.75, 101.23, 102.75, 108.38, 112.86, 119.44, 123.5, 127.88, 132.54, 137.04, 141.72, 143.36, 148.52, 152.48, 157.3, 161.14, 166.7, 170.32, 174.43, 177.87, 185.04, 189.93, 194.72, 198.71, 200.28, 205.65, 209.13, 213.23, 214.69, 219.67, 223.31, 229.05, 233.25, 237.19, 241.35, 244.61, 247.93, 251.25, 257.51, 262.35, 266.17, 270.69, 277.53, 283.31, 286.87, 290.81, 295.57, 297.43, 303.25, 306.29, 313.95, 316.59, 320.75, 324.99, 332.05, 337.54, 342.14, 349.48, 356.06, 361.3, 364.9, 369.16, 375.48, 378.8, 385.06, 389.04, 391.96, 395.84, 401.4, 404.86, 409.69, 412.61, 416.17, 421.97, 428.03, 429.61, 434.29, 438.49, 442.61, 444.73, 450.65, 455.23, 460.51, 463.53, 469.93, 472.49, 477.21, 481.11, 484.75, 487.91, 492.91, 499.17, 503.11, 505.73, 509.93, 514.11, 517.85, 522.23, 526.17, 532.49, 537.77, 541.22, 547.8, 550.25, 553.11, 555.52, 557.26, 559.8, 562.76, 567.75, 571.42, 574.57, 578.99, 582.15, 583.69, 586.87, 590.77, 595.93, 600.31, 604.53, 610.53, 615.61, 620.53, 624.01, 630.35, 634.05, 638.13, 644.57, 647.85, 653.21, 658.15, 662.09, 664.97]}</script>
