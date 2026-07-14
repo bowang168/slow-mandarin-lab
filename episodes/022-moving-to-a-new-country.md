@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Moving to a New Country · 搬到新的国家"
+title: "Moving to a New Country, Alone · 搬到新的国家"
 description: "Free study notes for Slow Mandarin Lab Episode 22: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/022-moving-to-a-new-country/
 note: 先住下来 · slow story
