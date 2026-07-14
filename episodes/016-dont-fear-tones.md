@@ -6,10 +6,11 @@ permalink: /episodes/016-dont-fear-tones/
 note: 说慢一点 · learning method
 series: Season 1
 hsk: HSK 2-3
+youtube_id: Vb1jLxRXYh0
 ---
 
 **Slow Mandarin Lab · Episode 16** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=Vb1jLxRXYh0) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 Beginner-friendly slow Mandarin. Every line is shown three ways: **汉字 Hanzi**, pinyin,
 and *a short English gloss* — the same three layers you see on screen in the video.
