@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Talking About Stress · 压力很大"
+title: "When Everything Feels Too Much · 压力很大"
 description: "Free study notes for Slow Mandarin Lab Episode 19: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/019-talking-about-stress/
 note: 想休息一下 · slow story
 series: Season 1
-hsk: HSK 2-3
+hsk: HSK 3-4
 ---
 
 **Slow Mandarin Lab · Episode 19** — free study notes
@@ -627,3 +627,5 @@ Xiàcì jiàn. Mànmàn lái.
 
 *Xiaoyu and Xiaoyun are fictional characters.
 © Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
+
+<script type="application/json" class="turn-times">{"v": 1, "t": [0.32, 6.1, 9.58, 13.62, 19.78, 25.5, 28.5, 33.98, 35.76, 43.3, 47.22, 54.66, 62.64, 66.92, 71.64, 78.94, 82.89, 87.13, 90.39, 95.57, 100.09, 104.83, 108.51, 117.87, 121.55, 130.55, 132.29, 141.05, 147.79, 153.77, 155.97, 162.99, 167.21, 171.99, 177.45, 183.43, 185.43, 189.83, 193.89, 197.11, 202.11, 209.81, 214.07, 219.37, 220.81, 225.29, 231.55, 234.39, 238.98, 245.94, 249.72, 251.72, 259.48, 263.46, 265.76, 271.3, 272.62, 276.64, 278.64, 284.26, 289.15, 293.03, 294.79, 301.39, 305.83, 314.69, 316.19, 326.07, 330.99, 338.89, 341.89, 346.93, 351.13, 354.35, 360.79, 364.38, 368.07, 372.12, 376.15, 380.38, 383.88, 391.27, 394.24, 402.61, 408.88, 415.43, 418.64, 423.69, 427.05, 431.14, 437.79, 441.05, 449.31, 454.11, 458.33, 464.77, 467.03, 474.77, 476.55, 482.47, 486.37, 492.77, 497.19, 503.25, 510.11, 517.11, 521.73, 526.03, 527.51, 531.91, 535.71, 539.21, 544.25, 547.95, 550.89, 556.75, 558.09, 560.57, 567.61, 573.89, 582.09, 587.87, 591.13, 597.15, 598.63, 606.39, 615.27, 623.75, 627.01, 630.19, 632.99]}</script>
