@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "How Chinese People Say No Politely · 怎么委婉拒绝"
+title: "How to Say No Politely in Chinese · 怎么委婉拒绝"
 description: "Free study notes for Slow Mandarin Lab Episode 23: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/023-saying-no-politely/
 note: 我再想一想 · thinking
