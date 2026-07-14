@@ -3,15 +3,15 @@ layout: page
 title: "Afraid to Speak Chinese? · 怕说错，怎么办？"
 description: "Three repair sentences, what really happens when you make a mistake, full three-layer transcript — Slow Mandarin Lab Episode 5."
 permalink: /episodes/005-afraid-of-saying-it-wrong/
-youtube_id: xLn7akdro94
-upload_date: 2026-07-06
+youtube_id: 34w-EJY5oSo
+upload_date: 2026-07-14
 hsk: HSK 3-4
 note: 没关系 · speaking confidence
 series: Season 1
 ---
 
 **Slow Mandarin Lab · Episode 5** — free study notes
-Video: [Watch on YouTube](https://www.youtube.com/watch?v=xLn7akdro94) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=34w-EJY5oSo) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 Beginner-friendly slow Mandarin. Every line is shown three ways: **汉字 Hanzi**, pinyin,
 and *a short English gloss* — the same three layers you see on screen in the video.
@@ -609,4 +609,4 @@ Xiàcì jiàn. Mànmàn lái.
 
 *© Slow Mandarin Lab — free for personal study; please link to this page rather than re-posting.*
 
-<script type="application/json" class="turn-times">{"v": 1, "t": [0.28, 5.22, 10.54, 12.06, 13.5, 14.72, 21.32, 25.28, 29.98, 32.96, 37.4, 45.92, 47.6, 59.86, 64.34, 69.66, 75.86, 82.27, 86.91, 91.01, 93.61, 96.49, 100.17, 106.85, 112.53, 119.09, 122.97, 127.29, 130.41, 135.39, 136.69, 140.85, 145.34, 149.06, 150.75, 154.25, 159.46, 161.38, 167.44, 169.78, 171.58, 177.4, 180.58, 183.38, 185.2, 189.74, 194.16, 197.06, 201.62, 208.86, 216.83, 219.51, 221.89, 226.03, 229.45, 233.85, 237.15, 242.77, 245.45, 250.49, 254.11, 261.43, 264.17, 270.29, 272.15, 277.73, 282.13, 286.31, 289.45, 295.01, 299.99, 305.81, 309.81, 313.45, 317.03, 318.09, 326.89, 332.12, 336.82, 342.84, 345.46, 350.78, 357.22, 360.3, 365.14, 368.64, 372.1, 374.4, 377.36, 383.08, 386.6, 389.62, 392.34, 396.82, 403.54, 405.2, 410.64, 411.88, 415.34, 422.4, 427.7, 435.38, 440.87, 446.24, 450.45, 453.25, 456.44, 459.24, 462.52, 464.14, 466.56, 470.12, 474.0, 478.9, 480.5, 484.06, 487.9, 495.36, 501.94, 511.88, 515.44, 521.02, 525.96, 530.16, 537.0, 544.22, 547.44, 550.2]}</script>
+<script type="application/json" class="turn-times">{"v": 1, "t": [0.28, 5.2, 10.54, 12.06, 13.5, 14.72, 21.3, 25.28, 29.98, 32.92, 37.4, 45.92, 47.6, 59.86, 64.34, 69.66, 75.86, 82.27, 86.91, 91.09, 93.75, 96.67, 100.35, 106.79, 111.85, 119.11, 123.41, 127.73, 130.83, 136.31, 137.61, 141.75, 146.25, 149.97, 151.65, 155.17, 160.37, 162.29, 168.35, 170.71, 173.27, 178.53, 181.49, 184.29, 186.11, 190.65, 195.09, 197.97, 202.53, 209.77, 217.72, 220.46, 222.8, 226.94, 230.36, 235.02, 238.06, 243.68, 246.36, 251.4, 255.02, 262.34, 265.08, 271.2, 273.06, 278.64, 283.05, 287.23, 290.37, 296.05, 300.9, 306.73, 310.79, 314.31, 317.94, 319.0, 327.81, 333.04, 337.71, 343.76, 346.38, 351.68, 358.06, 361.2, 366.04, 369.56, 373.0, 375.3, 378.28, 384.0, 387.5, 390.66, 393.26, 397.74, 404.46, 406.12, 411.56, 412.82, 416.26, 423.32, 428.62, 436.32, 441.8, 445.2, 451.37, 454.17, 457.35, 460.15, 463.43, 465.05, 467.45, 471.03, 474.85, 480.17, 481.79, 485.71, 489.21, 496.65, 503.23, 513.19, 516.75, 522.31, 527.25, 531.45, 538.29, 545.37, 548.75, 551.49]}</script>
