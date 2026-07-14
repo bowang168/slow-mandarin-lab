@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Losing Confidence · 失去信心的时候"
+title: "The Day He Almost Quit Chinese · 失去信心的时候"
 description: "Free study notes for Slow Mandarin Lab Episode 28: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/028-losing-confidence/
 note: 今天不行≠明天不行 · slow story
