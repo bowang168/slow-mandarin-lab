@@ -1,15 +1,17 @@
 ---
 layout: page
-title: "Did You Really Understand? · 你是什么意思？"
+title: "I Waited 40 Minutes at the Wrong Place · 老地方见"
 description: "Free study notes for Slow Mandarin Lab Episode 20: full transcript with Hanzi, pinyin and English, key vocabulary, and speaking practice."
 permalink: /episodes/020-asking-for-clarification/
 note: 你的意思是……吗 · dialogue
 series: Season 1
 hsk: HSK 3
+youtube_id: nqH4W6rTLYc
+upload_date: 2026-07-16
 ---
 
 **Slow Mandarin Lab · Episode 20** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=nqH4W6rTLYc) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 Slow, clear Mandarin for adult learners. Every line is shown three ways: **汉字 Hanzi**, pinyin,
 and *a short English gloss* — the same three layers you see on screen in the video.
