@@ -6,10 +6,12 @@ permalink: /episodes/018-seeing-a-doctor/
 note: 从……开始 · dialogue
 series: Season 1
 hsk: HSK 3
+youtube_id: g4e-4vKKVm0
+upload_date: 2026-07-15
 ---
 
 **Slow Mandarin Lab · Episode 18** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=g4e-4vKKVm0) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 Beginner-friendly slow Mandarin. Every line is shown three ways: **汉字 Hanzi**, pinyin,
 and *a short English gloss* — the same three layers you see on screen in the video.
