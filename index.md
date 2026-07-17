@@ -13,7 +13,7 @@ title: Slow Mandarin Lab · Study Notes
   not isolated words.</p>
   <a class="btn btn-coral" href="https://www.youtube.com/@SlowMandarinLab" target="_blank" rel="noopener">▶ Watch on YouTube</a>
   <a class="btn btn-ghost" href="https://open.spotify.com/show/033Llgmynn7dS3qmLspdA2" target="_blank" rel="noopener">🎧 Listen on Spotify</a>
-  <p class="start-here">New here? <a href="{{ '/episodes/001-why-you-forget-chinese-words/' | relative_url }}">Start with Episode 1 →</a></p>
+  <p class="start-here">New here? <a href="{{ '/episodes/016-dont-fear-tones/' | relative_url }}">Start with Episode 16 →</a></p>
 </div>
 
 ## Episodes
