@@ -38,7 +38,8 @@
 
 /* ---------- Base ---------- */
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; color-scheme: light; }
+html[data-theme="dark"] { color-scheme: dark; }
 body {
   margin: 0;
   background: var(--paper);
@@ -382,6 +383,10 @@ html[data-theme="dark"] .turn.now { background: rgba(69, 192, 163, 0.10); }
     max-height: max(10rem, calc(100vh - 660px));
     overflow-y: auto; overscroll-behavior: contain; padding-right: 0.4rem;
   }
+}
+/* slim theme-aware scrollbars on internal scroll areas */
+.study-guide ol, .sec-pop {
+  scrollbar-width: thin; scrollbar-color: var(--mist) transparent;
 }
 @media print { .study-guide { display: none !important; } }
 
