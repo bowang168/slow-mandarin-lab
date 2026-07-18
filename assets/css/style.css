@@ -152,7 +152,7 @@ main.wrap { padding-top: 1.6rem; padding-bottom: 3rem; }
 body.hide-zh .turn .zh, body.hide-zh .qcard .zh { display: none; }
 body.hide-py .turn .py, body.hide-py .qcard .py { display: none; }
 body.hide-en .turn .en, body.hide-en .turn em, body.hide-en .qcard em { display: none; }
-body.hide-zh .turn .py { font-size: 1.15rem; }   /* pinyin steps up when hanzi is hidden */
+body.hide-zh .turn .py { font-size: calc(1.15rem * var(--zh-scale)); }   /* pinyin steps up when hanzi is hidden */
 
 /* ---------- Layer toggle bar ---------- */
 .layer-bar {
@@ -236,7 +236,7 @@ code { background: var(--mist); border-radius: 4px; padding: 0.06rem 0.35rem; fo
 @media (max-width: 560px) {
   body { font-size: 16px; }
   .hero h1 { font-size: 1.7rem; }
-  .turn .zh { font-size: 1.26rem; }
+  .turn .zh { font-size: calc(1.26rem * var(--zh-scale)); }
 
   /* compact header: logo + chip + Episodes + ▶ + 🌙 in one row, no overlap */
   .header-inner { gap: 0.5rem; padding: 0.55rem 1rem; }
@@ -466,3 +466,203 @@ html[data-theme="dark"] .turn.now { background: rgba(69, 192, 163, 0.10); }
 .follow-pill.show { display: block; }
 .follow-pill:hover { filter: brightness(1.1); }
 @media print { .follow-pill { display: none !important; } }
+
+/* ======================================================================
+   Learner UX pack: icons · display settings · ruby · tone colors ·
+   vocab-in-context · Anki export · section nav · progress · home path
+   ====================================================================== */
+
+/* ---------- Inline SVG icons ---------- */
+.icon { width: 1em; height: 1em; vertical-align: -0.12em; display: inline-block; }
+.theme-toggle .icon { vertical-align: -0.18em; }
+
+/* ---------- Design-token cleanup: one micro-label scale ---------- */
+.card .ep-no, .brand-chip, .ep-hsk, .turn .seek-chip, .ep-nav-dir,
+.layer-bar .lb-label {
+  font-size: 0.72rem; font-weight: 800; letter-spacing: 0.06em;
+}
+a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid var(--coral-deep); outline-offset: 2px;
+}
+.layer-toggle:not(.on):hover, .pctl:not(.on):hover {
+  background: rgba(26, 143, 118, 0.10);
+}
+
+/* ---------- Hanzi size (Aa popover, persisted) ---------- */
+:root { --zh-scale: 1; }
+.turn .zh { font-size: calc(1.34rem * var(--zh-scale)); }
+.turn .py { font-size: calc(0.95rem * var(--zh-scale)); }
+.qcard .zh { font-size: calc(1.5rem * var(--zh-scale)); }
+.qcard .py { font-size: calc(1rem * var(--zh-scale)); }
+
+/* ---------- Tone colors (Pleco convention; tuned per theme) ---------- */
+:root {
+  --tone1: #C03A2B; --tone2: #3D8B37; --tone3: #2B6CB0;
+  --tone4: #8E44AD; --tone5: #8A9490;
+}
+html[data-theme="dark"] {
+  --tone1: #FF8A67; --tone2: #7BD88A; --tone3: #7FB8FF;
+  --tone4: #C89BF0; --tone5: #93A29D;
+}
+body.tones-on .pys.t1, body.tones-on ruby.t1 rt { color: var(--tone1); }
+body.tones-on .pys.t2, body.tones-on ruby.t2 rt { color: var(--tone2); }
+body.tones-on .pys.t3, body.tones-on ruby.t3 rt { color: var(--tone3); }
+body.tones-on .pys.t4, body.tones-on ruby.t4 rt { color: var(--tone4); }
+body.tones-on .pys.t5, body.tones-on ruby.t5 rt { color: var(--tone5); }
+.tone-dots { display: inline-flex; gap: 3px; align-items: center; }
+.tone-dots .td { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.tone-dots .t1 { background: var(--tone1); }
+.tone-dots .t2 { background: var(--tone2); }
+.tone-dots .t3 { background: var(--tone3); }
+.tone-dots .t4 { background: var(--tone4); }
+
+/* ---------- Ruby pinyin (拼音 above characters) ---------- */
+.turn .zh rt, .qcard .zh rt {
+  display: none;
+  font-family: var(--font-zh); font-weight: 400; font-size: 0.42em;
+  color: var(--jade-deep); letter-spacing: 0; text-align: center;
+  padding-bottom: 0.12em;
+}
+body.ruby-on .turn .zh rt, body.ruby-on .qcard .zh rt { display: ruby-text; }
+body.ruby-on .turn .zh { line-height: 2.3; }
+body.ruby-on .qcard .zh { line-height: 2.25; }
+/* ruby replaces the pinyin line — unless hanzi itself is hidden */
+body.ruby-on:not(.hide-zh) .turn .py,
+body.ruby-on:not(.hide-zh) .qcard .py { display: none; }
+/* pinyin layer off also hides the ruby annotations */
+body.hide-py .turn .zh rt, body.hide-py .qcard .zh rt { display: none; }
+.pop-ruby rt { display: ruby-text; font-size: 0.5em; color: var(--jade-deep); }
+
+/* ---------- Popovers off the sticky bar ---------- */
+.bar-pop {
+  position: absolute; top: calc(100% + 8px); right: 0; z-index: 30;
+  min-width: 250px; max-width: min(330px, calc(100vw - 2rem));
+  background: var(--paper); border: 1px solid var(--mist); border-radius: 14px;
+  box-shadow: 0 14px 36px rgba(12, 30, 26, 0.22);
+  padding: 0.4rem; display: none;
+}
+.bar-pop.open { display: block; }
+.sec-pop { max-height: min(60vh, 420px); overflow-y: auto; }
+.pop-row {
+  display: flex; align-items: center; justify-content: space-between; gap: 0.8rem;
+  width: 100%; text-align: left; font: inherit; font-size: 0.9rem; font-weight: 600;
+  color: var(--ink); background: transparent; border: 0; border-radius: 9px;
+  padding: 0.55rem 0.65rem;
+}
+button.pop-row { cursor: pointer; }
+button.pop-row:hover { background: rgba(26, 143, 118, 0.10); }
+.pop-label { display: inline-flex; align-items: center; gap: 0.45rem; min-width: 0; }
+.pop-sep { border-top: 1px solid var(--mist); margin: 0.3rem 0.4rem; }
+.pop-hint { flex-basis: 100%; font-size: 0.72rem; font-weight: 500; color: var(--muted); }
+.pop-action { flex-wrap: wrap; row-gap: 0.1rem; justify-content: flex-start; gap: 0.45rem; }
+.pop-knob {
+  flex: none; width: 34px; height: 20px; border-radius: 999px;
+  background: var(--mist); position: relative; transition: background 0.15s;
+}
+.pop-knob::after {
+  content: ""; position: absolute; top: 2px; left: 2px; width: 16px; height: 16px;
+  border-radius: 50%; background: #fff; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  transition: left 0.15s;
+}
+.pop-switch.on .pop-knob { background: var(--jade); }
+.pop-switch.on .pop-knob::after { left: 16px; }
+.pop-size-ctl { display: inline-flex; align-items: center; gap: 0.4rem; flex: none; }
+.pop-btn {
+  font: inherit; font-size: 0.82rem; font-weight: 800; cursor: pointer;
+  border: 1.5px solid var(--jade-deep); color: var(--jade-deep); background: transparent;
+  border-radius: 8px; padding: 0.15rem 0.5rem;
+}
+.pop-btn:disabled { opacity: 0.35; cursor: default; }
+.size-val {
+  font-size: 0.78rem; font-weight: 800; color: var(--muted);
+  min-width: 3em; text-align: center; font-variant-numeric: tabular-nums;
+}
+.sec-item { font-weight: 600; }
+.sec-h2 { font-weight: 800; }
+.sec-h3 { padding-left: 1.5rem; font-weight: 500; }
+h2, h3 { scroll-margin-top: 120px; }
+
+/* ---------- Vocab-in-context ---------- */
+.turn .vocab-hit {
+  border-bottom: 1.5px dotted rgba(26, 143, 118, 0.55); cursor: pointer;
+}
+.turn .vocab-hit:hover { border-bottom-style: solid; }
+.vocab-tip {
+  position: fixed; z-index: 60; display: none;
+  max-width: min(320px, calc(100vw - 24px));
+  background: #22322F; color: #F5EFE3; border-radius: 10px;
+  padding: 0.5rem 0.75rem; box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+  font-size: 0.9rem; line-height: 1.5;
+}
+.vocab-tip.show { display: block; }
+.vt-w { font-family: var(--font-zh); font-weight: 500; font-size: 1.2rem; margin-right: 0.5rem; }
+.vt-py { font-family: var(--font-zh); color: #62D4B8; }
+.vt-en { display: block; font-style: italic; opacity: 0.9; }
+
+/* ---------- Anki export + toast ---------- */
+.anki-row { margin: -0.4rem 0 1.6rem; }
+.anki-btn {
+  font: inherit; font-size: 0.8rem; font-weight: 800; cursor: pointer;
+  color: var(--jade-deep); background: transparent; border: 1.5px solid var(--jade-deep);
+  border-radius: 999px; padding: 0.24rem 0.85rem;
+}
+.anki-btn:hover { background: var(--jade-deep); color: var(--paper); }
+.sml-toast {
+  position: fixed; left: 50%; bottom: 72px; z-index: 70;
+  transform: translateX(-50%) translateY(8px);
+  background: #16211F; color: #F5EFE3; border-radius: 10px;
+  padding: 0.55rem 0.95rem; font-size: 0.85rem; font-weight: 600;
+  max-width: min(420px, calc(100vw - 24px)); text-align: center;
+  opacity: 0; pointer-events: none; transition: opacity 0.2s, transform 0.2s;
+}
+.sml-toast.show { opacity: 1; transform: translateX(-50%); }
+
+/* ---------- Reading progress ---------- */
+.read-progress {
+  position: fixed; top: 0; left: 0; height: 3px; width: 0; z-index: 40;
+  background: linear-gradient(90deg, var(--jade), var(--jade-light));
+}
+
+/* ---------- Home: start-here banner + sort ---------- */
+.start-banner {
+  display: flex; align-items: center; gap: 0.7rem; text-align: left;
+  max-width: 30rem; margin: 1.2rem auto 0; padding: 0.6rem 0.9rem;
+  background: var(--card); border: 1px solid var(--mist); border-radius: 12px;
+  color: var(--ink);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.start-banner:hover {
+  text-decoration: none; border-color: var(--jade-deep);
+  box-shadow: 0 6px 18px rgba(12, 92, 75, 0.10);
+}
+.sb-tag {
+  flex: none; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #fff; background: var(--coral-deep);
+  border-radius: 999px; padding: 0.14rem 0.55rem;
+}
+.sb-txt { font-size: 0.9rem; line-height: 1.4; min-width: 0; }
+.sb-sub { display: block; font-size: 0.8rem; font-weight: 500; color: var(--muted); }
+.sb-arrow { margin-left: auto; color: var(--jade-deep); font-weight: 800; }
+
+/* ---------- Mobile: tap targets + two-row toolbar + popover fit ---------- */
+@media (max-width: 560px) {
+  .layer-toggle, .pctl { padding-top: 0.34rem; padding-bottom: 0.34rem; }
+  .lb-print { display: none; } /* print lives in the Aa popover on phones */
+  .pctl-time { display: inline; } /* room again on the player row */
+  /* the separator becomes a line break: layers+display row, player row */
+  .layer-bar .pctl-sep {
+    flex-basis: 100%; width: auto; height: 0; margin: 0; background: transparent;
+  }
+  .layer-bar { border-radius: 18px; }
+  .bar-pop { right: -0.25rem; }
+  h2, h3 { scroll-margin-top: 150px; }
+  .start-banner { margin-top: 1rem; }
+}
+
+/* ---------- Print: study aids stay, chrome goes ---------- */
+@media print {
+  .bar-pop, .read-progress, .anki-row, .sml-toast, .vocab-tip,
+  .start-banner, .follow-pill { display: none !important; }
+  .turn .vocab-hit { border-bottom: 0; }
+  .turn .zh rt, .qcard .zh rt { color: #444; }
+}

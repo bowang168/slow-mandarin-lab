@@ -39,7 +39,7 @@
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}">Episodes</a>
         <a class="nav-yt" href="https://www.youtube.com/@SlowMandarinLab" target="_blank" rel="noopener"
-           aria-label="YouTube"><span class="nav-yt-full">YouTube&nbsp;↗</span><span class="nav-yt-icon">▶</span></a>
+           aria-label="YouTube"><span class="nav-yt-full">YouTube&nbsp;↗</span><span class="nav-yt-icon"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.4v13.2a.5.5 0 0 0 .76.43l10.5-6.6a.5.5 0 0 0 0-.86L8.76 4.97a.5.5 0 0 0-.76.43z"/></svg></span></a>
         <button type="button" class="theme-toggle" title="Light / dark theme" aria-label="Toggle light or dark theme">🌙</button>
       </nav>
     </div>
@@ -53,14 +53,16 @@
       <p>Slow enough to follow. Complete enough to use. —
         <a href="https://www.youtube.com/@SlowMandarinLab" target="_blank" rel="noopener">@SlowMandarinLab</a></p>
       <p class="foot-links">
-        <a href="https://www.youtube.com/@SlowMandarinLab" target="_blank" rel="noopener">▶ YouTube</a> ·
-        <a href="https://open.spotify.com/show/033Llgmynn7dS3qmLspdA2" target="_blank" rel="noopener">🎧 Spotify</a> ·
-        <a href="https://buymeacoffee.com/bowang168" target="_blank" rel="noopener">☕ Buy me a coffee</a>
+        <a href="https://www.youtube.com/@SlowMandarinLab" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.4v13.2a.5.5 0 0 0 .76.43l10.5-6.6a.5.5 0 0 0 0-.86L8.76 4.97a.5.5 0 0 0-.76.43z"/></svg> YouTube</a> ·
+        <a href="https://open.spotify.com/show/033Llgmynn7dS3qmLspdA2" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 14v-2a9 9 0 0 1 18 0v2"/><rect x="3" y="14" width="4" height="6" rx="2"/><rect x="17" y="14" width="4" height="6" rx="2"/></svg> Spotify</a> ·
+        <a href="https://buymeacoffee.com/bowang168" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M6 2v2M10 2v2M14 2v2"/></svg> Buy me a coffee</a>
       </p>
       <p class="foot-small">© Slow Mandarin Lab · Free for personal study — please link to these pages rather than
         re-posting.</p>
     </div>
   </footer>
+  <script src="{{ '/assets/js/pinyin.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
   <script src="{{ '/assets/js/study.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/assets/js/study-ui.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </body>
 </html>

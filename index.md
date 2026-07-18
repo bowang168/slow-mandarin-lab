@@ -11,9 +11,13 @@ title: Slow Mandarin Lab · Study Notes
   Two native hosts, natural conversations, and whole-sentence captions in
   <strong>Hanzi + pinyin + English</strong> — so you follow complete Mandarin thoughts,
   not isolated words.</p>
-  <a class="btn btn-coral" href="https://www.youtube.com/@SlowMandarinLab" target="_blank" rel="noopener">▶ Watch on YouTube</a>
-  <a class="btn btn-ghost" href="https://open.spotify.com/show/033Llgmynn7dS3qmLspdA2" target="_blank" rel="noopener">🎧 Listen on Spotify</a>
-  <p class="start-here">New here? <a href="{{ '/episodes/016-dont-fear-tones/' | relative_url }}">Start with Episode 16 →</a></p>
+  <a class="btn btn-coral" href="https://www.youtube.com/@SlowMandarinLab" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.4v13.2a.5.5 0 0 0 .76.43l10.5-6.6a.5.5 0 0 0 0-.86L8.76 4.97a.5.5 0 0 0-.76.43z"/></svg> Watch on YouTube</a>
+  <a class="btn btn-ghost" href="https://open.spotify.com/show/033Llgmynn7dS3qmLspdA2" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 14v-2a9 9 0 0 1 18 0v2"/><rect x="3" y="14" width="4" height="6" rx="2"/><rect x="17" y="14" width="4" height="6" rx="2"/></svg> Listen on Spotify</a>
+  <a class="start-banner" href="{{ '/episodes/016-dont-fear-tones/' | relative_url }}">
+    <span class="sb-tag">New here?</span>
+    <span class="sb-txt"><strong>Start with Episode 16 — 声调，别怕</strong><span class="sb-sub">a gentle first episode: tones, minus the fear</span></span>
+    <span class="sb-arrow" aria-hidden="true">→</span>
+  </a>
 </div>
 
 ## Episodes

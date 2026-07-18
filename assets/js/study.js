@@ -4,12 +4,29 @@
 (function () {
   "use strict";
 
+  /* Inline SVG icons (lucide-style, currentColor) — shared with study-ui.js.
+     Emoji render differently on every OS; these keep the UI consistent. */
+  var S = '<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">';
+  var F = '<svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">';
+  var ICONS = {
+    play: F + '<path d="M8 5.4v13.2a.5.5 0 0 0 .76.43l10.5-6.6a.5.5 0 0 0 0-.86L8.76 4.97a.5.5 0 0 0-.76.43z"/></svg>',
+    pause: F + '<rect x="6.5" y="5" width="3.6" height="14" rx="1"/><rect x="13.9" y="5" width="3.6" height="14" rx="1"/></svg>',
+    loop: S + '<path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg>',
+    printer: S + '<path d="M6 9V3h12v6"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8" rx="1"/></svg>',
+    sun: S + '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',
+    moon: S + '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>',
+    list: S + '<path d="M8 6h13M8 12h13M8 18h13"/><path d="M3 6h.01M3 12h.01M3 18h.01"/></svg>',
+    download: S + '<path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>',
+    close: S + '<path d="M18 6 6 18M6 6l12 12"/></svg>'
+  };
+  window.SMLIcons = ICONS;
+
   /* Theme toggle — init happens pre-paint in default.html; this wires the button */
   var toggle = document.querySelector(".theme-toggle");
   function paintToggle() {
     if (!toggle) return;
     var dark = document.documentElement.getAttribute("data-theme") === "dark";
-    toggle.textContent = dark ? "\u2600\uFE0F" : "\uD83C\uDF19"; /* sun / moon */
+    toggle.innerHTML = dark ? ICONS.sun : ICONS.moon;
     toggle.setAttribute("aria-pressed", dark ? "true" : "false");
   }
   if (toggle) {
@@ -74,7 +91,8 @@
       '<span class="lt-full">English</span><span class="lt-short">EN</span></button>' +
     '<button type="button" class="layer-toggle lb-print" aria-label="Print / PDF" ' +
       'title="Prints only the layers you have switched on">' +
-      '<span class="lt-full">🖨 PDF</span><span class="lt-short">🖨</span></button>';
+      '<span class="lt-full">' + window.SMLIcons.printer + ' PDF</span>' +
+      '<span class="lt-short">' + window.SMLIcons.printer + '</span></button>';
   firstTurn.parentNode.insertBefore(bar, firstTurn);
   bar.querySelector(".lb-print").addEventListener("click", function () { window.print(); });
 
@@ -143,42 +161,110 @@
     var chip = document.createElement("button");
     chip.type = "button";
     chip.className = "seek-chip";
-    chip.textContent = "\u25B6 " + fmt(times[i]);
+    chip.innerHTML = window.SMLIcons.play + " " + fmt(times[i]);
     chip.title = "Play from this line (click again to replay it)";
     p.insertBefore(chip, p.firstChild);
   });
 
   /* player controls in the sticky layer bar */
   var bar = document.querySelector(".layer-bar");
-  var btnPlay = null, btnLoop = null, timeLabel = null;
+  var btnPlay = null, btnLoop = null, btnRate = null, timeLabel = null;
   if (bar) {
     var sep = document.createElement("span");
     sep.className = "pctl-sep";
     btnPlay = document.createElement("button");
     btnPlay.type = "button";
     btnPlay.className = "pctl pctl-play";
-    btnPlay.textContent = "\u25B6";
+    btnPlay.innerHTML = window.SMLIcons.play;
     btnPlay.title = "Play / pause";
+    btnPlay.setAttribute("aria-label", "Play / pause");
     btnLoop = document.createElement("button");
     btnLoop.type = "button";
     btnLoop.className = "pctl pctl-loop";
-    btnLoop.textContent = "\uD83D\uDD01";
+    btnLoop.innerHTML = window.SMLIcons.loop;
     btnLoop.title = "Loop the current line";
+    btnLoop.setAttribute("aria-label", "Loop the current line");
+    btnRate = document.createElement("button");
+    btnRate.type = "button";
+    btnRate.className = "pctl pctl-rate";
+    btnRate.textContent = "1\u00D7";
+    btnRate.title = "Playback speed \u2014 slow it down to shadow along";
+    btnRate.setAttribute("aria-label", "Playback speed");
     timeLabel = document.createElement("span");
     timeLabel.className = "pctl-time";
     bar.appendChild(sep);
     bar.appendChild(btnPlay);
     bar.appendChild(btnLoop);
+    bar.appendChild(btnRate);
     bar.appendChild(timeLabel);
   }
 
   var player = null, ready = false, pendingSeek = null;
+
+  /* playback speed — the whole channel is about slowing down, so make it
+     one tap: 1× → 0.75× → 0.5× → 1× (remembered across pages) */
+  var RATES = [1, 0.75, 0.5];
+  var rate = 1;
+  try { rate = parseFloat(localStorage.getItem("sml_rate")) || 1; } catch (e) {}
+  if (RATES.indexOf(rate) === -1) rate = 1;
+  function paintRate() {
+    if (!btnRate) return;
+    btnRate.textContent = rate + "×";
+    btnRate.classList.toggle("on", rate !== 1);
+  }
+  function applyRate() {
+    if (ready && typeof player.setPlaybackRate === "function") player.setPlaybackRate(rate);
+  }
+  if (btnRate) {
+    paintRate();
+    btnRate.addEventListener("click", function () {
+      rate = RATES[(RATES.indexOf(rate) + 1) % RATES.length];
+      try { localStorage.setItem("sml_rate", String(rate)); } catch (e) {}
+      paintRate();
+      applyRate();
+    });
+  }
+
+  /* resume memory — most learners don't finish an episode in one sitting */
+  var posKey = "sml_pos_" + location.pathname;
+  var savedPos = 0;
+  try { savedPos = parseFloat(localStorage.getItem(posKey)) || 0; } catch (e) {}
+  var resumePill = null;
+  function hideResume() {
+    if (resumePill) { resumePill.parentNode.removeChild(resumePill); resumePill = null; }
+  }
+  if (savedPos >= 45) {
+    resumePill = document.createElement("button");
+    resumePill.type = "button";
+    resumePill.className = "follow-pill resume-pill show";
+    resumePill.innerHTML = window.SMLIcons.play + " Continue at " + fmt(savedPos);
+    resumePill.title = "Resume where you left off last time";
+    document.body.appendChild(resumePill);
+    resumePill.addEventListener("click", function () {
+      var t = savedPos;
+      hideResume();
+      seek(Math.max(0, t - 2));
+    });
+  }
+  var lastSaved = 0;
+  function savePos(t, dur) {
+    if (t < 20 || (dur && t > dur - 45)) {
+      if (lastSaved) { try { localStorage.removeItem(posKey); } catch (e) {} }
+      lastSaved = 0;
+      return;
+    }
+    if (Math.abs(t - lastSaved) < 3) return;
+    lastSaved = t;
+    try { localStorage.setItem(posKey, String(Math.floor(t))); } catch (e) {}
+  }
+
   function create() {
     if (player || !(window.YT && window.YT.Player)) return;
     player = new YT.Player(iframe, {
       events: {
         onReady: function () {
           ready = true;
+          applyRate();
           if (pendingSeek !== null) { doSeek(pendingSeek); pendingSeek = null; }
         }
       }
@@ -202,7 +288,7 @@
   var followPill = document.createElement("button");
   followPill.type = "button";
   followPill.className = "follow-pill";
-  followPill.textContent = "\u2913 Follow audio";
+  followPill.innerHTML = window.SMLIcons.download + " Follow audio";
   followPill.title = "Scroll back to the playing line and keep following";
   document.body.appendChild(followPill);
   function setFollow(on) { follow = on; }
@@ -263,14 +349,22 @@
     return ready && player.getDuration ? player.getDuration() : NaN;
   }
 
+  var lastPlayIcon = "";
   setInterval(function () {
     if (!ready) return;
     var st = player.getPlayerState();
-    if (btnPlay) btnPlay.textContent = st === 1 ? "\u275A\u275A" : "\u25B6";
+    var icon = st === 1 ? "pause" : "play";
+    if (btnPlay && icon !== lastPlayIcon) {
+      btnPlay.innerHTML = window.SMLIcons[icon];
+      lastPlayIcon = icon;
+    }
     followPill.classList.toggle("show", !follow && st === 1);
     if (timeLabel && typeof player.getCurrentTime === "function")
       timeLabel.textContent = fmt(player.getCurrentTime() || 0);
     if (st !== 1) return;
+    hideResume();
+    savePos(player.getCurrentTime() || 0,
+      typeof player.getDuration === "function" ? player.getDuration() || 0 : 0);
     var t = player.getCurrentTime(), idx = -1;
     for (var i = 0; i < turns.length; i++) {
       var ti = turnTime(i);
