@@ -66,10 +66,15 @@
   bar.className = "layer-bar";
   bar.innerHTML =
     '<span class="lb-label">Layers</span>' +
-    '<button type="button" class="layer-toggle" data-layer="zh">汉字 Hanzi</button>' +
-    '<button type="button" class="layer-toggle" data-layer="py">拼音 Pinyin</button>' +
-    '<button type="button" class="layer-toggle" data-layer="en">English</button>' +
-    '<button type="button" class="layer-toggle lb-print" title="Prints only the layers you have switched on">🖨 PDF</button>';
+    '<button type="button" class="layer-toggle" data-layer="zh">' +
+      '<span class="lt-full">汉字 Hanzi</span><span class="lt-short">汉字</span></button>' +
+    '<button type="button" class="layer-toggle" data-layer="py">' +
+      '<span class="lt-full">拼音 Pinyin</span><span class="lt-short">拼音</span></button>' +
+    '<button type="button" class="layer-toggle" data-layer="en">' +
+      '<span class="lt-full">English</span><span class="lt-short">EN</span></button>' +
+    '<button type="button" class="layer-toggle lb-print" aria-label="Print / PDF" ' +
+      'title="Prints only the layers you have switched on">' +
+      '<span class="lt-full">🖨 PDF</span><span class="lt-short">🖨</span></button>';
   firstTurn.parentNode.insertBefore(bar, firstTurn);
   bar.querySelector(".lb-print").addEventListener("click", function () { window.print(); });
 
