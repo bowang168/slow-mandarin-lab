@@ -668,6 +668,10 @@ h2, h3 { scroll-margin-top: 120px; }
 .sb-txt { font-size: 0.9rem; line-height: 1.4; min-width: 0; }
 .sb-sub { display: block; font-size: 0.8rem; font-weight: 500; color: var(--muted); }
 .sb-arrow { margin-left: auto; color: var(--jade-deep); font-weight: 800; }
+/* Spotify demoted to a quiet aside — YouTube is the one CTA (watch time → YPP) */
+.hero .also-on { font-size: 0.78rem; color: var(--muted); margin: 0.55rem 0 0; }
+.hero .also-on a { color: var(--muted); text-decoration: underline; text-underline-offset: 3px; }
+.hero .also-on a:hover { color: var(--jade-deep); }
 
 /* ---------- Mobile: tap targets + two-row toolbar + popover fit ---------- */
 @media (max-width: 560px) {
