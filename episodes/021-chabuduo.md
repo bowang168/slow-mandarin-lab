@@ -6,10 +6,12 @@ permalink: /episodes/021-chabuduo/
 note: 还差一点 · thinking
 series: Season 1
 hsk: HSK 3-4
+youtube_id: EcvqtGe_nv4
+upload_date: 2026-07-16
 ---
 
 **Slow Mandarin Lab · Episode 21** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=EcvqtGe_nv4) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 Slow, clear Mandarin for adult learners. Every line is shown three ways: **汉字 Hanzi**, pinyin,
 and *a short English gloss* — the same three layers you see on screen in the video.
