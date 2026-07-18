@@ -212,6 +212,7 @@ code { background: var(--mist); border-radius: 4px; padding: 0.06rem 0.35rem; fo
   padding: 1.6rem 0 2.2rem; text-align: center; color: var(--muted); font-size: 0.88rem;
 }
 .site-footer .foot-zh { font-family: var(--font-zh); font-weight: 500; font-size: 1.15rem; color: var(--jade-deep); margin: 0 0 0.3rem; }
+.site-footer .foot-zh-en { font-family: var(--font-en); font-style: italic; font-size: 0.85rem; color: var(--muted); font-weight: 500; }
 .site-footer .foot-small { font-size: 0.78rem; max-width: 36rem; margin: 0.6rem auto 0; }
 
 /* ---------- CJK inline defaults ---------- */

@@ -8,9 +8,7 @@ title: Slow Mandarin Lab · Study Notes
   <h1>Slow Mandarin Lab</h1>
   <p class="tagline-zh">听懂完整意思，再开口使用。</p>
   <p class="tagline-en">Slow enough to follow. Complete enough to use.<br>
-  Two native hosts, natural conversations, and whole-sentence captions in
-  <strong>Hanzi + pinyin + English</strong> — so you follow complete Mandarin thoughts,
-  not isolated words.</p>
+  Two native hosts, real conversations — every sentence in <strong>汉字 · pinyin · English</strong>.</p>
   <a class="btn btn-coral" href="https://www.youtube.com/@SlowMandarinLab" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.4v13.2a.5.5 0 0 0 .76.43l10.5-6.6a.5.5 0 0 0 0-.86L8.76 4.97a.5.5 0 0 0-.76.43z"/></svg> Watch on YouTube</a>
   <p class="also-on">Audio-only? Also on <a href="https://open.spotify.com/show/033Llgmynn7dS3qmLspdA2" target="_blank" rel="noopener">Spotify</a>.</p>
   <a class="start-banner" href="{{ '/episodes/016-dont-fear-tones/' | relative_url }}">
@@ -22,7 +20,7 @@ title: Slow Mandarin Lab · Study Notes
 
 ## Episodes
 
-Newest first — every episode gets a free study page: the full transcript (汉字 · pinyin · English, with switchable layers), key vocabulary, the pattern of the day, and a speaking task.
+Every episode has a free study page — the full transcript in three switchable layers, key vocabulary, and a speaking task.
 
 {% assign eps = site.pages | where_exp: "p", "p.url contains '/episodes/'" | sort: "url" %}
 {% assign published = "" | split: "" %}{% assign upcoming = "" | split: "" %}
@@ -45,9 +43,10 @@ Newest first — every episode gets a free study page: the full transcript (汉�
 {% endfor %}
 </div>
 
+{% if upcoming.size > 0 %}
 ## Coming soon 预告
 
-Study pages are already live for the rest of Season 1 — videos are added as they publish.
+Study pages are live already — videos unlock as they publish.
 
 <div class="cards cards-upcoming">
 {% for ep in upcoming %}{% assign parts = ep.title | split: " · " %}{% assign num = ep.url | split: "/episodes/" | last | slice: 0, 3 | plus: 0 %}
@@ -62,13 +61,10 @@ Study pages are already live for the rest of Season 1 — videos are added as th
   </a>
 {% endfor %}
 </div>
+{% endif %}
 
 ## How to use a study page
 
-1. **Listen first** — play the episode once without reading.
-2. **Read along** — replay it with the study page open; use the layer buttons to hide pinyin or English when you're ready.
-3. **Speak** — do the speed round out loud, then post your sentence in the video comments. We read them and reply.
-
----
-
-慢慢来，比较快。 — *Take it slow; it's faster.*
+1. **Listen first** — play the episode once, no reading.
+2. **Read along** — replay with the study page open; hide pinyin or English as you improve.
+3. **Speak** — say it out loud, then post your sentence in the comments. We reply.
