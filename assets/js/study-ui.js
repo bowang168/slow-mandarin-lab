@@ -394,6 +394,22 @@
     upd();
   }
 
+  /* auto-hide the sticky chrome while reading down, bring it back on the
+     first scroll up — CSS applies this on phones only */
+  (function () {
+    var lastY = window.scrollY || 0, acc = 0;
+    window.addEventListener("scroll", function () {
+      var y = Math.max(0, window.scrollY);
+      var dy = y - lastY;
+      lastY = y;
+      if (openPop) return; /* never hide the bar under an open popover */
+      if (y < 120) { document.body.classList.remove("chrome-hidden"); acc = 0; return; }
+      acc = (dy > 0) === (acc > 0) ? acc + dy : dy;
+      if (acc > 28) document.body.classList.add("chrome-hidden");
+      else if (acc < -12) document.body.classList.remove("chrome-hidden");
+    }, { passive: true });
+  })();
+
   if (bar) {
     enhanceTranscript();
     wireVocabTips();

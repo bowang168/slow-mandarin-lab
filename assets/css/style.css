@@ -248,8 +248,16 @@ code { background: var(--mist); border-radius: 4px; padding: 0.06rem 0.35rem; fo
   .nav-yt-icon { display: inline; font-size: 1.05rem; }
 
   /* compact layer bar rows: layers + display, then player controls */
-  .layer-bar { top: 50px; gap: 0.35rem; padding: 0.3rem 0.5rem; }
+  .layer-bar { top: 50px; gap: 0.3rem; padding: 0.25rem 0.5rem; }
   .lb-label { display: none; } /* home filter's "Level" label */
+
+  /* reading mode: scrolling down slides the chrome away (JS toggles the
+     class); the first scroll up brings it back */
+  @media (prefers-reduced-motion: no-preference) {
+    .site-header, .layer-bar { transition: transform 0.25s ease; }
+  }
+  body.chrome-hidden .site-header { transform: translateY(-110%); }
+  body.chrome-hidden .layer-bar { transform: translateY(calc(-100% - 72px)); }
   .layer-toggle { padding: 0.18rem 0.55rem; }
   .pctl { padding: 0.18rem 0.5rem; }
   .pctl-sep { margin: 0; }
