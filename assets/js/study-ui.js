@@ -272,7 +272,7 @@
           '<i class="td t3"></i><i class="td t4"></i></span></span>' +
         '<span class="pop-knob" aria-hidden="true"></span></button>' +
       '<button type="button" class="pop-row pop-switch" data-set="ruby" aria-pressed="false">' +
-        '<span class="pop-label">拼音 above characters <ruby class="pop-ruby">字<rt>zì</rt></ruby></span>' +
+        '<span class="pop-label">拼音 on top <ruby class="pop-ruby">字<rt>zì</rt></ruby></span>' +
         '<span class="pop-knob" aria-hidden="true"></span></button>' +
       '<div class="pop-sep"></div>' +
       '<button type="button" class="pop-row pop-action pop-print">' + (ICONS.printer || "") +
@@ -320,6 +320,21 @@
     pop.querySelector(".pop-print").addEventListener("click", function () {
       closePop();
       window.print();
+    });
+  }
+
+  /* ---------------- heading order: English first, 中文 after ----------------
+     Transcript h3s arrive from the pipeline as "开场 · Cold open" while the
+     h2s read "Full transcript 全文" — flip the h3s at display time so every
+     heading is English-first. Only titles whose right half is pure Latin are
+     flipped; bilingual-both-sides ones (会: a learned skill) stay put. */
+  function normalizeHeads() {
+    var scope = document.querySelector(".notes-col") || article;
+    if (!scope) return;
+    scope.querySelectorAll("h3").forEach(function (h) {
+      var m = h.textContent.trim().match(/^([^A-Za-z]+?)\s*·\s*([A-Za-z][^㐀-鿿]*)$/);
+      if (!m) return;
+      h.textContent = m[2].trim() + " · " + m[1].trim();
     });
   }
 
@@ -384,6 +399,7 @@
     wireVocabTips();
     wireAnkiExport();
     wireDisplayPop();
+    normalizeHeads();
     wireSectionsPop();
     wireProgress();
   }

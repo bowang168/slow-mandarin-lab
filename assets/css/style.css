@@ -553,6 +553,8 @@ button.pop-row { cursor: pointer; }
 button.pop-row:hover { background: rgba(26, 143, 118, 0.10); }
 .pop-label { display: inline-flex; align-items: center; gap: 0.45rem; min-width: 0; }
 .pop-sep { border-top: 1px solid var(--mist); margin: 0.3rem 0.4rem; }
+/* the Print row duplicates the toolbar PDF button on desktop — phones only */
+@media (min-width: 561px) { .aa-pop .pop-sep, .aa-pop .pop-print { display: none; } }
 .pop-hint { flex-basis: 100%; font-size: 0.72rem; font-weight: 500; color: var(--muted); }
 .pop-action { flex-wrap: wrap; row-gap: 0.1rem; justify-content: flex-start; gap: 0.45rem; }
 .pop-knob {
