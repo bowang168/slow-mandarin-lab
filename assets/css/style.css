@@ -138,13 +138,22 @@ main.wrap { padding-top: 1.6rem; padding-bottom: 3rem; }
   border-radius: 8px;
 }
 .turn:hover { background: rgba(255, 255, 255, 0.45); }
+/* each turn = a small meta row (speaker left · time right) + clean
+   full-width text block; no floats, so hanzi lines never wrap around chips */
+p.turn { display: flex; flex-wrap: wrap; align-items: center; }
 .turn .spk {
-  font-family: var(--font-zh); font-weight: 500; font-size: 0.85em;
-  border-radius: 6px; padding: 0.05rem 0.4rem; margin-right: 0.45rem;
-  color: var(--paper); vertical-align: 0.15em;
+  order: 0; margin-right: auto;
+  font-family: var(--font-zh); font-weight: 500; font-size: 0.8rem;
+  border-radius: 999px; padding: 0.08rem 0.55rem;
 }
-.turn.spk-shasha .spk { background: var(--jade-deep); }
-.turn.spk-boge .spk { background: var(--ink-soft); }
+.turn.spk-shasha .spk { background: rgba(26, 143, 118, 0.14); color: var(--jade-deep); }
+.turn.spk-boge .spk { background: rgba(22, 50, 47, 0.10); color: var(--ink-soft); }
+html[data-theme="dark"] .turn.spk-shasha .spk { background: rgba(69, 192, 163, 0.16); }
+html[data-theme="dark"] .turn.spk-boge .spk { background: rgba(255, 255, 255, 0.10); }
+.turn .zh, .turn .py, .turn .en, .turn em { flex-basis: 100%; }
+.turn .zh { order: 2; margin-top: 0.3rem; }
+.turn .py { order: 3; }
+.turn .en, .turn em { order: 4; }
 .turn .zh { font-family: var(--font-zh); font-weight: 500; font-size: 1.34rem; line-height: 1.75; color: var(--ink); }
 .turn .py { display: block; font-family: var(--font-zh); font-weight: 400; font-size: 0.95rem; color: var(--jade-deep); margin-top: 0.15rem; }
 .turn .en, .turn em { display: block; font-style: italic; font-size: 0.95rem; color: var(--muted); margin-top: 0.1rem; }
@@ -333,10 +342,10 @@ html[data-theme="dark"] .btn-subscribe { color: #16211F !important; }
 .turn { border-left: 3px solid transparent; }
 .turn.seekable { cursor: pointer; }
 .turn .seek-chip {
-  float: right; font: inherit; font-size: 0.72rem; font-weight: 800; cursor: pointer;
+  order: 1; font: inherit; font-size: 0.72rem; font-weight: 800; cursor: pointer;
   color: var(--jade-deep); background: transparent;
   border: 1.5px solid var(--mist); border-radius: 999px;
-  padding: 0.08rem 0.55rem; margin: 0.15rem 0 0 0.6rem;
+  padding: 0.08rem 0.55rem; margin: 0;
 }
 .turn:hover .seek-chip, .turn.now .seek-chip { border-color: var(--jade-deep); }
 .turn.now { border-left-color: var(--jade-deep); background: rgba(26, 143, 118, 0.08); }
