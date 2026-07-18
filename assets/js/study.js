@@ -82,17 +82,15 @@
   var bar = document.createElement("div");
   bar.className = "layer-bar";
   bar.innerHTML =
-    '<span class="lb-label">Layers</span>' +
-    '<button type="button" class="layer-toggle" data-layer="zh">' +
-      '<span class="lt-full">汉字 Hanzi</span><span class="lt-short">汉字</span></button>' +
-    '<button type="button" class="layer-toggle" data-layer="py">' +
-      '<span class="lt-full">拼音 Pinyin</span><span class="lt-short">拼音</span></button>' +
-    '<button type="button" class="layer-toggle" data-layer="en">' +
-      '<span class="lt-full">English</span><span class="lt-short">EN</span></button>' +
+    '<button type="button" class="layer-toggle" data-layer="zh" ' +
+      'title="汉字 Hanzi — show / hide the characters">汉字</button>' +
+    '<button type="button" class="layer-toggle" data-layer="py" ' +
+      'title="拼音 Pinyin — show / hide the romanization">拼音</button>' +
+    '<button type="button" class="layer-toggle" data-layer="en" ' +
+      'title="English — show / hide the gloss">EN</button>' +
     '<button type="button" class="layer-toggle lb-print" aria-label="Print / PDF" ' +
-      'title="Prints only the layers you have switched on">' +
-      '<span class="lt-full">' + window.SMLIcons.printer + ' PDF</span>' +
-      '<span class="lt-short">' + window.SMLIcons.printer + '</span></button>';
+      'title="Print / PDF — prints only the layers you have switched on">' +
+      window.SMLIcons.printer + '</button>';
   firstTurn.parentNode.insertBefore(bar, firstTurn);
   bar.querySelector(".lb-print").addEventListener("click", function () { window.print(); });
 

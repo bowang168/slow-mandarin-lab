@@ -166,9 +166,8 @@ body.hide-zh .turn .py { font-size: calc(1.15rem * var(--zh-scale)); }   /* piny
 .layer-toggle {
   font: inherit; font-size: 0.85rem; font-weight: 700; cursor: pointer; white-space: nowrap;
   border: 1.5px solid var(--jade-deep); color: var(--jade-deep); background: transparent;
-  border-radius: 999px; padding: 0.18rem 0.75rem;
+  border-radius: 999px; padding: 0.18rem 0.65rem;
 }
-.lt-short { display: none; }
 .layer-toggle.on { background: var(--jade-deep); color: var(--paper); }
 .layer-toggle:focus-visible { outline: 2px solid var(--coral-deep); outline-offset: 2px; }
 
@@ -248,11 +247,9 @@ code { background: var(--mist); border-radius: 4px; padding: 0.06rem 0.35rem; fo
   .nav-yt-full { display: none; }
   .nav-yt-icon { display: inline; font-size: 1.05rem; }
 
-  /* compact layer bar: 汉字 / 拼音 / EN / 🖨 + player controls in one row */
+  /* compact layer bar rows: layers + display, then player controls */
   .layer-bar { top: 50px; gap: 0.35rem; padding: 0.3rem 0.5rem; }
-  .lb-label { display: none; }
-  .lt-full { display: none; }
-  .lt-short { display: inline; }
+  .lb-label { display: none; } /* home filter's "Level" label */
   .layer-toggle { padding: 0.18rem 0.55rem; }
   .pctl { padding: 0.18rem 0.5rem; }
   .pctl-sep { margin: 0; }
