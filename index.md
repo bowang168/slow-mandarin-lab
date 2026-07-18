@@ -66,5 +66,7 @@ Study pages are live already — videos unlock as they publish.
 ## How to use a study page
 
 1. **Listen first** — play the episode once, no reading.
-2. **Read along** — replay with the study page open; hide pinyin or English as you improve.
-3. **Speak** — say it out loud, then post your sentence in the comments. We reply.
+2. **Read along** — replay with the study page open; the playing line follows the audio. Hide English first, later 拼音, as you level up.
+3. **Speak** — shadow one line at a time: loop it, slow it to 0.75×, say it out loud. Then post your sentence in the comments — we reply.
+
+Every page adds tap-to-define vocabulary, 拼音 above characters, tone colors matching the videos, and one-tap Anki export — open **Aa** on any episode.

@@ -474,6 +474,23 @@
     }, { passive: true });
   })();
 
+  /* the pipeline still writes a "How to use this page" block into every
+     episode body; the sidebar guide supersedes it, so hide the duplicate */
+  function hideLegacyHowTo() {
+    if (!article) return;
+    var ps = article.querySelectorAll("p");
+    for (var i = 0; i < ps.length; i++) {
+      var st = ps[i].querySelector("strong");
+      if (st && /^How to use this page/i.test(st.textContent.trim()) &&
+          ps[i].textContent.trim() === st.textContent.trim()) {
+        ps[i].style.display = "none";
+        var next = ps[i].nextElementSibling;
+        if (next && next.tagName === "OL") next.style.display = "none";
+        return;
+      }
+    }
+  }
+
   if (bar) {
     enhanceTranscript();
     wireVocabTips();
@@ -482,6 +499,7 @@
     normalizeHeads();
     wireSectionsPop();
     wireProgress();
+    hideLegacyHowTo();
   }
 
   /* ================= home page: easiest-first sort ================= */
