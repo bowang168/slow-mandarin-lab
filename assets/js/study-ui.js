@@ -268,8 +268,8 @@
         "</span></div>" +
       '<button type="button" class="pop-row pop-switch" data-set="tones" aria-pressed="false">' +
         '<span class="pop-label">Tone colors' +
-          ' <span class="tone-dots" aria-hidden="true"><i class="td t1"></i><i class="td t2"></i>' +
-          '<i class="td t3"></i><i class="td t4"></i></span></span>' +
+          ' <span class="tone-demo" aria-hidden="true"><i class="t1">mā</i><i class="t2">má</i>' +
+          '<i class="t3">mǎ</i><i class="t4">mà</i><i class="t5">ma</i></span></span>' +
         '<span class="pop-knob" aria-hidden="true"></span></button>' +
       '<button type="button" class="pop-row pop-switch" data-set="ruby" aria-pressed="false">' +
         '<span class="pop-label">拼音 on top <ruby class="pop-ruby">字<rt>zì</rt></ruby></span>' +

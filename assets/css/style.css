@@ -509,12 +509,16 @@ body.tones-on .pys.t2, body.tones-on ruby.t2 rt { color: var(--tone2); }
 body.tones-on .pys.t3, body.tones-on ruby.t3 rt { color: var(--tone3); }
 body.tones-on .pys.t4, body.tones-on ruby.t4 rt { color: var(--tone4); }
 body.tones-on .pys.t5, body.tones-on ruby.t5 rt { color: var(--tone5); }
-.tone-dots { display: inline-flex; gap: 3px; align-items: center; }
-.tone-dots .td { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
-.tone-dots .t1 { background: var(--tone1); }
-.tone-dots .t2 { background: var(--tone2); }
-.tone-dots .t3 { background: var(--tone3); }
-.tone-dots .t4 { background: var(--tone4); }
+/* live sample: the five tones on one syllable, each in its own color */
+.tone-demo { display: inline-flex; gap: 0.35em; align-items: baseline; }
+.tone-demo i {
+  font-style: normal; font-family: var(--font-zh); font-weight: 500; font-size: 0.95em;
+}
+.tone-demo .t1 { color: var(--tone1); }
+.tone-demo .t2 { color: var(--tone2); }
+.tone-demo .t3 { color: var(--tone3); }
+.tone-demo .t4 { color: var(--tone4); }
+.tone-demo .t5 { color: var(--tone5); }
 
 /* ---------- Ruby pinyin (拼音 above characters) ---------- */
 .turn .zh rt, .qcard .zh rt {
