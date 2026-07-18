@@ -161,6 +161,7 @@
     chip.className = "seek-chip";
     chip.innerHTML = window.SMLIcons.play + " " + fmt(times[i]);
     chip.title = "Play from this line (click again to replay it)";
+    chip.setAttribute("data-name", p.classList.contains("spk-shasha") ? "莎莎" : "波哥");
     p.insertBefore(chip, p.firstChild);
   });
 
@@ -356,6 +357,8 @@
       btnPlay.innerHTML = window.SMLIcons[icon];
       lastPlayIcon = icon;
     }
+    /* Zen layout dims everything but the current line while audio plays */
+    document.body.classList.toggle("sml-playing", st === 1);
     followPill.classList.toggle("show", !follow && st === 1);
     if (timeLabel && typeof player.getCurrentTime === "function")
       timeLabel.textContent = fmt(player.getCurrentTime() || 0);

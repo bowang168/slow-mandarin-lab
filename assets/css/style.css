@@ -688,3 +688,69 @@ h2, h3 { scroll-margin-top: 120px; }
   .turn .vocab-hit { border-bottom: 0; }
   .turn .zh rt, .qcard .zh rt { color: #444; }
 }
+
+/* ======================================================================
+   Transcript layouts (Aa popover · persisted): classic / dots / zen
+   classic = the base styles above; dots & zen override on top
+   ====================================================================== */
+.turn { position: relative; }
+
+/* --- layout picker in the Aa popover --- */
+.lay-seg { display: inline-flex; border: 1.5px solid var(--jade-deep); border-radius: 999px;
+  overflow: hidden; flex: none; }
+.lay-btn { font: inherit; font-size: 0.78rem; font-weight: 700; border: 0; background: transparent;
+  color: var(--jade-deep); padding: 0.22rem 0.6rem; cursor: pointer; white-space: nowrap; }
+.lay-btn.on { background: var(--jade-deep); color: var(--paper); }
+
+/* --- shared: dots & zen auto-hide the time chip (appears on hover / playing line) --- */
+body.layout-dots .turn .seek-chip, body.layout-zen .turn .seek-chip {
+  position: absolute; right: 0.15rem; top: 0.4rem; margin: 0; z-index: 2;
+  border-color: transparent; background: var(--paper); padding: 0.08rem 0.45rem;
+  opacity: 0; transition: opacity 0.18s; pointer-events: none;
+}
+body.layout-dots .turn:hover .seek-chip, body.layout-dots .turn.now .seek-chip,
+body.layout-zen .turn:hover .seek-chip, body.layout-zen .turn.now .seek-chip {
+  opacity: 1; pointer-events: auto;
+}
+body.layout-dots .turn .seek-chip::after, body.layout-zen .turn .seek-chip::after {
+  content: " · " attr(data-name); font-family: var(--font-zh); font-weight: 500;
+}
+@media (prefers-reduced-motion: reduce) {
+  body.layout-dots .turn .seek-chip, body.layout-zen .turn .seek-chip,
+  body.layout-zen .turn { transition: none; }
+}
+
+/* --- dots: color dot inline at the line start, compact rows --- */
+body.layout-dots .turn { display: block; padding: 0.45rem 0.2rem; }
+body.layout-dots .turn .spk {
+  display: inline-block; width: 0.42em; height: 0.42em; border-radius: 50%;
+  overflow: hidden; color: transparent; background: var(--muted);
+  padding: 0; margin: 0 0.5rem 0 0; vertical-align: 0.32em; white-space: nowrap;
+  font-size: 1.34rem;
+}
+body.layout-dots .turn.spk-shasha .spk { background: var(--jade-deep); }
+body.layout-dots .turn.spk-boge .spk { background: var(--coral-deep); }
+body.layout-dots .turn .zh { display: inline; margin-top: 0; }
+.spk-legend { display: none; font-size: 0.78rem; color: var(--muted); margin: 0.9rem 0 0.1rem; }
+body.layout-dots .spk-legend { display: block; }
+.spk-legend .ld { display: inline-block; width: 0.55em; height: 0.55em; border-radius: 50%;
+  margin: 0 0.3em 0 0.9em; }
+.spk-legend .ld-shasha { background: var(--jade-deep); margin-left: 0; }
+.spk-legend .ld-boge { background: var(--coral-deep); }
+
+/* --- zen: name as a quiet label line, three tiers flush left, focus dimming --- */
+body.layout-zen .turn { border-bottom-color: transparent; padding: 0.6rem 0.2rem;
+  transition: opacity 0.35s ease; }
+body.layout-zen .turn .spk {
+  flex-basis: 100%; background: transparent; color: var(--muted);
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.12em;
+  padding: 0; margin: 0 0 0.06rem; border-radius: 0; line-height: 1.3;
+}
+body.layout-zen .turn .zh { margin-top: 0.05rem; }
+body.layout-zen .turn.now { background: transparent; border-left-color: transparent; }
+body.layout-zen.sml-playing .turn { opacity: 0.34; }
+body.layout-zen.sml-playing .turn.now { opacity: 1; }
+@media print {
+  .spk-legend { display: none !important; }
+  body.layout-zen .turn, body.layout-dots .turn { opacity: 1 !important; }
+}

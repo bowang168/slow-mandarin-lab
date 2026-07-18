@@ -259,6 +259,16 @@
     var pop = document.createElement("div");
     pop.className = "bar-pop aa-pop";
     pop.innerHTML =
+      '<div class="pop-row pop-layout">' +
+        '<span class="pop-label">Layout</span>' +
+        '<span class="lay-seg" role="group" aria-label="Transcript layout">' +
+          '<button type="button" class="lay-btn" data-lay="classic" ' +
+            'title="Classic — speaker pills and timestamps always visible">经典</button>' +
+          '<button type="button" class="lay-btn" data-lay="dots" ' +
+            'title="Dots — compact color dots, timestamps appear on the playing line">圆点</button>' +
+          '<button type="button" class="lay-btn" data-lay="zen" ' +
+            'title="Zen — pure text, other lines fade while one plays">纯净</button>' +
+        "</span></div>" +
       '<div class="pop-row pop-size">' +
         '<span class="pop-label">汉字 size</span>' +
         '<span class="pop-size-ctl">' +
@@ -321,6 +331,33 @@
       closePop();
       window.print();
     });
+
+    /* transcript layout: classic pills / compact dots / zen focus reading */
+    var LAYOUTS = ["classic", "dots", "zen"];
+    var layBtns = pop.querySelectorAll(".lay-btn");
+    function applyLayout(lay) {
+      LAYOUTS.forEach(function (l) {
+        document.body.classList.toggle("layout-" + l, l === lay);
+      });
+      layBtns.forEach(function (b) {
+        b.classList.toggle("on", b.getAttribute("data-lay") === lay);
+      });
+      store("sml_layout", lay);
+    }
+    layBtns.forEach(function (b) {
+      b.addEventListener("click", function () { applyLayout(b.getAttribute("data-lay")); });
+    });
+    var storedLay = read("sml_layout");
+    applyLayout(LAYOUTS.indexOf(storedLay) > -1 ? storedLay : "zen");
+
+    /* dot-layout legend, shown by CSS only when that layout is active */
+    var firstTurn = document.querySelector(".turn");
+    if (firstTurn) {
+      var legend = document.createElement("p");
+      legend.className = "spk-legend";
+      legend.innerHTML = '<i class="ld ld-shasha"></i>莎莎 <i class="ld ld-boge"></i>波哥';
+      firstTurn.parentNode.insertBefore(legend, firstTurn);
+    }
   }
 
   /* ---------------- heading order: English first, 中文 after ----------------
