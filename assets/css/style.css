@@ -375,6 +375,14 @@ html[data-theme="dark"] .turn.now { background: rgba(69, 192, 163, 0.10); }
 .study-guide summary { cursor: pointer; font-weight: 800; font-size: 0.92rem; color: var(--jade-deep); }
 .study-guide ol { margin: 0.6rem 0 0.3rem; padding-left: 1.3rem; }
 .study-guide li { font-size: 0.92rem; margin: 0.35rem 0; }
+/* the video column is sticky on wide screens — anything taller than the
+   viewport would be unreachable, so the open guide scrolls inside itself */
+@media (min-width: 1140px) {
+  .wrap-wide .study-guide ol {
+    max-height: max(10rem, calc(100vh - 660px));
+    overflow-y: auto; overscroll-behavior: contain; padding-right: 0.4rem;
+  }
+}
 @media print { .study-guide { display: none !important; } }
 
 /* ---------- HSK level chips + home filter ---------- */
