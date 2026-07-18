@@ -156,6 +156,7 @@
       if (!CJK_RE.test(text)) return;
       var aligned = P ? P.align(text, py.textContent) : null;
       var withVocab = row.classList.contains("turn"); /* qcards teach the word already */
+      if (withVocab) row.setAttribute("data-plain", text); /* pre-ruby text, for Anki examples */
       host.innerHTML = renderLine(text, aligned, withVocab);
       if (aligned) row.classList.add("has-ruby");
     });
@@ -212,9 +213,38 @@
     window.addEventListener("scroll", hideTip, { passive: true });
   }
 
-  /* ---------------- Anki export ---------------- */
+  /* ---------------- Anki export ----------------
+     Five fields per note (word · pinyin · meaning · example · example pinyin,
+     example = the word's first line in this transcript) plus Anki file
+     headers, so a plain File → Import lands tagged, tab-separated notes. */
+  function exampleFor(word) {
+    var rows = document.querySelectorAll("p.turn[data-plain]");
+    for (var i = 0; i < rows.length; i++) {
+      if (rows[i].getAttribute("data-plain").indexOf(word) > -1) {
+        var py = rows[i].querySelector(".py");
+        return {
+          zh: rows[i].getAttribute("data-plain"),
+          py: py ? py.textContent.trim() : ""
+        };
+      }
+    }
+    return { zh: "", py: "" };
+  }
+
   function wireAnkiExport() {
     var slug = location.pathname.split("/").filter(Boolean).pop() || "episode";
+    var epNo = slug.match(/^(\d+)/);
+    var tags = "SlowMandarinLab" + (epNo ? " EP" + epNo[1] : "");
+    function clean(s) { return String(s).replace(/[\t\n\r]+/g, " ").trim(); }
+    function buildTsv(t) {
+      var lines = ["#separator:tab", "#html:false", "#tags:" + tags];
+      t.items.forEach(function (it) {
+        var ex = exampleFor(it.w);
+        lines.push([it.w, it.py, it.en, ex.zh, ex.py].map(clean).join("\t"));
+      });
+      return lines.join("\n") + "\n";
+    }
+    window.SMLAnkiTsv = function () { return tables.map(buildTsv); }; /* debug/test hook */
     tables.forEach(function (t) {
       var row = document.createElement("p");
       row.className = "anki-row";
@@ -222,14 +252,11 @@
       btn.type = "button";
       btn.className = "anki-btn";
       btn.innerHTML = (ICONS.download || "") + " Export for Anki (.tsv)";
-      btn.title = "Download these words as a tab-separated file — File → Import in Anki";
+      btn.title = "Tab-separated deck with example sentences — File → Import in Anki";
       row.appendChild(btn);
       t.table.parentNode.insertBefore(row, t.table.nextSibling);
       btn.addEventListener("click", function () {
-        var tsv = t.items.map(function (it) {
-          return it.w + "\t" + it.py + "\t" + it.en;
-        }).join("\n") + "\n";
-        var blob = new Blob([tsv], { type: "text/tab-separated-values;charset=utf-8" });
+        var blob = new Blob([buildTsv(t)], { type: "text/tab-separated-values;charset=utf-8" });
         var a = document.createElement("a");
         a.href = URL.createObjectURL(blob);
         a.download = slug + "-vocab.tsv";
@@ -237,7 +264,7 @@
         a.click();
         document.body.removeChild(a);
         setTimeout(function () { URL.revokeObjectURL(a.href); }, 5000);
-        toast(t.items.length + " cards exported — import the .tsv in Anki (File → Import)");
+        toast(t.items.length + " cards exported (word · pinyin · meaning · example) — File → Import in Anki");
       });
     });
   }
