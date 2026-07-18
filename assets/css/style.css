@@ -509,14 +509,17 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
 .qcard .zh { font-size: calc(1.5rem * var(--zh-scale)); }
 .qcard .py { font-size: calc(1rem * var(--zh-scale)); }
 
-/* ---------- Tone colors (Pleco convention; tuned per theme) ---------- */
+/* ---------- Tone colors ----------
+   Mirrors the video pipeline SSOT (ytfactory scripts/shorts_factory/
+   tone_palette.py): CREAM set on the light theme, DARK set on the dark
+   theme — the same colors learners see on the pinyin ruby in every video. */
 :root {
-  --tone1: #C03A2B; --tone2: #3D8B37; --tone3: #2B6CB0;
-  --tone4: #8E44AD; --tone5: #8A9490;
+  --tone1: #2D6FE0; --tone2: #C8860D; --tone3: #1F8A70;
+  --tone4: #E04A2F; --tone5: #6B7280;
 }
 html[data-theme="dark"] {
-  --tone1: #FF8A67; --tone2: #7BD88A; --tone3: #7FB8FF;
-  --tone4: #C89BF0; --tone5: #93A29D;
+  --tone1: #6FA8FF; --tone2: #FFD166; --tone3: #3FD9B0;
+  --tone4: #FF7A66; --tone5: #C7CFD6;
 }
 body.tones-on .pys.t1, body.tones-on ruby.t1 rt { color: var(--tone1); }
 body.tones-on .pys.t2, body.tones-on ruby.t2 rt { color: var(--tone2); }
