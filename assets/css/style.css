@@ -712,7 +712,9 @@ body.layout-dots .turn:hover .seek-chip, body.layout-dots .turn.now .seek-chip,
 body.layout-zen .turn:hover .seek-chip, body.layout-zen .turn.now .seek-chip {
   opacity: 1; pointer-events: auto;
 }
-body.layout-dots .turn .seek-chip::after, body.layout-zen .turn .seek-chip::after {
+/* dots hides the name, so the floating chip carries it; zen already
+   shows the name above every line — no suffix there */
+body.layout-dots .turn .seek-chip::after {
   content: " · " attr(data-name); font-family: var(--font-zh); font-weight: 500;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -746,6 +748,9 @@ body.layout-zen .turn .spk {
   font-size: 0.68rem; font-weight: 700; letter-spacing: 0.12em;
   padding: 0; margin: 0 0 0.06rem; border-radius: 0; line-height: 1.3;
 }
+/* outrank the dark-theme pill tints (they carry one extra class) */
+body.layout-zen .turn.spk-shasha .spk,
+body.layout-zen .turn.spk-boge .spk { background: transparent; }
 body.layout-zen .turn .zh { margin-top: 0.05rem; }
 body.layout-zen .turn.now { background: transparent; border-left-color: transparent; }
 body.layout-zen.sml-playing .turn { opacity: 0.34; }
