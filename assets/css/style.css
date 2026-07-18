@@ -523,7 +523,9 @@ body.tones-on .pys.t5, body.tones-on ruby.t5 rt { color: var(--tone5); }
   color: var(--jade-deep); letter-spacing: 0; text-align: center;
   padding-bottom: 0.12em;
 }
-body.ruby-on .turn .zh rt, body.ruby-on .qcard .zh rt { display: ruby-text; }
+/* `revert` restores each browser's own rt rendering — iOS Safari rejects
+   the literal `display: ruby-text` value and would keep rt hidden */
+body.ruby-on .turn .zh rt, body.ruby-on .qcard .zh rt { display: revert; }
 body.ruby-on .turn .zh { line-height: 2.3; }
 body.ruby-on .qcard .zh { line-height: 2.25; }
 /* ruby replaces the pinyin line — unless hanzi itself is hidden */
@@ -531,7 +533,7 @@ body.ruby-on:not(.hide-zh) .turn .py,
 body.ruby-on:not(.hide-zh) .qcard .py { display: none; }
 /* pinyin layer off also hides the ruby annotations */
 body.hide-py .turn .zh rt, body.hide-py .qcard .zh rt { display: none; }
-.pop-ruby rt { display: ruby-text; font-size: 0.5em; color: var(--jade-deep); }
+.pop-ruby rt { display: revert; font-size: 0.5em; color: var(--jade-deep); }
 
 /* ---------- Popovers off the sticky bar ---------- */
 .bar-pop {
