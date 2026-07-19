@@ -2,16 +2,23 @@
    Brand SSOT: ytfactory docs/brand-design-spec.md
    Jade #1A8F76 · Ink #16211F · Paper #F5EFE3 · Coral #F0613E (+ support shades) */
 
-/* ---------- Fonts (self-hosted, OFL — see assets/fonts/LICENSE.txt) ---------- */
+/* ---------- Fonts (self-hosted, free commercial — see assets/fonts/LICENSE.txt)
+   SSOT (2026-07-19): hanzi = FZKai default / 秋鸿楷 opt-in (Aa panel) ·
+   pinyin = Andika only · English/UI = Manrope. ---------- */
 @font-face {
-  font-family: "SML WenKai";                 /* LXGW WenKai GB Lite Medium — hanzi */
-  src: url("../fonts/wenkai.woff2") format("woff2");
-  font-weight: 500; font-style: normal; font-display: swap;
+  font-family: "SML Kai";                    /* 方正楷体 FZKai — hanzi default */
+  src: url("../fonts/fzkai.woff2") format("woff2");
+  font-weight: 400 500; font-style: normal; font-display: swap;
 }
 @font-face {
-  font-family: "SML WenKai";                 /* LXGW WenKai GB Lite Regular — pinyin */
-  src: url("../fonts/wenkai-regular.woff2") format("woff2");
-  font-weight: 400; font-style: normal; font-display: swap;
+  font-family: "SML QiuHong";                /* 演示秋鸿楷 — hanzi brush option (lazy) */
+  src: url("../fonts/qiuhong.woff2") format("woff2");
+  font-weight: 400 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "SML Andika";                 /* SIL Andika Regular — pinyin only */
+  src: url("../fonts/andika.woff2") format("woff2");
+  font-weight: 400 500; font-style: normal; font-display: swap;
 }
 @font-face {
   font-family: "Manrope";                    /* variable 200–800 — English/UI */
@@ -32,8 +39,9 @@
   --mist: #DCE8E2;
   --muted: #4C5955;                          /* softened ink for glosses (AA on paper) */
   --card: rgba(255, 255, 255, 0.55);
-  --font-en: "Manrope", "SML WenKai", -apple-system, "Segoe UI", sans-serif;
-  --font-zh: "SML WenKai", "Kaiti SC", "STKaiti", "KaiTi", serif;
+  --font-en: "Manrope", -apple-system, "Segoe UI", sans-serif;
+  --font-zh: "SML Kai", "Kaiti SC", "STKaiti", "KaiTi", serif;
+  --font-py: "SML Andika", "Andika", -apple-system, "Segoe UI", sans-serif;
 }
 
 /* ---------- Base ---------- */
@@ -156,7 +164,7 @@ html[data-theme="dark"] .turn.spk-boge .spk { background: rgba(255, 255, 255, 0.
 .turn .py { order: 3; }
 .turn .en, .turn em { order: 4; }
 .turn .zh { font-family: var(--font-zh); font-weight: 500; font-size: 1.34rem; line-height: 1.75; color: var(--ink); }
-.turn .py { display: block; font-family: var(--font-zh); font-weight: 400; font-size: 0.95rem; color: var(--jade-deep); margin-top: 0.15rem; }
+.turn .py { display: block; font-family: var(--font-py); font-weight: 400; font-size: 0.95rem; color: var(--jade-deep); margin-top: 0.15rem; }
 .turn .en, .turn em { display: block; font-style: italic; font-size: 0.95rem; color: var(--muted); margin-top: 0.1rem; }
 
 body.hide-zh .turn .zh, body.hide-zh .qcard .zh { display: none; }
@@ -189,7 +197,7 @@ blockquote {
 }
 blockquote p { margin: 0.3rem 0; }
 .qcard .zh { font-family: var(--font-zh); font-weight: 500; font-size: 1.5rem; line-height: 1.7; color: var(--ink); }
-.qcard .py { display: block; font-family: var(--font-zh); font-weight: 400; font-size: 1rem; color: var(--jade-deep); margin-top: 0.2rem; }
+.qcard .py { display: block; font-family: var(--font-py); font-weight: 400; font-size: 1rem; color: var(--jade-deep); margin-top: 0.2rem; }
 .qcard em { display: block; font-style: italic; color: var(--muted); margin-top: 0.15rem; }
 
 /* ---------- Tables (vocab etc.) ---------- */
@@ -221,7 +229,7 @@ code { background: var(--mist); border-radius: 4px; padding: 0.06rem 0.35rem; fo
 
 /* ---------- Print (Save as PDF) ----------
    Layer toggles carry over: hidden 汉字/拼音/English layers are not printed.
-   Brand fonts (SML WenKai / Manrope) embed automatically via @font-face. */
+   Brand fonts (SML Kai / SML Andika / Manrope) embed automatically via @font-face. */
 .print-brand { display: none; }
 @media print {
   body { background: #fff; color: #111; font-size: 12pt; }
@@ -549,7 +557,7 @@ body.tones-on .pys.t5, body.tones-on ruby.t5 rt { color: var(--tone5); }
 /* live sample: the five tones on one syllable, each in its own color */
 .tone-demo { display: inline-flex; gap: 0.35em; align-items: baseline; }
 .tone-demo i {
-  font-style: normal; font-family: var(--font-zh); font-weight: 500; font-size: 0.95em;
+  font-style: normal; font-family: var(--font-py); font-weight: 500; font-size: 0.95em;
 }
 .tone-demo .t1 { color: var(--tone1); }
 .tone-demo .t2 { color: var(--tone2); }
@@ -570,7 +578,7 @@ body.tones-on .pys.t5, body.tones-on ruby.t5 rt { color: var(--tone5); }
 /* ---------- Ruby pinyin (拼音 above characters) ---------- */
 .turn .zh rt, .qcard .zh rt {
   display: none;
-  font-family: var(--font-zh); font-weight: 400; font-size: 0.42em;
+  font-family: var(--font-py); font-weight: 400; font-size: 0.42em;
   color: var(--jade-deep); letter-spacing: 0; text-align: center;
   padding-bottom: 0.12em;
 }
@@ -651,7 +659,7 @@ h2, h3 { scroll-margin-top: 120px; }
 }
 .vocab-tip.show { display: block; }
 .vt-w { font-family: var(--font-zh); font-weight: 500; font-size: 1.2rem; margin-right: 0.5rem; }
-.vt-py { font-family: var(--font-zh); color: #62D4B8; }
+.vt-py { font-family: var(--font-py); color: #62D4B8; }
 .vt-en { display: block; font-style: italic; opacity: 0.9; }
 
 /* ---------- Anki export + toast ---------- */
@@ -738,6 +746,13 @@ h2, h3 { scroll-margin-top: 120px; }
 .lay-btn { font: inherit; font-size: 0.78rem; font-weight: 700; border: 0; background: transparent;
   color: var(--jade-deep); padding: 0.22rem 0.6rem; cursor: pointer; white-space: nowrap; }
 .lay-btn.on { background: var(--jade-deep); color: var(--paper); }
+/* hanzi font choice (Aa panel): default FZKai; data-hzfont="brush" -> 秋鸿楷 */
+html[data-hzfont="brush"] { --font-zh: "SML QiuHong", "SML Kai", "Kaiti SC", "STKaiti", "KaiTi", serif; }
+.fnt-seg { display: inline-flex; border: 1.5px solid var(--jade-deep); border-radius: 999px;
+  overflow: hidden; flex: none; }
+.fnt-btn { font: inherit; font-size: 0.78rem; font-weight: 700; border: 0; background: transparent;
+  color: var(--jade-deep); padding: 0.22rem 0.6rem; cursor: pointer; white-space: nowrap; }
+.fnt-btn.on { background: var(--jade-deep); color: var(--paper); }
 
 /* --- shared: dots & zen auto-hide the time chip (appears on hover / playing line) --- */
 body.layout-dots .turn .seek-chip, body.layout-zen .turn .seek-chip {

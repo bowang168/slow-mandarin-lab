@@ -1,18 +1,35 @@
-Bundled fonts
-=============
+Bundled fonts — SSOT 2026-07-19
+================================
+Hanzi default = FZKai · Hanzi option = QiuHong (Aa panel) · Pinyin = Andika only
+· English/UI = Manrope. All faces are free for commercial use.
 
-wenkai.woff2
-  LXGW WenKai (霞鹜文楷) — Screen variant, subset to this channel's characters
-  by scripts/build_fonts.py.
-  Copyright (c) Lin Chenxuan (https://github.com/lxgw/LxgwWenKai).
-  Licensed under the SIL Open Font License, Version 1.1.
+fzkai.woff2
+  方正楷体简体 (FZKai-Z03S), subset to GB2312 + pinyin tone vowels + punctuation.
+  One of Founder Group's four free-for-commercial-use fonts (方正黑体/书宋/仿宋/楷体,
+  official statement by Beijing Founder Electronics). Embedded subset for this
+  site only; not resold.
+
+qiuhong.woff2
+  演示秋鸿楷 (Slideqiuhong), subset as above. Free for commercial use, released
+  by Keynote Research (秋叶系) with HanYi-derived brush-kai letterforms; see
+  https://www.maoken.com/freefonts/6073.html for the grant. Loaded lazily —
+  only downloaded when a reader picks 秋鸿楷 in the Aa panel. Same face as the
+  video captions.
+
+andika.woff2
+  SIL Andika Regular (full character set, incl. all pinyin tone diacritics).
+  Copyright (c) SIL International. SIL Open Font License 1.1.
+
+manrope.woff2
+  Manrope variable (200-800). Copyright (c) Mikhail Sharanda.
+  SIL Open Font License 1.1.
 
 SIL OPEN FONT LICENSE Version 1.1 — summary of permissions:
-  The bundled/subset font may be used, studied, modified and redistributed
-  freely, including embedded in this rendered video pipeline, as long as it is
-  not sold by itself and any derivative reserved-name fonts follow the OFL.
-  Full license text: https://openfontlicense.org/open-font-license-official-text/
+  OFL-licensed fonts may be used, studied, modified and redistributed freely,
+  including web embedding, as long as they are not sold by themselves and any
+  derivative reserved-name fonts follow the OFL.
+  Full text: https://openfontlicense.org/open-font-license-official-text/
 
-The subset here is a derivative for embedding only; it carries no OFL Reserved
-Font Name. Replace fonts/wenkai.woff2 (and re-run scripts/build_fonts.py) to
-change the typeface — no template changes are required.
+Subsets were produced with fontTools pyftsubset (GB2312 + ASCII + tone vowels
++ CJK punctuation, 7,542 chars); regenerate from the source TTFs kept in the
+ytfactory production repo (jobs/2026-07-18-channel-trailer/work/font_candidates/).

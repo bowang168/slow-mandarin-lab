@@ -296,6 +296,14 @@
           '<button type="button" class="lay-btn" data-lay="zen" ' +
             'title="Zen — pure text, other lines fade while one plays">纯净</button>' +
         "</span></div>" +
+      '<div class="pop-row pop-font">' +
+        '<span class="pop-label">汉字字体</span>' +
+        '<span class="fnt-seg" role="group" aria-label="Hanzi font">' +
+          '<button type="button" class="fnt-btn" data-hzf="kai" ' +
+            'title="方正楷体 — textbook kai (default)">楷体</button>' +
+          '<button type="button" class="fnt-btn" data-hzf="brush" ' +
+            'title="演示秋鸿楷 — brush kai, same as the videos">秋鸿楷</button>' +
+        "</span></div>" +
       '<div class="pop-row pop-size">' +
         '<span class="pop-label">汉字 size</span>' +
         '<span class="pop-size-ctl">' +
@@ -353,6 +361,23 @@
         store("sml_" + key, on ? "1" : "0");
       });
     });
+
+    /* hanzi font: FZKai default / 秋鸿楷 brush (matches the video captions) */
+    var fntBtns = pop.querySelectorAll(".fnt-btn");
+    function applyHzFont(f) {
+      if (f === "brush") document.documentElement.setAttribute("data-hzfont", "brush");
+      else document.documentElement.removeAttribute("data-hzfont");
+      fntBtns.forEach(function (b) {
+        b.classList.toggle("on", b.getAttribute("data-hzf") === f);
+      });
+      store("sml_hzfont", f);
+    }
+    fntBtns.forEach(function (b) {
+      b.addEventListener("click", function () {
+        applyHzFont(b.getAttribute("data-hzf"));
+      });
+    });
+    applyHzFont(read("sml_hzfont") === "brush" ? "brush" : "kai");
 
     pop.querySelector(".pop-print").addEventListener("click", function () {
       closePop();

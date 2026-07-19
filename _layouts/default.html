@@ -10,6 +10,8 @@
         var t = localStorage.getItem("sml_theme");
         if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
         document.documentElement.setAttribute("data-theme", t);
+        var f = localStorage.getItem("sml_hzfont");
+        if (f === "brush") document.documentElement.setAttribute("data-hzfont", "brush");
       } catch (e) {}
     })();
   </script>
