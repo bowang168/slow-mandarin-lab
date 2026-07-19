@@ -6,10 +6,12 @@ permalink: /episodes/023-saying-no-politely/
 note: 我再想一想 · thinking
 series: Season 1
 hsk: HSK 3
+youtube_id: EDzAbeo8ags
+upload_date: 2026-07-16
 ---
 
 **Slow Mandarin Lab · Episode 23** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=EDzAbeo8ags) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 Slow Mandarin for adult learners. Every line is shown three ways: **汉字 Hanzi**, pinyin,
 and *a short English gloss* — the same three layers you see on screen in the video.
