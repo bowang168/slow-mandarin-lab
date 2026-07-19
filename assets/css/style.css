@@ -524,16 +524,22 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
 .qcard .py { font-size: calc(1rem * var(--zh-scale)); }
 
 /* ---------- Tone colors ----------
-   Mirrors the video pipeline SSOT (ytfactory scripts/shorts_factory/
-   tone_palette.py): CREAM set on the light theme, DARK set on the dark
-   theme — the same colors learners see on the pinyin ruby in every video. */
+   Deployment mirror of the video pipeline SSOT (ytfactory scripts/shorts_factory/
+   tone_palette.py): PAPER on light surfaces, INK on dark surfaces. The tone hue
+   identity stays stable; only lightness/chroma adapts to the protected surface. */
 :root {
-  --tone1: #2D6FE0; --tone2: #C8860D; --tone3: #1F8A70;
-  --tone4: #E04A2F; --tone5: #6B7280;
+  --tone-paper-1: #3E5678; --tone-paper-2: #7D5C23; --tone-paper-3: #306252;
+  --tone-paper-4: #8C3A30; --tone-paper-5: #5F6461;
+  --tone-ink-1: #8AA4C8; --tone-ink-2: #C0A05F; --tone-ink-3: #75AE9B;
+  --tone-ink-4: #CD8276; --tone-ink-5: #A9B2AF;
+  --tone1: var(--tone-paper-1); --tone2: var(--tone-paper-2);
+  --tone3: var(--tone-paper-3); --tone4: var(--tone-paper-4);
+  --tone5: var(--tone-paper-5);
 }
 html[data-theme="dark"] {
-  --tone1: #6FA8FF; --tone2: #FFD166; --tone3: #3FD9B0;
-  --tone4: #FF7A66; --tone5: #C7CFD6;
+  --tone1: var(--tone-ink-1); --tone2: var(--tone-ink-2);
+  --tone3: var(--tone-ink-3); --tone4: var(--tone-ink-4);
+  --tone5: var(--tone-ink-5);
 }
 body.tones-on .pys.t1, body.tones-on ruby.t1 rt { color: var(--tone1); }
 body.tones-on .pys.t2, body.tones-on ruby.t2 rt { color: var(--tone2); }
@@ -550,6 +556,16 @@ body.tones-on .pys.t5, body.tones-on ruby.t5 rt { color: var(--tone5); }
 .tone-demo .t3 { color: var(--tone3); }
 .tone-demo .t4 { color: var(--tone4); }
 .tone-demo .t5 { color: var(--tone5); }
+
+/* Physical paper is always a light surface, even when the saved UI theme is dark. */
+@media print {
+  :root,
+  html[data-theme="dark"] {
+    --tone1: var(--tone-paper-1); --tone2: var(--tone-paper-2);
+    --tone3: var(--tone-paper-3); --tone4: var(--tone-paper-4);
+    --tone5: var(--tone-paper-5);
+  }
+}
 
 /* ---------- Ruby pinyin (拼音 above characters) ---------- */
 .turn .zh rt, .qcard .zh rt {
