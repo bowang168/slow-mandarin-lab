@@ -6,10 +6,12 @@ permalink: /episodes/024-why-hot-water/
 note: 是关心，不是命令 · culture
 series: Season 1
 hsk: HSK 3
+youtube_id: YzUbIe7WlJ8
+upload_date: 2026-07-16
 ---
 
 **Slow Mandarin Lab · Episode 24** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=YzUbIe7WlJ8) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 Slow Mandarin for adult learners. Every line is shown three ways: **汉字 Hanzi**, pinyin,
 and *a short English gloss* — the same three layers you see on screen in the video.
