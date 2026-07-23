@@ -6,10 +6,12 @@ permalink: /episodes/026-the-friend-who-disappeared/
 note: 很久没有消息 · slow story
 series: Season 1
 hsk: HSK 3-4
+youtube_id: tKjf81BTxZ4
+upload_date: 2026-07-16
 ---
 
 **Slow Mandarin Lab · Episode 26** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=tKjf81BTxZ4) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 A slow Chinese story for adult learners. Every line is shown three ways: **汉字 Hanzi**,
 pinyin, and *a short English gloss* — the same three layers you see on screen in the video.
