@@ -6,10 +6,12 @@ permalink: /episodes/028-losing-confidence/
 note: 今天不行≠明天不行 · slow story
 series: Season 1
 hsk: HSK 3
+youtube_id: 5W46nx-hr64
+upload_date: 2026-07-16
 ---
 
 **Slow Mandarin Lab · Episode 28** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=5W46nx-hr64) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 A slow Chinese story for adult learners. Every line is shown three ways: **汉字 Hanzi**,
 pinyin, and *a short English gloss* — the same three layers you see on screen in the video.
