@@ -6,10 +6,12 @@ permalink: /episodes/029-family-dinner/
 note: 多吃一点，别客气 · culture
 series: Season 1
 hsk: HSK 3-4
+youtube_id: 6FgigHCo2ds
+upload_date: 2026-07-16
 ---
 
 **Slow Mandarin Lab · Episode 29** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=6FgigHCo2ds) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 Slow Mandarin about real Chinese life. Every line is shown three ways: **汉字 Hanzi**,
 pinyin, and *a short English gloss* — the same three layers you see on screen in the video.
