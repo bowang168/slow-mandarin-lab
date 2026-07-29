@@ -1,6 +1,8 @@
 /* Slow Mandarin Lab — Study Notes
-   Brand SSOT: ytfactory docs/brand-design-spec.md
-   Jade #1A8F76 · Ink #16211F · Paper #F5EFE3 · Coral #F0613E (+ support shades) */
+   Brand SSOT: ytfactory docs/brand-design-spec.md + brand-color-system v2
+   (assets/channel/slow-mandarin-lab/brand-color-system.png, 2026-07-29)
+   Jade #1A8F76 · Ink #16211F · Paper #F5EFE3 · Coral #F0613E (+ support shades)
+   + 纸墨 surface tokens (v2 §3) + 墨中带彩 tone palettes (v2 §4, SSOT-mirrored) */
 
 /* ---------- Fonts (self-hosted, free commercial — see assets/fonts/LICENSE.txt)
    SSOT (2026-07-19): hanzi = FZKai default / 秋鸿楷 opt-in (Aa panel) ·
@@ -37,8 +39,18 @@
   --coral: #F0613E;
   --coral-deep: #BF4026;
   --mist: #DCE8E2;
-  --muted: #4C5955;                          /* softened ink for glosses (AA on paper) */
+  --muted: #4C5955;                          /* site-local softened ink for glosses — kept over
+                                                t5 #5F6461 for the stronger 6.4:1 AA on paper */
   --card: rgba(255, 255, 255, 0.55);
+  /* 纸墨 surface system — brand-color-system v2 §3 (the in-video caption world).
+     Theme-independent constants: they name surfaces, not themed roles. */
+  --xuan: #FAF9F5;                           /* 宣纸 caption canvas */
+  --nong-mo: #172126;                        /* 浓墨 — the only body black on paper surfaces */
+  --dan-mo: #878A84;                         /* 淡墨 — unread/state colour, never body text */
+  --wusi: #696C67;                           /* 乌丝栏 hairline rules */
+  --warm-paper: #F7F4ED;                     /* 暖纸 title bar */
+  --gold: #FFD166;                           /* 金印 stamp (fill only) */
+  --ec-jade: #1F8A70;                        /* subscribe-card / cover jade variant */
   --font-en: "Manrope", -apple-system, "Segoe UI", sans-serif;
   --font-zh: "SML Kai", "Kaiti SC", "STKaiti", "KaiTi", serif;
   --font-py: "SML Andika", "Andika", -apple-system, "Segoe UI", sans-serif;
