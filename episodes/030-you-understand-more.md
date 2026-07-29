@@ -7,10 +7,12 @@ note: season finale · learning method
 series: Season 1
 star: true
 hsk: HSK 3
+youtube_id: OjGQSj2BUUc
+upload_date: 2026-07-16
 ---
 
 **Slow Mandarin Lab · Episode 30 · Season finale** — free study notes
-Video: *link added on publish* · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
+Video: [Watch on YouTube](https://www.youtube.com/watch?v=OjGQSj2BUUc) · Channel: [youtube.com/@SlowMandarinLab](https://www.youtube.com/@SlowMandarinLab)
 
 Beginner-friendly slow Mandarin. Every line is shown three ways: **汉字 Hanzi**, pinyin,
 and *a short English gloss* — the same three layers you see on screen in the video.
